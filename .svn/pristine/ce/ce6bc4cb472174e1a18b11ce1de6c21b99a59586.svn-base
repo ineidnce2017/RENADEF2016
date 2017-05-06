@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/btnGoToInfraestructura"
+        android:icon="@drawable/ic_action_house"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="Infraestructura"/>
+    
+    <item
+        android:id="@+id/btnGoToAccidentes"
+        android:icon="@drawable/ic_action_car"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="Acc. Tr\u00e1nsito"/>
+    
+    <item
+        android:id="@+id/btnGoToDelitos"
+        android:icon="@drawable/ic_action_camera"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="Delitos"/>
+    
+    <!-- <item
+        android:id="@+id/btnGoToGPSDelitos"
+        android:icon="@drawable/ic_action_camera"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="GPS"/>-->
+
+<!--     <item -->
+<!--         android:id="@+id/savebutton" -->
+<!--         android:icon="@drawable/ic_action_save" -->
+<!--         android:orderInCategory="100" -->
+<!--         android:showAsAction="always" -->
+<!--         android:title="@string/btnGuardar"/> -->
+
+</menu>

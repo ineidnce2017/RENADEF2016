@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:id="@+id/layout_root2"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" 
+    android:padding="10dp">
+     
+  <HorizontalScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="738dp" >
+
+	<AbsoluteLayout
+	    android:layout_width="465dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:background="@drawable/my_border"
+	    android:orientation="vertical" >
+
+	    <!-- android:background="@color/verde" > -->
+	    <!-- android:background="@drawable/decap100p101"> -->
+
+	    <EditText
+	        android:id="@+id/txtIH208_O"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="28dp"
+	        android:layout_y="768dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="textCapCharacters"
+	        android:visibility="invisible" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIH208"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="35dp"
+	        android:layout_x="28dp"
+	        android:layout_y="731dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayHICap200P208"
+	        android:prompt="@string/IHCap200columna_titulo_9"
+	        android:spinnerMode="dialog" />
+
+	    <EditText
+	        android:id="@+id/txtIH207_O"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="28dp"
+	        android:layout_y="660dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="textCapCharacters"
+	        android:visibility="invisible" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIH207"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="35dp"
+	        android:layout_x="28dp"
+	        android:layout_y="621dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayHICap200P207"
+	        android:prompt="@string/IHCap200columna_titulo_8"
+	        android:spinnerMode="dialog" />
+
+	    <TextView
+	        android:id="@+id/TextView04"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="59dp"
+	        android:layout_x="3dp"
+	        android:layout_y="503dp"
+	        android:text="205. FECHA DEL HECHO" />
+
+	    <TextView
+	        android:id="@+id/TextView05"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="29dp"
+	        android:layout_x="3dp"
+	        android:layout_y="539dp"
+	        android:text="206. HORA DEL HECHO" />
+
+	    <EditText
+	        android:id="@+id/txtIH206"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="fill_parent"
+	        android:layout_height="30dp"
+	        android:layout_x="219dp"
+	        android:layout_y="539dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:gravity="center"
+	        android:inputType="none"
+	        android:onClick="mostrarTP" />
+
+	    <EditText
+	        android:id="@+id/txtIH205"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="fill_parent"
+	        android:layout_height="30dp"
+	        android:layout_x="219dp"
+	        android:layout_y="496dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:focusable="false"
+	        android:inputType="none"
+	        android:onClick="mostrarDP" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIH204"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_x="28dp"
+	        android:layout_y="395dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayHICap200P204"
+	        android:prompt="@string/IHCap200columna_titulo_5"
+	        android:spinnerMode="dialog" />
+
+	    <EditText
+	        android:id="@+id/txtIH204_O"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="28dp"
+	        android:layout_y="429dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="textCapCharacters"
+	        android:visibility="invisible" />
+
+	    <TextView
+	        android:id="@+id/TextView03"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="45dp"
+	        android:layout_x="3dp"
+	        android:layout_y="373dp"
+	        android:text="204. TIPO DE HOMICIDIO" />
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="45dp"
+	        android:layout_x="100dp"
+	        android:layout_y="7dp"
+	        android:text="HOMICIDIO NRO : "
+	        android:textSize="28sp"
+	        android:textStyle="bold" />
+
+	    <TextView
+	        android:id="@+id/txtIhNroHomicidio"
+	        android:layout_width="78dp"
+	        android:layout_height="45dp"
+	        android:layout_x="337dp"
+	        android:layout_y="8dp"
+	        android:text="NRO"
+	        android:textSize="28sp"
+	        android:textStyle="bold" />
+
+	    <EditText
+	        android:id="@+id/EditText01"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="93dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="380dp"
+	        android:layout_y="70dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="none"
+	        android:visibility="invisible" />
+
+	    <TextView
+	        android:id="@+id/TextView06"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="41dp"
+	        android:layout_x="3dp"
+	        android:layout_y="599dp"
+	        android:text="207. LUGAR DE LA OCURRENCIA" />
+
+	    <TextView
+	        android:id="@+id/TextView07"
+	        android:layout_width="375dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="34dp"
+	        android:layout_x="3dp"
+	        android:layout_y="710dp"
+	        android:text="208. MEDIO/MODALIDAD UTILIZADA EN EL HOMICIDIO" />
+
+	    <Button
+	        android:id="@+id/btnNIfecha"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="37dp"
+	        android:layout_height="37dp"
+	        android:layout_x="390dp"
+	        android:layout_y="494dp"
+	        android:background="@drawable/ni"
+	        android:onClick="omitirFecha" />
+
+	    <Button
+	        android:id="@+id/btnNIhora"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="37dp"
+	        android:layout_height="37dp"
+	        android:layout_x="390dp"
+	        android:layout_y="536dp"
+	        android:background="@drawable/ni"
+	        android:onClick="omitirHora" />
+
+	    <TextView
+	        android:id="@+id/TextView08"
+	        android:layout_width="297dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="21dp"
+	        android:layout_x="5dp"
+	        android:layout_y="803dp"
+	        android:text="209. PRESUNTAS CAUSAS DEL HOMICIDIO:" />
+
+	    <TextView
+	        android:id="@+id/TextView02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="42dp"
+	        android:layout_x="2dp"
+	        android:layout_y="267dp"
+	        android:text="203. DOCUMENTO QUE CONTIENE EL REGISTRO DEL HOMICIDIO" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIH203"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_x="30dp"
+	        android:layout_y="293dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayHICap200P203"
+	        android:prompt="@string/IHCap200columna_titulo_4"
+	        android:spinnerMode="dialog" />
+
+	    <EditText
+	        android:id="@+id/txtIH203_O"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="30dp"
+	        android:layout_y="334dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="textCapCharacters"
+	        android:visibility="invisible" />
+
+	    <EditText
+	        android:id="@+id/txtIH202_O"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="33dp"
+	        android:layout_y="216dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="textCapCharacters"
+	        android:visibility="invisible" />
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="24dp"
+	        android:layout_x="5dp"
+	        android:layout_y="47dp"
+	        android:text="201. UNIDAD QUE INTERVIENE" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIH201"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="35dp"
+	        android:layout_x="29dp"
+	        android:layout_y="71dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayHICap200P201"
+	        android:prompt="@string/IHCap200columna_titulo_2"
+	        android:spinnerMode="dialog" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIH202"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="35dp"
+	        android:layout_x="30dp"
+	        android:layout_y="176dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayHICap200P202"
+	        android:prompt="@string/IHCap200columna_titulo_3"
+	        android:spinnerMode="dialog" />
+
+	    <TextView
+	        android:id="@+id/TextView01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="37dp"
+	        android:layout_x="4dp"
+	        android:layout_y="152dp"
+	        android:text="202. UNIDAD RESPONSABLE DE LA INVESTIGACION" />
+
+	    <EditText
+	        android:id="@+id/txtIH201_O"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="30dp"
+	        android:layout_y="115dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="textCapCharacters"
+	        android:visibility="invisible" />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_1"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="830dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <TextView
+	        android:id="@+id/TextView15"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="835dp"
+	        android:text="Celos............................................................................." />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_2"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="870dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_3"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="910dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_4"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="950dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_5"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="990dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_7"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="1070dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_8"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="1110dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_6"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="1030dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_9"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="1150dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_10"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="1190dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <gob.inei.renadef2016.objects.CenacomCheckBox
+	        android:id="@+id/chbIH209_11"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="47dp"
+	        android:layout_height="35dp"
+	        android:layout_x="390dp"
+	        android:layout_y="1230dp"
+	        android:button="@drawable/my_custom_checkbox"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:tag="1:0" />
+
+	    <TextView
+	        android:id="@+id/TextView11"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="875dp"
+	        android:text="Facilitar otro delito........................................................." />
+
+	    <TextView
+	        android:id="@+id/TextView12"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="915dp"
+	        android:text="Violación sexual.........................................................." />
+
+	    <TextView
+	        android:id="@+id/TextView13"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="955dp"
+	        android:text="Venganza......................................................................" />
+
+	    <TextView
+	        android:id="@+id/TextView14"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="995dp"
+	        android:text="Supuesta infidelidad de la pareja.................................." />
+
+	    <TextView
+	        android:id="@+id/TextView16"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="1035dp"
+	        android:text="Violencia familiar........................................................" />
+
+	    <TextView
+	        android:id="@+id/TextView17"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="1075dp"
+	        android:text="Violencia doméstica (no familiar)..............................." />
+
+	    <TextView
+	        android:id="@+id/TextView18"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="1115dp"
+	        android:text="Supuesta negligencia médica...................................." />
+
+	    <TextView
+	        android:id="@+id/TextView19"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="1155dp"
+	        android:text="Defensa propia............................................................." />
+
+	    <TextView
+	        android:id="@+id/TextView20"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="1195dp"
+	        android:text="No identifica................................................................." />
+
+	    <TextView
+	        android:id="@+id/TextView21"
+	        android:layout_width="351dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="23dp"
+	        android:layout_y="1235dp"
+	        android:text="Otro................................................................................." />
+
+	    <EditText
+	        android:id="@+id/txtIH209_11_O"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="275dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="87dp"
+	        android:layout_y="1231dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="textCapCharacters"
+	        android:visibility="visible" />
+
+	    <TextView
+	        android:id="@+id/TextView10"
+	        android:layout_width="297dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="21dp"
+	        android:layout_x="12dp"
+	        android:layout_y="1294dp"
+	        android:text="210. SITUACION DEL HOMICIDIO:" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIH210"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="35dp"
+	        android:layout_x="14dp"
+	        android:layout_y="1316dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayHICap200P210"
+	        android:prompt="@string/IHCap200columna_titulo_11"
+	        android:spinnerMode="dialog" />
+
+	    <TextView
+	        android:id="@+id/TextView09"
+	        android:layout_width="197dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="21dp"
+	        android:layout_x="10dp"
+	        android:layout_y="1370dp"
+	        android:text="211. NUMERO DE VICTIMAS" />
+
+	    <EditText
+	        android:id="@+id/txtIH211"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="fill_parent"
+	        android:layout_height="30dp"
+	        android:layout_x="241dp"
+	        android:layout_y="1365dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="number"
+	        android:maxLength="2" />
+
+	    <Button
+	        android:id="@+id/btnIHCap200AceptarRegistro"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="126dp"
+	        android:layout_y="1406dp"
+	        android:onClick="next"
+	        android:text="Aceptar" />
+
+	    <Button
+	        android:id="@+id/btnIHCap200CancelarRegistro"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="241dp"
+	        android:layout_y="1408dp"
+	        android:onClick="next"
+	        android:text="Cancelar" />
+	</AbsoluteLayout>
+
+  </HorizontalScrollView>
+
+</ScrollView>

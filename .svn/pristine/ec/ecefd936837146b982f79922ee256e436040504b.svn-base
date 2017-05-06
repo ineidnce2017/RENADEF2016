@@ -1,0 +1,21 @@
+<sql>
+
+    <sql_sistema>
+        CREATE TABLE IF NOT EXISTS T_SISTEMA( 
+            ID INT NOT NULL,
+			PARAMETER VARCHAR(100) NULL,			
+			VALUE1 VARCHAR(100) NULL,
+			VALUE2 VARCHAR(100) NULL,
+			VALUE3 VARCHAR(100) NULL,
+            USUCRE VARCHAR(35) NULL, 
+            FECCRE VARCHAR(35) NULL, 
+            USUREG VARCHAR(35) NULL, 
+            FECREG VARCHAR(35) NULL, 
+            FECENV VARCHAR(35) NULL, 
+            PRIMARY KEY(ID) 
+        ) 
+    </sql_sistema>
+    <sql_sistema>
+		INSERT INTO T_SISTEMA (ID, PARAMETER, VALUE1, VALUE2, VALUE3) VALUES(1, 'URL_SERVIDOR', 'http://proyectos.inei.gob.pe/renadef/pagweb/transdataxmlcenacom.asp', NULL, NULL);  
+    </sql_sistema>
+</sql>

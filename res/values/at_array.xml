@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="documentos_array">
+        <item>----Seleccione----</item>
+        <item>1 - Libro de ocurrencias de tránsito</item>
+        <item>2 - Libro de denuncias directas</item>
+        <item>3 - Libro de denuncia reservado</item>
+        <item>4 - Sistema de denuncias policiales SIDPOL</item>
+        <item>5 - Otro</item>
+     </string-array>
+     
+    <string-array name="lugarocutipovia_array">
+        <item>----Seleccione----</item>
+        <item>1 - Autopista</item>
+        <item>2 - Carretera</item>
+        <item>3 - Vía Expresa</item>
+        <item>4 - Avenida</item>
+        <item>5 - Calle o Jirón</item>
+        <item>6 - Trocha</item>
+        <item>7 - No identificado</item>
+        <item>8 - Otro</item>        
+     </string-array>
+     
+    <string-array name="tramovia_array">
+        <item>----Seleccione----</item>
+        <item>1 - Intersección</item>
+        <item>2 - Recta</item>
+        <item>3 - Curva</item>
+        <item>4 - Rotonda (óvalo)</item>
+        <item>5 - Bifurcación</item>
+        <item>6 - No identificado</item>        
+        <item>7 - Otro</item>        
+     </string-array>
+     
+    <string-array name="tipoaccidente_array">
+        <item>----Seleccione----</item>
+        <item>1 - Atropello</item>
+        <item>2 - Atropello y fuga</item>
+        <item>3 - Caída de pasajero</item>
+        <item>4 - Colisión</item>
+        <item>5 - Colisión y fuga</item>
+        <item>6 - Choque</item>
+        <item>7 - Choque y atropello</item>  
+        <item>8 - Choque y fuga</item>  
+        <item>9 - Despiste</item>  
+        <item>10 - Despiste y volcadura</item>
+        <item>11 - Volcadura</item>                    
+        <item>12 - Otro</item>        
+     </string-array>
+     
+    <string-array name="tipovehiculoacci_array">
+        <item>--Seleccione--</item>
+        <item>0     </item>
+        <item>1     </item>            
+     </string-array>
+     
+    <string-array name="tipotransporte_array">
+        <item>------Seleccione------</item>
+        <item>0     </item>
+        <item>1     </item>
+        <item>9     </item>             
+     </string-array>
+    
+    <string-array name="consecuenciaaccide_array">
+        <item>-----Seleccione-----</item>
+        <item>1 - Fatal</item>
+        <item>2 - No Fatal</item>
+        <item>3 - Sólo daños Materiales</item>             
+     </string-array>
+     
+    <string-array name="factoresacci_array">
+        <item>--Seleccione--</item>
+        <item>0     </item>
+        <item>1     </item>            
+     </string-array>
+     
+     <string-array name="cap200personinvolu_array">
+        <item>----Seleccione----</item>
+        <item>1 - Conductor</item>
+        <item>2 - Pasajero</item>
+        <item>3 - Peatón</item>
+        <item>4 - Ciclista</item>
+        <item>5 - Otro</item>              
+     </string-array>
+     
+     <string-array name="cap200sexo_array">
+        <item>----Seleccione----</item>
+        <item>1 - Hombre</item>
+        <item>2 - Mujer</item>
+        <item>3 - No identifica</item>        
+     </string-array>
+     
+     <string-array name="cap200condiperso_array">
+        <item>----Seleccione----</item>
+        <item>1 - Herido</item>
+        <item>2 - Ileso</item>
+        <item>3 - Fallecido</item>        
+     </string-array>
+    
+     <string-array name="cap200estadoherido_array">
+        <item>----Seleccione----</item>
+        <item>1 - Grave</item>
+        <item>2 - Leve</item>
+        <item>3 - No identifica</item>        
+     </string-array>
+     
+     <string-array name="cap200heridotranseess_array">
+        <item>----Seleccione----</item>
+        <item>1 - Si</item>
+        <item>2 - No</item>
+        <item>3 - No identifica</item>        
+     </string-array>
+     
+     <string-array name="cap200tipovehiculo_array">
+        <item>----Seleccione----</item>
+        <item>1 - Automóvil</item>
+        <item>2 - Station Wagon</item>
+        <item>3 - Cmta. Pick up</item>
+        <item>4 - Cmta. Rural</item>
+        <item>5 - Cmta. Panel o Furgoneta</item>        
+        <item>6 - Ómnibus urbano</item>        
+        <item>7 - Ómnibus interprovincial</item>
+        <item>8 - Camión</item>        
+        <item>9 - Tracto camión (camión + remolque)</item>
+        <item>10 - Remolcador</item>        
+        <item>11 - Trayler (remolque y semi-remolque)</item>
+        <item>12 - Vehículo no identificado</item>        
+        <item>13 - Otro</item>
+        <item>14 - Moto lineal</item>        
+        <item>15 - Motocar/Mototaxi/Motofurgón y similares</item>
+        <item>16 - Triciclo</item>        
+        <item>17 - Bicicleta</item>
+        <item>18 - Vehículo no identificado</item>        
+        <item>19 - Otro</item>        
+     </string-array>
+     
+     <string-array name="cap200licenciaconducir_array">
+        <item>----Seleccione----</item>
+        <item>1 - Si</item>
+        <item>2 - No</item>
+        <item>3 - No identifica</item>        
+     </string-array>
+     
+</resources>

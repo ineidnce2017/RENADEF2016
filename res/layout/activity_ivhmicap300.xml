@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<HorizontalScrollView android:layout_height="match_parent" 
+    				  android:layout_width="match_parent">
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+     <EditText
+     android:id="@+id/txtIVHCap300NroPersonaBuscar"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:hint="@string/IVHCap300columa_busqueda_1"
+     android:inputType="number" />
+
+     <LinearLayout
+         android:layout_width="802dp"
+         android:layout_height="20dp"
+         android:background="#80939393"
+         android:gravity="center_vertical"
+         android:orientation="horizontal" >
+        
+   <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+   
+    <LinearLayout
+        android:id="@+id/column0_container"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column1_container"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+	<LinearLayout
+	    android:id="@+id/column2_container"
+	    android:layout_width="80dp"
+	    android:layout_height="match_parent"
+	    android:clickable="true"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal" >
+	</LinearLayout>
+
+	
+	<View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+	
+    <LinearLayout
+        android:id="@+id/column3_container"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+	</LinearLayout>
+
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column4_container"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+    	<TextView
+    	    android:id="@+id/column4"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="center"
+    	    android:paddingLeft="8dp"
+    	    android:text="De 3 años a más"
+    	    android:textStyle="bold" />
+
+	</LinearLayout>
+
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column6_container"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/column6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="De 12 años a más"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column7_container"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    
+    </LinearLayout>
+
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+        
+</LinearLayout>
+     
+    <LinearLayout
+        android:layout_width="802dp"
+        android:layout_height="80dip"
+        android:background="#80939393"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        
+   <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+   
+    <LinearLayout
+        android:id="@+id/column0_container"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        
+    <TextView
+        android:id="@+id/column0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/IVHCap300columa_titulo_0"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column1_container"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        
+    <TextView
+        android:id="@+id/column1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/IVHCap300columa_titulo_1"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+	<LinearLayout
+	    android:id="@+id/column2_container"
+	    android:layout_width="80dp"
+	    android:layout_height="match_parent"
+	    android:clickable="true"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal" >
+
+    	<TextView
+    	    android:id="@+id/column2"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="left"
+    	    android:paddingLeft="3dp"   
+    	    android:textStyle="bold" 	    
+    	    android:text="@string/IVHCap300columna_titulo_2" />
+	</LinearLayout>
+
+	
+	<View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+	
+    <LinearLayout
+        android:id="@+id/column3_container"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+    	<TextView
+    	    android:id="@+id/column3"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="left"
+    	    android:paddingLeft="8dp"   
+    	    android:textStyle="bold" 	    
+    	    android:text="@string/IVHCap300columna_titulo_3" />
+
+	</LinearLayout>
+
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column4_container"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+    	<TextView
+    	    android:id="@+id/column4"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="center"
+    	    android:paddingLeft="8dp" 
+    	    android:textStyle="bold"   	    
+    	    android:text="@string/IVHCap300columna_titulo_4" />
+
+	</LinearLayout>
+
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column5_container"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    
+    <TextView
+        android:id="@+id/column5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/IVHCap300columna_titulo_5" />
+    
+    </LinearLayout>
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column6_container"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/column6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/IVHCap300columna_titulo_6"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column7_container"
+        android:layout_width="150dp" 
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/column7"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textStyle="bold"
+            android:gravity="center|center_horizontal"
+            android:text="@string/IVHCap300columna_titulo_7" />
+    
+    </LinearLayout>
+
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+        
+</LinearLayout>
+    <View android:layout_height="1dp"
+    android:layout_width="fill_parent"
+    android:background="#90909090"/>
+
+    <ListView
+        android:id="@+id/miListaIvhCap300"
+        android:layout_width="match_parent"
+	  android:layout_height="match_parent" >
+
+    </ListView>
+    <View android:layout_height="1dp"
+    android:layout_width="fill_parent"
+    android:background="#90909090"/>
+
+</LinearLayout>
+</HorizontalScrollView>
+</LinearLayout>

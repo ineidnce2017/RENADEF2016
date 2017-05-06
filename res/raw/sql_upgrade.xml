@@ -1,0 +1,3 @@
+<sqldatabase>
+    <sql>UPDATE T_MODALIDADES SET NOMBRE = '  Seducción ' WHERE CODIGO = 85;</sql>
+</sqldatabase>

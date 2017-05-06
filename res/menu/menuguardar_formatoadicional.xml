@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/btnSaltarMarco"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_marco"/>
+    <item
+        android:id="@+id/btnSaltarCaratula"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_caratula"/>
+    <!--  <item
+        android:id="@+id/btnSaltarVisita"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_visita"/>-->
+    
+    <!-- <item
+        android:id="@+id/btnSaltar101"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_101"/>
+    <item
+        android:id="@+id/btnSaltar201"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_201"/>
+    <item
+        android:id="@+id/btnSaltar209"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_209"/>
+    <item
+        android:id="@+id/btnSaltar219"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_219"/>
+    <item
+        android:id="@+id/btnSaltar229"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_229"/>
+    <item
+        android:id="@+id/btnSaltar237"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_237"/>
+    <item
+        android:id="@+id/btnSaltar244a"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_244a"/>
+    <item
+        android:id="@+id/btnSaltar254"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_254"/>
+    <item
+        android:id="@+id/btnSaltar301"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_301"/>
+    <item
+        android:id="@+id/btnSaltar311"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_311"/>
+    <item
+        android:id="@+id/btnSaltar329"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_329"/>
+    <item
+        android:id="@+id/btnSaltar336"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_336"/>
+    <item
+        android:id="@+id/btnSaltar401"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_401"/>
+    <item
+        android:id="@+id/btnSaltar402"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_402"/>
+    <item
+        android:id="@+id/btnSaltar416"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_416"/>
+    <item
+        android:id="@+id/btnSaltar501"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_activity_form_dig_01_501"/>-->
+
+    <item android:id="@+id/savebuttonInfraestructura"
+          android:icon="@drawable/ic_action_save"
+          android:showAsAction="always"
+          android:title="@string/btnGuardar" />
+</menu>

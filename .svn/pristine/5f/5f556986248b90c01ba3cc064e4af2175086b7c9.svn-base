@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RENADEF2016</string>
+    <string name="app_description">IV CENSO NACIONAL DE COMISAR\u00cdAS - 2015</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_fullname">REGISTRO NACIONAL DE DENUNCIAS DE DELITOS Y FALTAS, 2017</string>
+    <string name="app_fullname_exp">EXPORTACI\u00d3N DE REGISTRO NACIONAL DE DELITOS Y FALTAS, 2017</string>
+    
+    <string name="h_clave">Clave</string>
+    <string name="h_usuario">Usuario</string>
+    <string name="h_dni">DNI</string>
+    
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="btnBack">Atras</string>
+    <string name="btnNext">Siguiente</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnCerrar">Cerrar</string>
+    <string name="btnObservacion">Observaci\u00f3n</string>
+    <string name="btnObservaciones">Observaciones</string>
+    <string name="hintEspecifique">Especifique</string>
+    <string name="hintObservacion">Observaci\u00f3n</string>
+    <string name="hintInstitucional">Institucional</string>
+    <string name="hintPersonal">Personal</string>
+    <string name="hintSeleccione">Seleccione</string>
+    <string name="listInfo">Listado Informacion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Nro">Nro</string>
+    <string name="DniVictima">DNI</string>
+    <string name="NomVictima">NOMBRES</string>
+    <string name="pregunta_completa">$ Debe ingresar información completa</string>
+    
+    <!-- Genericos -->
+    <string name="lbRegion">Regi\u00f3n</string>
+    <string name="lbDepartamento">1. Departamento</string>
+    <string name="lbProvincia">2. Provincia</string>
+    <string name="lbDistrito">3. Distrito</string>
+    <string name="lbCentroPoblado">4. Centro poblado</string>
+    <string name="lbArea">\u00c1rea</string>
+    <string name="lbZona">5. Zona N\u00B0</string>
+    <string name="lbZona_alf">5.1. Zona Alf.</string>
+    <string name="lbManzana">6. Manzana N\u00B0</string>
+    <string name="lbManzana_alf">6.1. Manzana Alf.</string>
+    <string name="lbFrente">Frente</string>
+    <string name="lbAer">7. AER N\u00b0</string>
+    <string name="lbNro">7.1. AER N\u00b0</string>
+    <string name="lbSi">Si</string>
+    <string name="lbNo">No</string>
+    <string name="lbUrbana">Urbana</string>
+    <string name="lbRural">Rural</string>
+    <string name="lbFecha">Fecha</string>
+    <string name="lbFecha_1">Fecha de Resultado Final</string>
+    <string name="lbHora">Hora</string>
+    <string name="lbResultado">Resultado</string>
+    <string name="lbEstadoEnvio">Estado de Envio</string>
+    <string name="lbEstadoEnvioA">Abierto</string>
+    <string name="lbEstadoEnvioC">Cerrado</string>
+    <string name="lbDe">De</string>
+    <string name="lbA">A</string>
+    <string name="lbAnio">A\u00f1o</string>
+    <string name="lbNDelitos">N\u00B0 de Denuncias por Delitos</string>
+    <string name="lbNDenuncias">N\u00B0 de Denuncias por Faltas</string>
+    <string name="lbNVictFallecidos">N\u00B0 de V\u00edctimas/Fallecidos</string>
+    <string name="lbNVictxHomDolosos">N\u00B0 de V\u00edctimas por Homicidios Dolosos</string>
+    <string name="lbEspecifique">Especifique</string>
+    <string name="lbObservaciones">Observaciones</string>
+    <string name="lbAceptar">Aceptar</string>
+    <string name="lbCancelar">Cancelar</string>
+    <string name="lbEmpadronador">Registrador(a)</string>
+    <string name="lbEncuestador">Encuestador(a)</string>
+    <string name="lbEnpadronador">Empadronador(a)</string>
+    <string name="lbJefeEquipo">Jefe(a) de equipo</string>
+    <string name="lbCoordinador">Coordinador(a)</string>
+    <string name="lbSupervisorNacional">Supervisor(a) Nacional</string>
+    <string name="lbPeriodo">Periodo</string>
+    <string name="lbGPS">GPS</string>
+    <string name="lbSeleccioneCompact">Selecc.</string>
+    <!--string name="lb"></string-->
+    <!--string name="lb"></string-->
+    <string name="hintNDN">N\u00B0 de DN</string>
+    
+    <!-- Caratula -->
+    <string name="lbDepPol">IDENTIFICACI\u00d3N DE LA DEPENDENCIA POLICIAL N\u00B0</string>
+    <string name="lbRT">RUTA DE TRABAJO N\u00B0</string>
+    <string name="lbDA">DPTO. ASIGNADO</string>
+    <string name="lb_C_UbicacionGeografica">A. UBICACI\u00d3N GEOGR\u00c1FICA</string>
+    <string name="lb_C_UbicacionMuestral">B. UBICACI\u00d3N CARTOGR\u00c1FICA</string>
+    <string name="lb_C_10Direccion"><b>DIRECCI\u00d3N DE LA DEPENDENCIA POLICIAL</b></string>
+    <string name="lb_C_ESTADO_ENVIO"><b>TRANSFERENCIA DE INFORMACI\u00d3N</b></string>
+    <string name="lb_C_UbicacionGPS"><b>UBICACI\u00d3N GPS</b></string>
+    <string name="lb_C_UbicacionGPSDelitos"><b>UBICACI\u00d3N GPS PARA DELITOS</b></string>
+    <string name="lb_C_I_IDENTIFICACION">I. LOCALIZACI\u00d3N DE LA DEPENDENCIA POLICIAL</string>
+    <string name="lb_C_II_IDENTIFICACION"><b>II. IDENTIFICACI\u00d3N DE LA DEPENDENCIA POLICIAL</b></string>
+    <string name="lb_C_11Entrevista"><b>III. ENTREVISTA Y SUPERVISI\u00d3N</b></string>
+    <string name="lb_C_12Resultado"><b>IV. RESULTADO FINAL</b></string>
+    <string name="lb_C_Totales"><b>V. TOTALES</b></string>
+    <string name="lb_C_13Funcionarios"><b>VI. DATOS DE LOS FUNCIONARIOS DEL INEI</b></string>
+    <string name="lb_C_TipoVia">Tipo de v\u00eda</string>
+    <string name="lb_C_NombreVia">Nombre de la v\u00eda</string>
+    <string name="lb_C_EspecifiqueVia">Especifique v\u00eda</string>
+    <string name="lb_C_Referencia">Referencia de direc.</string>
+    <string name="lb_C_NumeroPuerta">N\u00b0 de Puerta</string>
+    <string name="lb_C_Interior">Int.</string>
+    <string name="lb_C_Piso">Piso</string>
+    <string name="lb_C_Block">Block</string>
+    <string name="lb_C_Manzana">Mz.</string>
+    <string name="lb_C_Lote">Lote</string>
+    <string name="lb_C_Km">Km.</string>
+    <string name="lb_C_Telefono">Telefono</string>
+    <string name="lb_C_EstadoEnvio">Estado de Envio</string>
+    <string name="lb_C_EstadoEnvio_1">Abierto</string>
+    <string name="lb_C_EstadoEnvio_2">Cerrado</string>
+    <string name="lb_C_Latitud">Latitud</string>
+    <string name="lb_C_Longitud">Longitud</string>
+    <string name="lb_C_EstablecerGPS">Establecer ubicaci\u00f3n</string>
+    <string name="lb_C_Habitaciones">Habitaciones</string>
+    <string name="lb_C_PCs">PCs / Laptops</string>
+    <string name="lb_C_EfectivosPoliciales">Efectivos policiales</string>
+    <string name="lb_C_TotalAT">A.T.</string>
+    <string name="lb_C_Sidpol">L.O. SIDPOL</string>
+    <string name="lb_C_II1">1. Regi\u00f3n Policial / Frente Policial</string>
+    <string name="lb_C_II2">2. Direcci\u00f3n Territorial de la policia (DIRTEPOL)</string>
+    <string name="lb_C_II3">3. Nombre de la Dependencia Policial</string>
+    <string name="lb_C_II4">4. Tipo de Dependencia Policial</string>
+    <string name="lb_C_II4_1">1. Comisar\u00eda</string>
+    <string name="lb_C_II4_2">2. Unidad Especializada de Investigaci\u00f3n Criminal</string>
+    <string name="lb_C_II5">5. Clase de Comisar\u00eda</string>
+    <string name="lb_C_II5_1">1. Comisar\u00eda b\u00e1sica</string>
+    <string name="lb_C_II5_2">2. Comisar\u00eda especializada</string>
+    <string name="lb_C_II6">5. Tipo de Comisar\u00eda</string>
+    <string name="lb_C_II6_1">A</string>
+    <string name="lb_C_II6_2">B</string>
+    <string name="lb_C_II6_3">C</string>
+    <string name="lb_C_II6_4">D</string>
+    <string name="lb_C_II6_5">E</string>
+    <string name="lb_C_II7">6. Categor\u00eda</string>
+    <string name="lb_C_II7_1">Sectorial</string>
+    <string name="lb_C_II7_2">No Sectorial</string>
+    <string name="lb_C_II8">8. Especialidad</string>
+    <string name="lb_C_II8_1">1. De la familia</string>
+    <string name="lb_C_II8_2">2. Turismo</string>
+    <string name="lb_C_II8_3">3. Aeropuertos y terminales terrestres</string>
+    <string name="lb_C_II8_4">4. Protecci\u00f3n de carreteras</string>
+    <string name="lb_C_II8_5">5. Otros</string>
+    <string name="lb_C_II9">7. Tipo de Unidad Especializada</string>
+    <string name="lb_C_II9_1">1. DIRINCRI</string>
+    <string name="lb_C_II9_2">2. DIVINCRI/DEPINCRI/DIVICAJ</string>
+    <string name="lb_C_II9_3">3. OTRO</string>
+    <!--string name="lb_C_"></string-->
+    <!--string name="lb_C_"></string-->
+    
+    <string name="lb_V_Fecha">FECHA</string>
+    <string name="lb_V_HI">HORA INICIO</string>
+    <string name="lb_V_HF">HORA FINAL</string>
+    <string name="lb_V_PVF">FECHA PROX. VISITA</string>
+    <string name="lb_V_PVH">HORA PROX. VISITA</string>
+    <string name="lb_V_RV">RESULTADO DE LA VISITA</string>
+    <string name="lb_V_NV">N\u00B0 de Visita</string>
+    <string name="lb_V_Fecha_m">Fecha</string>
+    <string name="lb_V_Hora_m_p">Hora</string>
+    <string name="lb_V_Hora_m">Hora de:</string>
+    <string name="lb_V_Hora_m_a">Hora a:</string>
+    <string name="lb_V_Resultado_m">Resultado</string>
+    
+    <!-- Etiquetas visitas -->
+    <string name="lb_V_Visita">Visita</string>
+    <string name="lb_V_ProximaVisita">Pr\u00f3xima visita</string>
+    <string name="lb_V_ResultadoVisita">Resultado de la visita</string>
+    <string name="lb_V_Compact_ResultadoVisita">Res. Visita</string>
+    <string name="lb_V_Iniciar">Iniciar visita</string>
+    <string name="lb_V_Editar">Editar visita</string>
+    <string name="lb_V_Iniciar_sup">Iniciar visita Supervisor</string>
+    <string name="lb_V_Editar_sup">Editar visita Supervisor</string>
+    <string name="lb_V_Terminar">Terminar visita</string>
+    <string name="lb_V_Terminar_sup">Terminar visita Supervisor</string>
+    <string name="lb_V_Proxima">Pr\u00f3xima visita</string>
+    <string name="lb_V_HoraInicio">Hora inicial</string>
+    <string name="lb_V_HoraFin">Hora final</string>
+    <string name="lb_V_Res1">1. Completa</string>
+    <string name="lb_V_Res2">2. Incompleta</string>
+    <string name="lb_V_Res3">3. Ausente</string>
+    <string name="lb_V_Res4">4. Rechazo</string>
+    <string name="lb_V_Res5">5. No ubicada</string>
+    <string name="lb_V_Res6">6. Pendiente de cita</string>
+    <string name="lb_V_Res7">7. Comisar\u00eda desactivada</string>
+    <string name="lb_V_Res8">8. Otro</string>
+    <string name="lb_V_A_Res8">8. No existe A.T. en la Comisar\u00eda</string>
+    <string name="lb_V_A_Res9">9. Otro</string>
+    <!--string name="lb_V_"></string-->
+    <string name="lb_V_Visita_FecR">F. Resultado</string>
+    <string name="lb_V_Visita_ResF">Resultado</string>
+    <string name="lb_V_Visita_Espc">Especificaci\u00f3n</string>
+    <!--string name="lb_V_"></string-->
+    
+    
+    <!-- Infraestructura -->
+    <string name="title_activity_form_marco">MARCO DE COMISARIAS</string>
+    <string name="title_activity_form_dig_01_caratula">CAR\u00c1TULA DE COMISARIAS</string>
+    <string name="title_activity_form_visita">VISITAS DE COMISARIAS</string>
+    <string name="title_activity_form_dig_01_101">Cap. 100 SEC. I: DATOS DE LOS INFORMANTES</string>
+    <string name="title_activity_form_dig_01_201">Cap. 200 SEC. I: CARACTERISTICAS DEL LOCAL</string>
+    <string name="title_activity_form_dig_01_209">Cap. 200 SEC. III: SERVICIOS BASICOS</string>
+    <string name="title_activity_form_dig_01_219">Cap. 200 SEC. III: SERVICIO DE DESAG\u00dcE</string>
+    <string name="title_activity_form_dig_01_229">Cap. 200 SEC. IV: CARACTERISTICAS DEL FRONTIS</string>
+    <string name="title_activity_form_dig_01_237">Cap. 200 SEC. IV: MAMPARAS</string>
+    <string name="title_activity_form_dig_01_244a">Cap. 200 SEC. IV: VENTANAS</string>
+    <string name="title_activity_form_dig_01_254">Cap. 200 SEC. V: HABITACIONES DE LA COMISARIA</string>
+    <string name="title_activity_form_dig_01_301">Cap. 300 SEC. I: EQUIP. Y SERV. DE COMUNICACION</string>
+    <string name="title_activity_form_dig_01_311">Cap. 300 SEC. III: CARACT. DE EQUIP. DE COMPUTO</string>
+    <string name="title_activity_form_dig_01_311_registro">Cap\u00edtulo 300 registro</string>
+    <string name="title_activity_form_dig_01_329">Cap. 300 SEC. IV: ACCESO A INFORMACION CLASIFICADA</string>
+    <string name="title_activity_form_dig_01_336">Cap. 300 SEC. VII: VEHICULOS POLICIALES</string>
+    <string name="title_activity_form_dig_01_401">Cap. 400 SEC. I: CUMPLIMIENTO DE DIRECTIVAS</string>
+    <string name="title_activity_form_dig_01_402">Cap. 400 SEC. II: SEGURIDAD CIUDADANA</string>
+    <string name="title_activity_form_dig_01_416">Cap. 400 SEC. IV: INSTRUMENTOS DE PLANIFICACION</string>
+    <string name="title_activity_form_dig_01_501">Cap. 500 SEC. I: INFORMACION Y PROCEDIMIENTOS</string>
+    <string name="title_activity_form_dig_01_601">Cap. 600 SEC. I: DATOS GENERALES Y SEC. II</string>
+    <string name="title_activity_form_dig_01_607">Cap. 600 SEC. II: EFECT. POLICIALES POR APTITUD/T. P. Y V. P.</string>
+    <string name="title_activity_form_dig_01_610">Cap. 600 SEC. III: COMIT\u00c9 DIST. DE SEG. CIUDADANA Y SEC IV.</string>
+    <string name="title_activity_form_dig_01_615">Cap. 600 SEC. IV: PROGRAMAS DE PREVENCI\u00d3N</string>
+    <string name="title_activity_form_dig_01_620">Cap. 600 SEC. IV: PROGRAMAS DE PREVENCI\u00d3N Y SEC. V</string>
+    <string name="title_activity_form_dig_01_623">Cap. 600 SEC. VI: N\u00B0 DE OPERATIVOS/INTERVENCIONES Y SEC. VII</string>
+    <string name="title_activity_form_dig_01_631">Cap. 600 SEC. VII: IMP. DEL NUEVO COD. PROCESAL PENAL Y SEC. VIII</string>
+    <string name="title_activity_form_dig_01_633">Cap. 600 OBSERVACIONES</string>
+
+
+    <!-- Infraestructura -->
+    <string name="title_activity_form_dig_02_caratula">Car\u00e1tula</string>
+    <string name="title_activity_form_dig_02_101">Cap. 100. Numero de Delitos Registrados</string>
+    <string name="title_activity_form_dig_02_201">Cap. 200. Cantidad de Homicidios</string>
+    <string name="title_activity_form_dig_02_301">Cap. 300. Cantidad de Personas</string>
+    
+    
+    <!-- Cyntia -->
+    <string name="app_version">Versi\u00f3n</string>
+    <string name="stringCENACOM">CENACOM 2016</string>
+    <string name="promptTiposCustionario">Tipos de cuestionario</string>
+    <string name="promptRegion">Regiones</string>
+    <string name="promptDepartamento">Departamentos</string>
+    <string name="promptProvincia">Provincias</string>
+    <string name="promptDistrito">Distritos</string>
+    <string name="promptArea">\u00c1rea</string>
+    <string name="promptTipoVia">Tipo de v\u00eda</string>
+    <string name="promptClaseComisaria">Clase</string>
+    <string name="promptTipoComisaria">Tipo</string>
+    <string name="promptCategoriaComisaria">Categor\u00eda</string>
+    <string name="promptEspecialidadComisaria">Especialidad</string>
+    <string name="promptResultado">Resultado</string>
+    <string name="promptResultadoE1">Resultado Encuestador 1</string>
+    <string name="promptResultadoE2">Resultado Encuestador 2</string>
+    <string name="promptResultadoE3">Resultado Encuestador 3</string>
+    <string name="promptResultadoS1">Resultado Supervisor 1</string>
+    <string name="promptResultadoS2">Resultado Supervisor 2</string>
+    <string name="promptResultadoS3">Resultado Supervisor 3</string>
+    <string name="promptGrado">Grado</string>
+    
+    <string name="INFCap300_311_titulo">311. \u00bfES PC \u00d3 LAPTOP-NOTEBOOK?</string>
+    <string name="INFCap300_312_titulo">312. LA PC O LAPTOP-NOTEBOOK ES:</string>
+    <string name="INFCap300_313_titulo">313. EST\u00c1 OPERATIVA?</string>
+    <string name="INFCap300_314_titulo">314. \u00bfCU\u00c1L ES EL TIEMPO DE INOPERATIVIDAD?</string>
+    <string name="INFCap300_315_titulo">315. \u00bfPOR QU\u00c9 EST\u00c1 INOPERATIVA?</string>
+    <string name="INFCap300_316_titulo">316. \u00bfCU\u00c1L ES EL TIEMPO DE ANTIGUEDAD DE LA PC O LAPTOP?</string>
+    <string name="INFCap300_317_titulo">317. \u00bfCON QU\u00c9 FRECUENCIA RECIBE MANTENIMIENTO?</string>
+    <string name="INFCap300_318_titulo">318. EN EL \u00daLTIMO MES, EN PROMEDIO, \u00bfCU\u00c1NTAS HORAS AL D\u00cdA UTILIZARON LA PC O LAPTOP-NOTEBOOK?</string>
+    <string name="INFCap300_319_titulo">319. \u00bfQUI\u00c9N UTILIZA CON MAYOR FRECUENCIA LA PC O LAPTOP-NOTEBOOK?</string>
+    <string name="INFCap300_320_titulo">320. HABITUALMENTE, CU\u00c1NTOS USUARIOS UTILIZAN LA PC O LAPTOP-NOTEBOOK?</string>
+    <string name="INFCap300_321_titulo">321. \u00bfCU\u00c1L ES EL TIPO DE PROCESADOR?</string>
+    <string name="INFCap300_322_titulo">322. \u00bfCU\u00c1L ES LA CAPACIDAD DE LA MEMORIA RAM?</string>
+    <string name="INFCap300_323_titulo">323. \u00bfCU\u00c1L ES LA CAPACIDAD DEL DISCO DURO?</string>
+    <string name="INFCap300_324_titulo">324. \u00bfEL EQUIPO CUENTA CON:</string>
+    <string name="INFCap300_325_titulo">325. \u00bfLA PC/LAPTOP-NOTEBOOK TIENE CONEXI\u00d3N AL SERVICIO DE INTERNET?</string>
+    <string name="INFCap300_326_titulo">326. \u00bfEL ACCESO A INTERNET ES POR:</string>
+    <string name="INFCap300_327_titulo">327. \u00bfEL SERVICIO DE INTERNET ES DURANTE TODO EL D\u00cdA?</string>
+    <string name="INFCap300_328_titulo">328. LA CONEXI\u00d3N A INTERNET ES:</string>
+    
+    
+    
+    <string name="IHCap200columa_busqueda_1">N° HOMICIDIO</string>
+    <string name="IHCap200columna_titulo_1">N° HOMICIDIO</string>
+    <string name="IHCap200columna_titulo_2">201.- UNIDAD QUE INTERVIENE</string>
+    <string name="IHCap200columna_titulo_3">202.- UNIDAD RESPONSABLE DE LA INVESTIGACI\u00d3N</string>
+    <string name="IHCap200columna_titulo_4">203.- DOCUMENTO QUE CONTIENE EL REGISTRO DEL HOMICIDIO</string>
+    <string name="IHCap200columna_titulo_5">204.- TIPO DE HOMICIDIO</string>
+    <string name="IHCap200columna_titulo_6">205.- FECHA DEL HECHO</string>
+    <string name="IHCap200columna_titulo_7">206.- HORA DEL HECHO</string>
+    <string name="IHCap200columna_titulo_8">207.- LUGAR DE LA OCURRENCIA</string>
+    <string name="IHCap200columna_titulo_9">208.- MEDIO/MODALIDAD UTILIZADA EN EL HOMICIDIO</string>
+    <string name="IHCap200columna_titulo_10">209.- PRESUNTAS CAUSAS DEL HOMICIDIO:</string>
+    <string name="IHCap200columna_titulo_11">210.- SITUACION DEL HOMICIDIO:</string>
+    <string name="IHCap200columna_titulo_12">211.- NUMERO DE VICTIMAS:</string>
+            
+    <string name="IVHCap300columa_busqueda_1">N° PERSONA</string>
+    <string name="IVHCap300columa_titulo_0">N°</string>
+    <string name="IVHCap300columa_titulo_1">301.- DNI</string>
+    <string name="IVHCap300columna_titulo_2">302.- SEXO</string>
+    <string name="IVHCap300columna_titulo_3">303.- EDAD</string>
+    <string name="IVHCap300columna_titulo_4">304.- NIVEL EDUCATIVO ALCANZADO</string>
+    <string name="IVHCap300columna_titulo_5">305.- OCUPACI\u00d3N</string>
+    <string name="IVHCap300columna_titulo_6">306.- ESTADO CIVIL</string>
+    <string name="IVHCap300columna_titulo_7">307.- RELACI\u00d3N DE PARENTESCO CON LA VICTIMA / HOMICIDA</string>
+    
+    
+    
+    
+    <string name="rotuloat101">101.	\u00bfCU\u00c1L ES EL DOCUMENTO QUE CONTIENE EL  ACCIDENTE DE TR\u00c1NSITO?</string>
+	<string name="rotuloespecifique">Otro:</string>
+	<string name="rotulonroAT">A.T. N°</string>		
+	<string name="rotuloAT104A">104. LUGAR DE OCURRENCIA - 104A.TIPO DE VIA</string>
+	<string name="rotuloAT104B">104. LUGAR DE OCURRENCIA - 104B. TRAMO DE LA VIA</string>
+	<string name="rotuloAT105">105. TIPO DE ACCIDENTE:</string>
+	<string name="rotuloAT106_1">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Autom\u00f3vil</string>
+	<string name="rotuloAT106_2">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Station Wagon</string>
+	<string name="rotuloAT106_3">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Camioneta Pick up</string>
+	<string name="rotuloAT106_4">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Camioneta Rural (Combi, Van, Jeep, LandRover y similares)</string>
+	<string name="rotuloAT106_5">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Camioneta Panel o Furgoneta</string>
+	<string name="rotuloAT106_6">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: \u00d3mnibus urbano</string>
+	<string name="rotuloAT106_7">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: \u00d3mnibus interprovincial</string>
+	<string name="rotuloAT106_8">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Cami\u00f3n</string>
+	<string name="rotuloAT106_9">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Tracto cami\u00f3n (cami\u00f3n + remolque)</string>
+	<string name="rotuloAT106_10">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Remolcador</string>
+	<string name="rotuloAT106_11">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Trayler (remolque + semi-remolque)</string>
+	<string name="rotuloAT106_12">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Veh\u00edculo no identificado</string>
+	<string name="rotuloAT106_13">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Otro</string>
+	<string name="rotuloAT106_14">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Moto lineal</string>
+	<string name="rotuloAT106_15">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Motocar/Mototaxi/Motofurg\u00f3n y similares</string>
+	<string name="rotuloAT106_16">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Triciclo</string>
+	<string name="rotuloAT106_17">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Bicicleta</string>
+	<string name="rotuloAT106_18">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Veh\u00edculo no identificado</string>
+	<string name="rotuloAT106_19">106.TIPO DE VEH\u00cdCULO MAYOR INVOLUCRADO EN EL A.T.: Otro</string>	
+	
+	<string name="rotuloAT107_1">107.TIPO DE TRANSPORTE: P\u00fablico</string>
+	<string name="rotuloAT107_2">107.TIPO DE TRANSPORTE: Particular</string>
+	<string name="rotuloAT107_3">107.TIPO DE TRANSPORTE: No identifica en el Libro de Ocurrencia</string>	
+	<string name="rotuloAT108">108. CONSECUENCIA DEL ACCIDENTE:</string>
+
+	<string name="rotuloAT109_1">109.FACTORES VINCULADOS AL ACCIDENTE: Exceso de velocidad</string>
+	<string name="rotuloAT109_2">109.FACTORES VINCULADOS AL ACCIDENTE: Desacato a la se\u00f1al de tr\u00e1nsito por parte del conductor</string>
+	<string name="rotuloAT109_3">109.FACTORES VINCULADOS AL ACCIDENTE: Falta de iluminaci\u00f3n en las v\u00edas</string>
+	<string name="rotuloAT109_4">109.FACTORES VINCULADOS AL ACCIDENTE: Exceso de carga</string>
+	<string name="rotuloAT109_5">109.FACTORES VINCULADOS AL ACCIDENTE: Ebriedad del conductor</string>
+	<string name="rotuloAT109_6">109.FACTORES VINCULADOS AL ACCIDENTE: Invasi\u00f3n de carril / maniobras no permitidas</string>
+	<string name="rotuloAT109_7">109.FACTORES VINCULADOS AL ACCIDENTE: Falla mec\u00e1nica</string>
+	<string name="rotuloAT109_8">109.FACTORES VINCULADOS AL ACCIDENTE: V\u00eda en mal estado</string>
+	<string name="rotuloAT109_9">109.FACTORES VINCULADOS AL ACCIDENTE: Desacato a la se\u00f1al de tr\u00e1nsito por parte del peat\u00f3n</string>
+	<string name="rotuloAT109_10">109.FACTORES VINCULADOS AL ACCIDENTE: Estado de ebriedad del peat\u00f3n</string>
+	<string name="rotuloAT109_11">109.FACTORES VINCULADOS AL ACCIDENTE: Factor clim\u00e1tico</string>
+	<string name="rotuloAT109_12">109.FACTORES VINCULADOS AL ACCIDENTE: Se\u00f1alizaci\u00f3n defectuosa</string>
+	<string name="rotuloAT109_13">109.FACTORES VINCULADOS AL ACCIDENTE: Cansancio o fatiga del conductor</string>
+	<string name="rotuloAT109_14">109.FACTORES VINCULADOS AL ACCIDENTE: Uso del celular o dispositivos electr\u00f3nicos</string>
+	<string name="rotuloAT109_15">109.FACTORES VINCULADOS AL ACCIDENTE: Otro</string>
+	
+	<string name="columnaat200_titulo_1">Nro</string>
+	<string name="columnaat200_titulo_2">201 - PERSONA INVOLUCRADA - C\u00f3digo</string>
+	<string name="columnaat200_titulo_3">201 - PERSONA INVOLUCRADA - Otro</string>
+	<string name="columnaat200_titulo_4">202 - SEXO - C\u00f3digo</string>
+	<string name="columnaat200_titulo_5">203 - EDAD - A\u00f1os</string>
+	<string name="columnaat200_titulo_6">203 - EDAD - No Identifica</string>
+	<string name="columnaat200_titulo_7">204 - CONDICI\u00d3N DE LA PERSONA INVOLUCRADA</string>
+	<string name="columnaat200_titulo_8">205 - ESTADO DEL HERIDO</string>
+	<string name="columnaat200_titulo_9">205A - EL HERIDO FUE TRASLADADO A UN HOSPITAL O CENTRO DE SALUD</string>	
+	<string name="columnaat200_titulo_10">206 - TIPO DE VEH\u00cdCULO - C\u00f3digo</string>
+	<string name="columnaat200_titulo_11">206 - TIPO DE VEH\u00cdCULO - Otro</string>
+	<string name="columnaat200_titulo_12">207 - \u00bfTIENE LICENCIA DE CONDUCIR?</string>		
+	<string name="atbusqueda200_pers">Ingrese el nro de Persona a Buscar...</string>
+	
+	<string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="add">A\u00f1adir</string>
+    <string name="nextpage">Siguiente Pagina</string>
+    <string name="remove">Eliminar</string>
+    <string name="marcocomisarias">Marco de Comisarias</string>
+    <string name="guardar">Guardar</string>
+    
+    <string name="rotuloat201">201. PERSONA INVOLUCRADA</string>
+    <string name="rotuloat202">202. SEXO</string>
+    <string name="rotuloat204">204. CONDICI\u00d3N DE LA PERSONA INVOLUCRADA</string>
+    <string name="rotuloat205">205. ESTADO DEL HERIDO</string>
+    <string name="rotuloat205A">205A. EL HERIDO FUE TRASLADADO A UN HOSPITAL O CENTRO DE SALUD</string>		
+    <string name="rotuloat206">206. TIPO DE VEH\u00cdCULO</string>
+    <string name="rotuloat207">207. \u00bfTIENE LICENCIA DE CONDUCIR?</string>			
+	    
+ 	<string name="columna_marco_titulo_1">Regi\u00f3n</string>
+    <string name="columna_marco_titulo_2">Departamento</string>
+    <string name="columna_marco_titulo_3">Provincia</string>
+    <string name="columna_marco_titulo_4">Distrito</string>
+    <string name="columna_marco_titulo_5">ID</string>
+    <string name="columna_marco_titulo_6">COMISAR\u00cdA</string>
+    <string name="columna_marco_titulo_6a">Estado\nINF</string>
+    <string name="columna_marco_titulo_6b">GPS\nINF</string>
+    <string name="columna_marco_titulo_7">Estado\nAT</string>
+    <string name="columna_marco_titulo_8">GPS\nAT</string>
+    <string name="columna_marco_titulo_9">Estado\nDE</string>
+    <string name="columna_marco_titulo_10">GPS\nDE</string>
+    <!--string name="columna_marco_titulo_11">EstadoINF</string-->
+    <!--string name="columna_marco_titulo_12">GPSINF</string-->
+    
+    <string name="columna_marco_tit_1">ID</string>
+    <string name="columna_marco_tit_2">COMISAR\u00cdA</string>
+    <string name="columna_marco_tit_3">DEPARTAMENTO</string>
+    <string name="columna_marco_tit_4">PROVINCIA</string>
+    <string name="columna_marco_tit_5">DISTRITO</string>
+    <string name="columna_marco_tit_6">COMISAR\u00cdA</string>
+    <string name="columna_marco_tit_7">DIRTEPOL</string>
+    <string name="columna_marco_tit_8">TIPO</string>
+    <string name="columna_marco_tit_9">COMISARIO</string>
+    <string name="columna_marco_tit_9_1">F. INICIO</string>
+    <string name="columna_marco_tit_9_2">F. FINAL</string>
+    <string name="columna_marco_tit_10">T.D.P</string>
+    <string name="columna_marco_tit_11">UBIGEO</string>
+    <string name="columna_marco_tit_12">NOMBRECP</string>
+    <string name="columna_marco_tit_13">RUTA</string>
+    <string name="columna_marco_tit_14">INFRA</string>
+    <string name="columna_marco_tit_15">AT</string>
+    <string name="columna_marco_tit_16">DEL</string>
+    <string name="columna_marco_tit_17">TERR</string>
+    <string name="columna_marco_tit_18">C.N</string>
+    
+    <string name="columnaexpo_titulo_1">Selec. INF</string>
+    <string name="columnaexpo_titulo_2">Selec. AT</string>
+    <string name="columnaexpo_titulo_3">Selec. DE</string>
+    
+ 	<string name="buscar_hiden">
+ 	Digite aqu\u00ed el ID_COMISARIA a buscar&#8230;
+ 	</string>
+ 	<string name="solid_up">▲</string>
+
+ 	<string name="btnNuevo">Nuevo</string>
+ 	<string name="btnCargarMarco">Cargar Marco</string>
+
+    <string name="hintCodigo">C\u00f3digo</string>
+    <string name="hintCentroPoblado">Centro poblado</string>
+    <string name="hintAerIni">AER INI</string>
+    <string name="hintAerFin">AER FIN </string>
+
+<string name="marco_title">INFORMACION DE LA COMISARIA</string>
+    <string name="marco_id_n">ID N\u00b0</string>
+    <string name="marco_region">Regi\u00f3n</string>
+    <string name="marco_ubigeo">Ubigeo</string>
+    <string name="marco_cod_reg">C\u00f3digo de regi\u00f3n</string>
+    <string name="marco_ccdd">Departamento</string>
+    <string name="marco_ccpp">Provincia</string>
+    <string name="marco_ccdi">Distrito</string>
+    <string name="marco_cccp">C\u00f3digo centro poblado</string>
+    <string name="marco_nombre_cp">Centro poblado</string>
+    <string name="marco_zona">Zona N\u00b0</string>
+    <string name="marco_zona_alf">Zona Alf N\u00b0</string>
+    <string name="marco_manzana">Manzana N\u00b0</string>
+    <string name="marco_manzana_alf">Manzana Alf N\u00b0</string>
+    <string name="marco_area">Area</string>
+    <string name="marco_aer">AER N\u00b0</string>
+    <string name="marco_frente">Frente</string>
+    <string name="marco_dirtepol">DIRTEPOL</string>
+    <string name="marco_capireferencia">Capital de referencia</string>
+    <string name="marco_comisaria">Nombre comisar\u00eda</string>
+    <string name="marco_tipo">Tipo</string>
+    <string name="marco_direccion">Direcci\u00f3n</string>
+    <string name="marco_comisario">Nombre comisario</string>
+    <string name="marco_telefono1">Telefono fijo</string>
+    <string name="marco_telefono2">Celular/RPM</string>
+    <string name="marco_tipocpnp">Tipo CPNP</string>
+    <string name="marco_total_at2011">Total A.T.2011</string>
+    <string name="marco_total_at2012">Total A.T.2012</string>
+    <string name="marco_total_habit2012">Total HABIT.2012</string>
+    <string name="marco_total_habit2013">Total HABIT.2013</string>
+    <string name="marco_periodo">Periodo</string>
+    <string name="marco_inf">Infraestructura</string>
+    <string name="marco_at">Accidentes de tr\u00e1nsito</string>
+    <string name="marco_de">Delitos</string>
+    <string name="marco_adi">Formulario 02-04</string>
+    <string name="marco_adi_terr">Formulario 02-05</string>
+    <string name="chooser_title">Seleccione archivo</string>
+    <string name="marco_accesos">ACCESOS A:</string>
+
+    <string name="lbPrompt">\u00bfCu\u00e1l es el resultado de 7+6?</string>
+
+    <string name="columna_marco_titulo_13">Borrar\nINF</string>
+    <string name="columna_marco_titulo_14">Borrar\nAT</string>
+    <string name="columna_marco_titulo_15">Borrar\nDE</string>
+    <string name="columna_marco_titulo_16">Editar\nComisar\u00eda</string>
+    <string name="columna_marco_titulo_17">Eliminar\nComisar\u00eda</string>
+    <string name="columna_marco_titulo_18">Aperturar\nDE</string>
+    <string name="columna_marco_titulo_19">Borrar GPS\nINF</string>
+    <string name="columna_marco_titulo_20">Borrar GPS\nAT</string>
+    <string name="columna_marco_titulo_21">Borrar GPS\nDE</string>
+        
+    <string name="marco_ruta">Ruta</string>
+    
+    <string name="lb_C_I_502A_SECCION">SECCI\u00d3N I. INFORMACI\u00d3N Y PROCEDIMIENTOS\n(Informaci\u00f3n que debe brindar el Comisario/Facilitador)</string>
+    <string name="lb_C_I_502a_l"><b>EMPADRONADOR(A): Debes trasladar la informaci\u00f3n de la pregunta 502 consignando en la tablet.</b></string>
+    <string name="lb_C_I_502a_p1"><b>502. EN EL PRESENTE A\u00d1O, \u00bfSE HA EJECUTADO ACCIONES PARA EL MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE LA COMISAR\u00cdA?</b></string>
+    <string name="lb_C_I_502a_p2"><b>502A. INDIQUE QUE COMPONENTES SE HAN INTERVENIDO:\n(Lea cada alternativa y espere la respuesta)</b></string>
+    <string name="lb_C_I_502a_l1"><b>Componente</b></string>
+    <string name="lb_C_I_502a_t1"><b>1) \u00bfReparaci\u00f3n de instalaciones sanitarias y cambio de aparatos sanitarios?</b></string>
+    <string name="lb_C_I_502a_t2"><b>2) \u00bfReparaci\u00f3n de instalaciones el\u00e9ctricas y cambio de artefactos de iluminaci\u00f3n?</b></string>
+    <string name="lb_C_I_502a_t3"><b>3) \u00bfReparaci\u00f3n de muros (paredes)?</b></string>
+    <string name="lb_C_I_502a_t4"><b>4) \u00bfReparaci\u00f3n de techos y coberturas incluyendo canaletas y montantes de bajada?</b></string>
+    <string name="lb_C_I_502a_t5"><b>5) \u00bfReparaci\u00f3n y/o cambio de pisos incluyendo habilitaci\u00f3n de rampas?</b></string>
+    <string name="lb_C_I_502a_t6"><b>6) \u00bfReparaci\u00f3n o reemplazo de puertas y ventanas?</b></string>
+    <string name="lb_C_I_502a_t7"><b>7) \u00bfPintado de muros, tabiques y cielos rasos?</b></string>
+    <string name="lb_C_I_502a_t8"><b>8) \u00bfOtros?</b></string>
+    
+    <!-- Formulario Adicional -->
+    <string name="lb_C_SI_NO"><b>SI/NO</b></string>
+    <string name="lb_C_I_609_si_no"><b>\u00bfEn el presente a\u00f1o se incorporaron&#8230; Nuevos? \n\nSI/NO</b></string>
+    <string name="lb_C_I_SECCION">SECCI\u00d3N I. DATOS GENERALES\n(Informaci\u00f3n que debe brindar el Comisario/Facilitador)</string>
+    <string name="lb_C_I_601"><b>601. \u00bfLA COMISAR\u00cdA FUNCIONA DENTRO DE UN COMPLEJO POLICIAL?</b></string>
+    <string name="lb_C_I_602"><b>602. \u00bfCU\u00c1L ES EL NOMBRE DEL COMPLEJO POLICIAL?</b></string>
+    <string name="lb_C_I_603"><b>603. DENTRO DE LA JURISDICCION DE LA COMISARIA HAY:</b></string>
+    <string name="lb_C_I_603_1"><b>A. \u00bfPUESTOS DE RESPUESTA INMEDIATA (PRI)?</b></string>
+    <string name="lb_C_I_603_2"><b>B. \u00bfPUESTOS DE AUXILIO R\u00c1PIDO (PAR)?</b></string>
+    <string name="lb_C_I_604"><b>604. \u00bfCU\u00c1NTOS PUESTOS DE HAY EN LA JURISDICCION DE LA COMISARIA?</b></string>
+    <string name="lb_C_I_605"><b>605. \u00bfCU\u00c1NTOS EFECTIVOS POLICIALES EST\u00c1N DESTINADOS PARA DESEMPEÑAR LABORES EN LOS:</b></string>
+    
+    <string name="lb_C_II_SECCION">SECCI\u00d3N II. EFECTIVOS OFICIALES POR APTITUD/TIPO DE PATRULLAJE Y VEH\u00cdCULOS POLICIALES\n(Informaci\u00f3n que debe brindar el Comisario/Facilitador)</string>  
+    <string name="lb_C_II_606"><b>606. DEL TOTAL DE EFECTIVOS POLICIALES QUE LABORAN EN LA COMISAR\u00cdA, PODR\u00cdA INDICAR:</b></string>
+    <string name="lb_C_II_606_t1"><b>CU\u00c1NTOS EFECTIVOS POLICIALES PERTENECEN AL GRUPO DE:</b></string>  
+    <string name="lb_C_II_606_t2"><b>CANTIDAD</b></string>
+    <string name="lb_C_II_606_1"><b>12. \u00bfAPTITUD A?</b></string>
+    <string name="lb_C_II_606_2"><b>13. \u00bfAPTITUD B?</b></string>
+    <string name="lb_C_II_606_3"><b>14. \u00bfAPTITUD C?</b></string>
+    <string name="lb_C_II_606_total"><b>TOTAL DE EFECTIVOS (1 + 2 + 3) =</b></string>
+    <string name="lb_C_II_607"><b>607. REALIZA LA COMISAR\u00cdA :</b></string>
+    <string name="lb_C_II_607_1"><b>A. \u00bfPATRULLAJE A PIE?</b></string>
+    <string name="lb_C_II_607_2"><b>B. \u00bfPATRULLAJE MOTORIZADO?</b></string>
+    <string name="lb_C_II_608"><b>608. \u00bfEN CU\u00c1NTOS TURNOS REALIZA EL:</b></string>
+    <string name="lb_C_II_608_1">Un solo turno</string>
+    <string name="lb_C_II_608_2">Dos turnos</string>
+    <string name="lb_C_II_608_3">Tres turnos</string>
+    <string name="lb_C_II_609_t"><b>TIPOS VEH\u00cdCULOS</b></string>
+    <string name="lb_C_II_609_t_1"><b>TOTAL \n(Anotar informaci\u00f3n  de la Pgta. 337 del formulario de infraestructura)</b></string>
+    <string name="lb_C_II_609_t_2"><b>609. \u00bfCu\u00e1ntos(as) nuevos(as) se incorporaron en el presente a\u00f1o?</b></string>
+    <string name="lb_C_II_609_1"><b>50. AUTOS</b></string>
+    <string name="lb_C_II_609_2"><b>51. CAMIONETAS</b></string>
+    <string name="lb_C_II_609_3"><b>52. MOTOS LINEALES</b></string>
+    <string name="lb_C_II_609_4"><b>53. BICICLETAS</b></string>
+    <string name="lb_C_II_609_5"><b>54. LANCHAS/DESLIZADORES</b></string>
+    <string name="lb_C_II_609_6"><b>55. OTRO</b></string>
+    
+    <string name="lb_C_III_SECCION">SECCI\u00d3N III. COMIT\u00c9 DISTRITAL DE SEGURIDAD CIUDADNA\n(Informaci\u00f3n que debe brindar el Comisario/Facilitador)</string>
+    <string name="lb_C_III_610"><b>610. \u00bfLA COMISAR\u00cdA INTEGR\u00d3/INTEGRA EL COMIT\u00c9 DISTRITAL DE SEGURIDAD CIUDADANA?</b></string>
+    <string name="lb_C_III_610_1"><b>1. A\u00d1O 2014</b></string>
+    <string name="lb_C_III_610_2"><b>2. A\u00d1O 2015</b></string>
+    <string name="lb_C_III_611"><b>611. \u00bfCU\u00c1NTAS REUNIONES TUVO EL COMIT\u00c9 DISTRITAL DE SEGURIDAD CIUDADANA Y A CU\u00c1NTAS DE ESTAS REUNIONES PARTICIPO EL COMISARIO?</b></string>
+    <string name="lb_C_III_611_t1"><b>DESCRIPCION</b></string>
+    <string name="lb_C_III_611_t2"><b>A\u00d1O 2014</b></string>
+    <string name="lb_C_III_611_t3"><b>A\u00d1O 2015</b></string>
+    <string name="lb_C_III_611_1"><b>1. TOTAL DE REUNIONES</b></string>
+    <string name="lb_C_III_611_2"><b>2. N\u00B0 DE REUNIONES A LAS QUE ASISTI\u00d3 EL COMISARIO</b></string>
+    
+    <string name="lb_C_IV_SECCION">SECCI\u00d3N IV. PROGRAMAS DE PREVENCI\u00d3N REALIZADOS POR LA COMISAR\u00cdA\n(Informaci\u00f3n que debe brindar el responsable de la Oficina de Participaci\u00f3n Ciudadana de la Comisar\u00eda - OPC)</string>
+    <string name="lb_C_IV_612"><b>612. LOS PROGRAMAS DE PREVENCI\u00d3N ORGANIZADOS DE LA COMISAR\u00cdA SON:</b></string>
+    <string name="lb_C_IV_613"><b>613. \u00bfCU\u00c1NTAS PERSONAS SE CAPACITARON EN:</b></string>
+    <string name="lb_C_IV_614"><b>614. \u00bfCU\u00c1L ES EL N\u00daMERO DE ACCIONES DE PREVENCI\u00d3N EJECUTADAS EN:</b></string>
+    <string name="lb_C_IV_612_a"><b>1. Juntas vecinales 2014?</b></string>
+    <string name="lb_C_IV_612_b"><b>2. Club de menores 2014?</b></string>
+    <string name="lb_C_IV_612_c"><b>3. Polic\u00eda escolar 2014?</b></string>
+    <string name="lb_C_IV_612_d"><b>4. Brigada de autoprotecci\u00f3n escolar (BAPES) 2014?</b></string>
+    <string name="lb_C_IV_612_e"><b>5. Red de cooperantes 2014?</b></string>
+    <string name="lb_C_IV_612_f"><b>6. Patrullas juveniles 2014?</b></string>
+    <string name="lb_C_IV_612_g"><b>7. Otros 2014?</b></string>
+    <string name="lb_C_IV_612_h"><b>1.1 Juntas vecinales 2015?</b></string>
+    <string name="lb_C_IV_612_i"><b>2.1 Club de menores 2015?</b></string>
+    <string name="lb_C_IV_612_j"><b>3.1 Polic\u00eda escolar 2015?</b></string>
+    <string name="lb_C_IV_612_k"><b>4.1 Brigada de autoprotecci\u00f3n escolar (BAPES) 2015?</b></string>
+    <string name="lb_C_IV_612_l"><b>5.1 Red de cooperantes 2015?</b></string>
+    <string name="lb_C_IV_612_m"><b>6.1 Patrullas juveniles 2015?</b></string>
+    <string name="lb_C_IV_612_n"><b>7.1 Otros 2015?</b></string>
+     
+    <string name="lb_C_IV_615"><b>615. \u00bfCU\u00c1NTAS JUNTAS VECINALES ESTUVIERON/EST\u00c1N:</b></string>
+    <string name="lb_C_IV_615_a"><b>A. ACTIVAS 2014?</b></string>
+    <string name="lb_C_IV_615_b"><b>B. INACTIVAS 2014?</b></string>
+    <string name="lb_C_IV_615_t"><b>TOTAL</b></string>
+    <string name="lb_C_IV_615_a1"><b>A1. ACTIVAS 2015?</b></string>
+    <string name="lb_C_IV_615_b1"><b>B1. INACTIVAS 2015?</b></string>
+    <string name="lb_C_IV_616"><b>616. \u00bfCU\u00c1L ES EL TOTAL DE INTEGRANTES DE JUNTAS VECINALES ACTIVAS?</b></string>
+    
+    <string name="lb_C_IV_617"><b>617. TIPO DE RED DE COOPERANTES QUE TIENEN ORGANIZADOS SON:</b></string>
+    <string name="lb_C_IV_618"><b>618. \u00bfCU\u00c1L ES EL N\u00daMERO DE EMPRESAS DE REGISTRADOS?:</b></string>
+    <string name="lb_C_IV_619"><b>619. \u00bfCU\u00c1L ES EL N\u00daMERO DE PERSONAS REGISTRADAS?</b></string>
+    <string name="lb_C_IV_617_a"><b>a. ¿Taxista 2014?</b></string>
+    <string name="lb_C_IV_617_b"><b>b. ¿Moto taxistas 2014?</b></string>
+    <string name="lb_C_IV_617_c"><b>c. ¿Cambistas 2014?</b></string>
+    <string name="lb_C_IV_617_d"><b>d. ¿Controladores y/o llenadores de vehículos de transporte público 2014?</b></string>
+    <string name="lb_C_IV_617_e"><b>e. ¿Puestos de comerciantes 2014?</b></string>
+    <string name="lb_C_IV_617_f"><b>f. ¿Cuidadores de vehículos 2014?</b></string>
+    <string name="lb_C_IV_617_g"><b>g. ¿Otros 2014?</b></string>
+    <string name="lb_C_IV_617_h"><b>a1. ¿Taxista 2015?</b></string>
+    <string name="lb_C_IV_617_i"><b>b1. ¿Moto taxistas 2015?</b></string>
+    <string name="lb_C_IV_617_j"><b>c1. ¿Cambistas 2015?</b></string>
+    <string name="lb_C_IV_617_k"><b>d1. ¿Controladores y/o llenadores de vehículos de transporte público 2015?</b></string>
+    <string name="lb_C_IV_617_l"><b>e1. ¿Puestos de comerciantes 2015?</b></string>
+    <string name="lb_C_IV_617_m"><b>f1. ¿Cuidadores de vehículos 2015?</b></string>
+    <string name="lb_C_IV_617_n"><b>g1. ¿Otros 2015?</b></string>
+    
+    <string name="lb_C_IV_620"><b>620. LOS OPERATIVOS REALIZADOS POR LA COMISAR\u00cdA PARA PREVENIR ACCIDENTES DE TR\u00c1NSITO FUERON/ SON:</b></string>
+    <string name="lb_C_IV_620_1"><b>OPERATIVO</b></string>
+    <string name="lb_C_IV_620_2"><b>CANTIDAD DE OPERATIVOS REALIZADOS</b></string>
+    <string name="lb_C_IV_620_a"><b>a. ¿Autoridad Policial 2014?</b></string>
+    <string name="lb_C_IV_620_b"><b>b. ¿Alcoholemia 2014?</b></string>
+    <string name="lb_C_IV_620_c"><b>c. ¿Alcoholemia Estadio 2014?</b></string>
+    <string name="lb_C_IV_620_d"><b>d. ¿Control de Velocidad 2014?</b></string>
+    <string name="lb_C_IV_620_e"><b>e. ¿Aceleramiento 2014?</b></string>
+    <string name="lb_C_IV_620_f"><b>f. ¿Mototaxis 2014?</b></string>
+    <string name="lb_C_IV_620_g"><b>g. ¿Fotopapeletas 2014?</b></string>
+    <string name="lb_C_IV_620_h"><b>h. ¿Piques 2014?</b></string>
+    <string name="lb_C_IV_620_i"><b>i. ¿Técnica de Capsula 2014?</b></string>
+    <string name="lb_C_IV_620_j"><b>j. ¿Otro 2014?</b></string>
+    <string name="lb_C_IV_620_k"><b>a1. ¿Autoridad Policial 2015?</b></string>
+    <string name="lb_C_IV_620_l"><b>b1. ¿Alcoholemia 2015?</b></string>
+    <string name="lb_C_IV_620_m"><b>c1. ¿Alcoholemia Estadio 2015?</b></string>
+    <string name="lb_C_IV_620_n"><b>d1. ¿Control de Velocidad 2015?</b></string>
+    <string name="lb_C_IV_620_o"><b>e1. ¿Aceleramiento 2015?</b></string>
+    <string name="lb_C_IV_620_p"><b>f1. ¿Mototaxis 2015?</b></string>
+    <string name="lb_C_IV_620_q"><b>g1. ¿Fotopapeletas 2015?</b></string>
+    <string name="lb_C_IV_620_r"><b>h1. ¿Piques 2015?</b></string>
+    <string name="lb_C_IV_620_s"><b>i1. ¿Técnica de Capsula 2015?</b></string>
+    <string name="lb_C_IV_620_t"><b>j1. ¿Otro 2015?</b></string>
+    
+    
+    
+    <string name="lb_C_V_SECCION">V. SECTORES POLICIALES QUE COMPRENDE LA JURISDICCI\u00d3N DE LA COMISAR\u00cdA\n(Informaci\u00f3n que debe brindar el Comisario/Facilitador)</string>
+    <string name="lb_C_V_621"><b>621. \u00bfEN EL PRESENTE A\u00d1O DE CU\u00c1NTOS SECTORES/CUADRANTES POLICIALES SE CONFORMA LA JURISDICCI\u00d3N DE LA COMISAR\u00cdA?</b></string>
+    <string name="lb_C_V_622"><b>622. DE LOS &#8230; \u00bfCU\u00c1L ES EL SECTOR/CUADRANTE DE MAYOR INSEGURIDAD?</b></string>
+    
+    <string name="lb_C_VI_SECCION">VI. N\u00daMERO DE OPERATIVOS/INTERVENCIONES REALIZADOS EN LA JURISDICCI\u00d3N DE LA COMISAR\u00cdA\n(Informaci\u00f3n que debe brindar el Comisario/Facilitador)</string>
+    <string name="lb_C_VI_623"><b>623. \u00bfCU\u00c1L ES EL N\u00daMERO TOTAL DE BANDAS DELINCUENCIALES DESARTICULADAS EN SU JURISDICCI\u00d3N POLICIAL?</b></string>
+    <string name="lb_C_VI_624"><b>624. \u00bfCU\u00c1L ES EL N\u00daMERO TOTAL DE OPERATIVOS REALIZADOS EN SU JURISDICCI\u00d3N POLICIAL?</b></string>
+    <string name="lb_C_VI_625"><b>625. \u00bfCU\u00c1L ES EL N\u00daMERO TOTAL DE INTERVENIDOS EN LA COMISAR\u00cdA?</b></string>
+    <string name="lb_C_VI_626"><b>626. \u00bfCU\u00c1L ES EL N\u00daMERO TOTAL DE INTERVENIDOS PUESTOS A DISPOSICI\u00d3N DEL MINISTERIO P\u00daBLICO?</b></string>
+    <string name="lb_C_VI_627"><b>627. \u00bfCU\u00c1L ES EL N\u00daMERO TOTAL DE INTERVENIDOS PUESTOS A DISPOSICI\u00d3N DEL PODER JUDICIAL?</b></string>
+    
+    <string name="lb_C_VII_SECCION">VII. IMPLEMENTACI\u00d3N DEL NUEVO C\u00d3DIGO PROCESAL PENAL EN LA COMISAR\u00cdA\n(Informaci\u00f3n que debe brindar el Comisario/Facilitador)</string>
+    <string name="lb_C_VII_628"><b>628. \u00bfAPLICA ACTUALMENTE LA COMISAR\u00cdA EL NUEVO C\u00d3DIGO PROCESAL PENAL?</b></string>
+    <string name="lb_C_VII_629"><b>629. \u00bfCU\u00c1NTOS ABOGADOS DEFENSORES P\u00daBLICOS ESTAN ASIGNADOS PARA REALIZAR LA LABOR DEL NUEVO C\u00d3DIGO PROCESAL PENAL?</b></string>
+    <string name="lb_C_VII_630"><b>630. \u00bfEN CU\u00c1NTOS TURNOS FUNCIONA ESTE AMBIENTE DEL NUEVO C\u00d3DIGO PROCESAL PENAL?</b></string>
+    <string name="lb_C_VII_631"><b>631. \u00bfCUENTA LA COMISAR\u00cdA CON EL AMBIENTE PARA REALIZAR LA IMPLEMENTACI\u00d3N DEL NUEVO C\u00d3DIGO PROCESAL PENAL?</b></string>
+    <string name="lb_C_VII_631_1">1. S\u00ed, de uso exclusivo</string>
+    <string name="lb_C_VII_631_2">2. S\u00ed, de uso compartido</string>
+    <string name="lb_C_VII_631_3">3. No</string>
+    <string name="lb_C_VII_632"><b>632. \u00bfEL ESTADO DEL AMBIENTE PARA REALIZAR LA LABOR DEL NUEVO C\u00d3DIGO PROCESAL PENAL SE ENCUENTRA:</b></string>
+    <string name="lb_C_VII_632_1">1. Terminado?</string>
+    <string name="lb_C_VII_632_2">2. En ejecuci\u00f3n?</string>
+    <string name="lb_C_VII_632_3">3. Paralizado?</string>
+    
+    <string name="lb_C_VIII_SECCION">VIII. PROCEDIMIENTOS Y SERVICIOS ADMINISTRATIVOS CONTENIDOS EN EL TEXTO \u00daNICO DE PROCEDIMIENTOS ADMINSITRATIVOS EN LAS COMISAR\u00cdAS\n(Informaci\u00f3n que debe brindar el Comisario/Facilitador)</string>
+    <string name="lb_C_VIII_633"><b>633. LA COMISAR\u00cdA BRINDA LOS SIGUIENTES SERVICIOS DEL TEXTO \u00daNICO DE PROCEDIMIENTOS ADMINISTRATIVOS - (TUPA)?</b></string>
+    <string name="lb_C_VIII_633_1"><b>1. CERTIFICADO DE SUPERVIVENCIA</b></string>
+    <string name="lb_C_VIII_633_2"><b>2. COPIA CERTIFICADA DE DENUNCIA POLICIAL</b></string>
+    <string name="lb_C_VIII_633_3"><b>3. CERTIFICADO DE MUDANZA DOMICILIARIA</b></string>
+    <string name="lb_C_VIII_633_4"><b>4. CERTIFICADO DE ANTECENDETES POLICIALES CERAP</b></string>
+    <string name="lb_C_VIII_633_5"><b>5. OTROS</b></string>
+    <string name="lb_C_VIII_634"><b>634. \u00bfLA JURISDICCI\u00d3N DE LA COMISAR\u00cdA EST\u00c1 SECTORIZADA?</b></string>
+    <string name="lb_C_VIII_634_l"><b>Solicite el Mapa por Sectores o por Cuadrantes, de no existir estos, solicite el Mapa de Delitos.</b></string>
+    <string name="lb_C_VIII_635"><b>635. EL MAPA SECTORIZADO QUE OBTUVO ES:</b></string>
+    <string name="lb_C_VIII_635_l"><b>PARA LA 4 \u00f3 5, JUSTIFIQUE EN EL RECUADRO DE OBSERVACIONES Y DEJE CONSTANCIA EN EL ACTA DE CONFORMIDAD.</b></string>
+    <string name="lb_C_VIII_635_1">1. Solo Digital?</string>
+    <string name="lb_C_VIII_635_2">2. Solo Impreso?</string>
+    <string name="lb_C_VIII_635_3">3. Digital \u00e9 Impreso?</string>
+    <string name="lb_C_VIII_635_4">4. No se obtuvo porque no cuentan con digital ni impreso?</string>
+    <string name="lb_C_VIII_635_5">5. No se obtuvo porque se negaron a proporcionar?</string>
+
+    <!-- Formulario Adicional Territorial-->
+    <string name="lb_C_100_T">FORMULARIO DE ARTICULACI\u00d3N TERRITORIAL Y SERENAZGO CON LOS GOBIERNOS LOCALES</string>
+    <string name="lb_C_100_SecIII">III. DATOS DE LOS FUNCIONARIOS DE LA DEPENDENCIA POLICIAL</string>
+    <string name="lb_C_100_SecIII_1">Comisario</string>
+    <string name="lb_C_100_SecIII_2">FACILITADOR</string>
+    <string name="lb_C_100_SecIII_3">Grado</string>
+    <string name="lb_C_100_SecIV">IV. RESULTADO FINAL</string>
+    <string name="lb_C_100_CP">C\u00d3DIGO DE IDENTIFICACI\u00d3N DE LA DEPENDENCIA POLICIAL N\u00B0</string>
+    <string name="lb_C_100_TS">N\u00B0 TOTAL DE SECTORES POLICIALES QUE COMPRENDE LA JURISDICCI\u00d3N DE SU COMISARIA</string>
+    
+    <string name="lb_C_100_t1">SECTOR N\u00B0</string>
+    <string name="lb_C_100_t2">NOMBRE DE LA MUNICIPALIDAD </string>
+    
+    <string name="lb_C_100">CAP\u00cdTULO 100: LOG\u00cdSTICA POR SECTOR POLICIAL Y SERENAZGO</string>
+    <string name="lb_C_100_100"><b>101.1. TIENE INFORMACI\u00d3N DE LOGISTICA:</b></string>
+    <string name="lb_C_100_101"><b>101. ANOTE EL NOMBRE DE LA MUNICIPALIDAD CON CUYO SERENAZGO COORDINA LA LABOR DE SEGURIDAD CIUDADANA:</b></string>
+    <string name="lb_C_100_101_t"><b>LOG\u00cdSTICA</b></string>
+    <string name="lb_C_100_101_t1"><b>LOG\u00cdSTICA DE LA COMISAR\u00cdA</b></string>
+    <string name="lb_C_100_101_t2"><b>LOG\u00cdSTICA DE LA MUNICIPALIDAD</b></string>
+    <string name="lb_C_100_102"><b>102.\u00bfCu\u00e1l es la cantidad ACTUAL de &#8230; asignados POR DIA en este sector.</b></string>
+    <string name="lb_C_100_103"><b>103.\u00bfCu\u00e1l es la cantidad ADICIONAL de &#8230; REQUERIDOS POR D\u00cdA en este sector.</b></string>
+    <string name="lb_C_100_104"><b>104.\u00bfCu\u00e1l es la cantidad ACTUAL de &#8230; asignados POR DIA en este sector.</b></string>
+    <string name="lb_C_100_105"><b>105.\u00bfCu\u00e1l es la cantidad ADICIONAL de &#8230; REQUERIDOS POR D\u00cdA en este sector.</b></string>
+    <string name="lb_C_100_101_1"><b>1. AUTOS</b></string>
+    <string name="lb_C_100_101_2"><b>2. CAMIONETAS</b></string>
+    <string name="lb_C_100_101_3"><b>3. MOTOS</b></string>
+    <string name="lb_C_100_101_4"><b>4. VARAS</b></string>
+    <string name="lb_C_100_101_5"><b>5. GRILLETES</b></string>
+    <string name="lb_C_100_101_6"><b>6. RADIOS</b></string>
+    <string name="lb_C_100_101_7"><b>7. GPS</b></string>
+    <string name="lb_C_100_101_8"><b>8. PISTOLAS (CONDOS CACERINAS)</b></string>
+    <string name="lb_C_100_101_9"><b>9. FUSILES (EN CASO APLIQUE)</b></string>
+    <string name="lb_C_100_101_10"><b>10. CHALECOS ANTIBALAS</b></string>
+    <string name="lb_C_100_101_11"><b>11. LINTERNAS</b></string>
+    <string name="lb_C_100_101_12"><b>12. LIBRETAS DE CONTROL Y TABLILLAS DE FORMATO DE OCURRENCIAS Y ACTAS</b></string>
+    <string name="lb_C_100_101_13"><b>13. UNIFORMES DE REGLAMENTO (CORRECTAMENTE IMPLEMENTADO DE ACUERDO A LA ZONA GEOGR\u00c1FICA)</b></string>
+    <string name="lb_C_100_101_14"><b>14. RANCHO (DONDE APLIQUE SEG\u00daN LOS HORARIOS)</b></string>
+    
+    <!--  Delitos -->
+    <string name="lb_C_OBS">OBSERVACIONES</string>
+    <string name="lb_C_VII_SECCION_FDP">VII. DATOS DE LOS FUNCIONARIOS DE LA DEPENDENCIA POLICIAL</string>
+    <string name="lb_C_VII_1_FDP"><b>N\u00B0</b></string>
+    <string name="lb_C_VII_2_FDP"><b>APELLIDOS Y NOMBRES DEL INFORMANTE</b></string>
+    <string name="lb_C_VII_3_FDP">GRADO</string>
+    <string name="lb_C_VII_4_FDP"><b>N\u00B0 CIP</b></string>
+    <string name="lb_C_VII_5_FDP"><b>N\u00B0 DE TEL\u00c9FONO FIJO/CELULAR RPM/RPC</b></string>
+    <string name="lb_C_VII_6_FDP">COMISARIO</string>
+    <string name="lb_C_VII_7_FDP">Facilitador</string>
+    <string name="lb_C_VII_8_FDP">GRADO (Registre C\u00f3digo)</string>
+    <string name="lb_C_VII_9_FDP">N\u00B0 CIP</string>
+    <string name="lb_C_VII_10_FDP">Institucional</string>
+    <string name="lb_C_VII_11_FDP">Personal</string>
+    <string name="lb_C_VII_12_FDP">Fijo</string>
+    <string name="lb_C_VII_12_FDP_T">1.Tiene</string>
+    <string name="lb_C_VII_12_FDP_NT">2.No tiene</string>
+    <string name="lb_C_VII_12_FDP_SR">3.Se Reserva</string>
+    
+    <string name="lb_C_VII_6_FDP_Car">CARGO</string>
+    <string name="lb_C_VII_6_FDP_Dni">DNI</string>
+    <string name="lb_C_VII_6_FDP_Nom">NOMBRE</string>
+    
+    <string name="lb_C_VIII_SECCION_IDP">VIII. INFORMACI\u00d3N DEL SIDPOL (solo para comisarías)</string>
+    <string name="lb_C_VIII_1_IDP">1. LA COMISARIA CUENTA CON SIDPOL?</string>
+    <string name="lb_C_VIII_2_IDP">2. FECHA DE INICIO DEL REGISTRO EN EL SIDPOL</string>
+    <string name="lb_C_VIII_2_1_IDP">A\u00fan no se inicia el registro en el Sistema</string>
+    
+    <string name="lb_c3_cap100_title">CAP\u00cdTULO 100. N\u00daMERO DE DENUNCIAS DE DELITOS Y FALTAS REGISTRADOS SEG\u00daN TIPO/MODALIDAD, A\u00d1O 2016</string>
+    <string name="lb_c3_cap100_sub_title">TIPO/MODALIDAD</string>
+    <string name="lb_c3_cap100_p101">101. DELITOS CONTRA LA VIDA, EL CUERPO Y LA SALUD</string>
+    <string name="lb_c3_cap100_p101a">A. HOMICIDIOS DOLOSOS</string>
+    <string name="lb_c3_cap100_p101aa">a. Homicidio simple</string>
+    <string name="lb_c3_cap100_p101ab">b. Parricidio</string>
+    <string name="lb_c3_cap100_p101ac">c. Homicidio calificado (asesinato)</string>
+    <string name="lb_c3_cap100_p101ad">d. Homicidio por emoci\u00f3n violenta</string>
+    <string name="lb_c3_cap100_p101ae">e. Infanticidio</string>
+    <string name="lb_c3_cap100_p101af">f. Homicidio piadoso</string>
+    <string name="lb_c3_cap100_p101ag">g. Feminicidio</string>
+    <string name="lb_c3_cap100_p101ah">h. Sicariato</string>
+    <string name="lb_c3_cap100_p101b">B. HOMICIDIOS CULPOSOS</string>
+    <string name="lb_c3_cap100_p101ba">a. Muerte por Accidente de Tr\u00e1nsito</string>
+    <string name="lb_c3_cap100_p101bb">b. Muerte por Accidente de Trabajo, muerte por negligencia o impericia m\u00e9dica</string>
+    <string name="lb_c3_cap100_p101bc">c. Otros</string>
+    <string name="lb_c3_cap100_p101c">C. INSTIGACI\u00d3N O AYUDA AL SUICIDIO</string>
+    <string name="lb_c3_cap100_p101d">D. OTROS HOMICIDIOS</string>
+    <string name="lb_c3_cap100_p101da">a. Otros</string>
+    <string name="lb_c3_cap100_p101e">E. HECHOS SEGUIDOS DE MUERTE</string>
+    <string name="lb_c3_cap100_p101ea">a. Lesiones graves seguidas de muerte</string>
+    <string name="lb_c3_cap100_p101eb">b. Aborto provocado con subsecuente muerte de la madre</string>
+    <string name="lb_c3_cap100_p101ec">c. Robo agravado con subsecuente muerte</string>
+    <string name="lb_c3_cap100_p101ed">d. Otros</string>
+    <string name="lb_c3_cap100_p101f">F. OTRAS MUERTES</string>
+    <string name="lb_c3_cap100_p101fa">a. Muerte natural</string>
+    <string name="lb_c3_cap100_p101fb">b. Muerte por suicidio</string>
+    <string name="lb_c3_cap100_p101fc">c. Muerte fortuita</string>
+    <string name="lb_c3_cap100_p101fd">d. Muerte accidental (ca\u00edda, asfixia, ahogo, etc.)</string>
+    <string name="lb_c3_cap100_p101fe">e. No precisa</string>
+    <string name="lb_c3_cap100_p101ff">f. Otros</string>
+    <string name="lb_c3_cap100_p101g">G. TENTATIVA DE HOMICIDIO</string>
+    <string name="lb_c3_cap100_p101h">H. ABORTO (autoaborto, aborto consentido, etc.)</string>
+    <string name="lb_c3_cap100_p101i">I. LESIONES</string>
+    <string name="lb_c3_cap100_p101ia">a. Lesiones graves (desfiguraci\u00f3n del rostro, mutilaci\u00f3n o extracci\u00f3n de \u00f3rgano, fractura de brazo)</string>
+    <string name="lb_c3_cap100_p101ib">b. Lesiones leves (golpe o traumatismo, heridas, quemaduras de 1er grado)</string>
+    <string name="lb_c3_cap100_p101ic">c. Lesiones con resultado fortuito</string>
+    <string name="lb_c3_cap100_p101id">d. Lesiones culposas</string>
+    <string name="lb_c3_cap100_p101ie">e. Otros</string>
+    <string name="lb_c3_cap100_p101j">J. EXPOSICI\u00d3N AL PELIGRO O ABANDONO DE PERSONAS EN PELIGRO</string>
+    <string name="lb_c3_cap100_p101ja">a. Exposici\u00f3n o abandono a personas incapaces (abandono a un menor de edad, abandono de persona incapaz de valerse por s\u00ed misma)</string>
+    <string name="lb_c3_cap100_p101jb">b. Omisi\u00f3n de socorro y exposici\u00f3n al peligro (omisión de socorro a persona herida o incapacitada)</string>
+    <string name="lb_c3_cap100_p101jc">c. Omisi\u00f3n de auxilio a persona en peligro o aviso a la autoridad (omisi\u00f3n de auxilio inmediato a persona en estado grave e inminente peligro)</string>
+    <string name="lb_c3_cap100_p101jd">d. Exposici\u00f3n a peligro de persona dependiente (privaci\u00f3n de alimentos o cuidados indispensables, abuso de medios de correcci\u00f3n o disciplina, trabajos excesivos inadecuados)</string>
+    <string name="lb_c3_cap100_p101je">e. Otros</string>
+    <string name="lb_c3_cap100_p101k">K. GENOCIDIO</string>
+    <string name="lb_c3_cap100_p102">102. DELITOS CONTRA EL HONOR</string>
+    <string name="lb_c3_cap100_p102a">a. Injuria, Calumnia y Difamaci\u00f3n</string>
+    <string name="lb_c3_cap100_p103">103. DELITOS CONTRA LA FAMILIA</string>
+    <string name="lb_c3_cap100_p103a">a. Matrimonios ilegales (bigamia, matrimonio con persona casada, autorización ilegal de matrimonio, inobservancia de formalidades legales)</string>
+    <string name="lb_c3_cap100_p103b">b. Delitos contra el estado civil (alteración o supresi\u00f3n del estado civil, fingimiento de embarazo o parto, alteraci\u00f3n de la filiaci\u00f3n de menor)</string>
+    <string name="lb_c3_cap100_p103c">c. Atentados contra la patria potestad (sustracci\u00f3n de menor, inducci\u00f3n a la fuga de menor, instigaci\u00f3n o participaci\u00f3n en pandillaje permisioso)</string>
+    <string name="lb_c3_cap100_p103d">d. Omisi\u00f3n de asistencia familiar (omisi\u00f3n de prestaci\u00f3n de alimentos, abandono de mujer gestante en situaci\u00f3n cr\u00edtica)</string>
+    <string name="lb_c3_cap100_p103e">e. Otros</string>
+    <string name="lb_c3_cap100_p104">104. DELITOS CONTRA LA LIBERTAD</string>
+    <string name="lb_c3_cap100_p104a">a. Violaci\u00f3n de la libertad personal (coacci\u00f3n, secuestro, retenci\u00f3n, traslado de menor de edad)</string>
+    <string name="lb_c3_cap100_p104b">b. Violaci\u00f3n de la intimidad (escuchar observar o registrar palabras, escritos o im\u00e1genes sin consentimiento del interesado)</string>
+    <string name="lb_c3_cap100_p104c">c. Violaci\u00f3n de domicilio (allanamiento ilegal de domicilio)</string>
+    <string name="lb_c3_cap100_p104d">d. Violaci\u00f3n del Secreto de las comunicaciones (violaci\u00f3n de correspondencia, interferencia telef\u00f3nica, entre otros)</string>
+    <string name="lb_c3_cap100_p104e">e. Violaci\u00f3n del secreto profesional</string>
+    <string name="lb_c3_cap100_p104f">f. Violaci\u00f3n de la libertad de reuni\u00f3n (perturbaci\u00f3n de reuni\u00f3n p\u00fablica, prohibici\u00f3n de reuni\u00f3n p\u00fablica l\u00edcita por funcionario p\u00fablico)</string>
+    <string name="lb_c3_cap100_p104g">g. Violaci\u00f3n de la libertad de trabajo (atentado contra la libertad de trabajo y asociaci\u00f3n, atentado contra las condiciones de seguridad, salud e higiene industriales).</string>
+    <string name="lb_c3_cap100_p104h">h. Violaci\u00f3n de la libertad de expresi\u00f3n</string>
+    <string name="lb_c3_cap100_p104i">i. Violaci\u00f3n de la libertad sexual (violaci\u00f3n sexual, violaci\u00f3n de menor de edad, seducci\u00f3n, actos contra el pudor)</string>
+    <string name="lb_c3_cap100_p104j">j. Proxenetismo (favorecimiento a la prostituci\u00f3n, turismo sexual infantil, rufianismo)</string>
+    <string name="lb_c3_cap100_p104k">k. Ofensas al pudor p\u00fablico (exhibiciones y publicaciones obscenas, pornografía infantil)</string>
+    <string name="lb_c3_cap100_p104l">l. Otros</string>
+    <string name="lb_c3_cap100_p105">105. DELITOS CONTRA EL PATRIMONIO</string>
+    <string name="lb_c3_cap100_p105a">a. Hurto (hurto simple, hurto agravado, hurto de uso)</string>
+    <string name="lb_c3_cap100_p105b">b. Robo (robo agravado)</string>
+    <string name="lb_c3_cap100_p105c">c. Ab\u00edgeato (hurto de ganado, hurto de uso de ganado)</string>
+    <string name="lb_c3_cap100_p105d">d. Apropiaci\u00f3n il\u00edcita (sustracci\u00f3n de bien propio, apropiaci\u00f3n irregular, apropiaci\u00f3n de prenda)</string>
+    <string name="lb_c3_cap100_p105e">e. Receptaci\u00f3n</string>
+    <string name="lb_c3_cap100_p105f">f. Estafa y otras defraudaciones (estafa agravada)</string>
+    <string name="lb_c3_cap100_p105g">g. Fraude en la administraci\u00f3n de personas jur\u00eddicas (Administraci\u00f3n fraudulenta)</string>
+    <string name="lb_c3_cap100_p105h">h. Extorsi\u00f3n (chantaje)</string>
+    <string name="lb_c3_cap100_p105i">i. Usurpaci\u00f3n</string>
+    <string name="lb_c3_cap100_p105j">j. Da\u00f1os (da\u00f1o simple, da\u00f1o agravado)</string>
+    <string name="lb_c3_cap100_p105k">k. Delitos inform\u00e1ticos, alteraci\u00f3n, daño y destrucci\u00f3n de base de datos, sistema, red o programa de computadoras delito inform\u00e1tico agravado, tr\u00e1fico ilegal de datos)</string>
+    <string name="lb_c3_cap100_p105l">l. Otros</string>
+    <string name="lb_c3_cap100_p106">106. DELITOS CONTRA LA CONFIANZA Y LA BUENA FE EN LOS NEGOCIOS</string>
+    <string name="lb_c3_cap100_p106a">a. Atentados contra el sistema crediticio</string>
+    <string name="lb_c3_cap100_p106b">b. Usura</string>
+    <string name="lb_c3_cap100_p106c">c. Libramientos y cobros indebidos</string>
+    <string name="lb_c3_cap100_p106d">d. Otros</string>
+    <string name="lb_c3_cap100_p107">107. DELITOS CONTRA LOS DERECHOS INTELECTUALES</string>
+    <string name="lb_c3_cap100_p107a">a. Delitos contra los derechos de autor y conexos (copia o reproducci\u00f3n no autorizada, reproducci\u00f3n difusi\u00f3n, distribuci\u00f3n y circulaci\u00f3n de una obra sin autorizaci\u00f3n de autor, plagio y comercializaci\u00f3n de obra)</string>
+    <string name="lb_c3_cap100_p107b">b. Delitos contra la propiedad industrial (fabricaci\u00f3n o uso no autorizado de patente, uso indebido de marca)</string>
+    <string name="lb_c3_cap100_p107c">c. Otros</string>
+    <string name="lb_c3_cap100_p108">108. DELITOS CONTRA EL PATRIMONIO CULTURAL</string>
+    <string name="lb_c3_cap100_p108a">a. Delitos contra los bienes culturales (atentados contra yacimientos arqueol\u00f3gicos, extracci\u00f3n ilegal de bienes culturales)</string>
+    <string name="lb_c3_cap100_p109">109. DELITOS CONTRA EL ORDEN ECON\u00d3MICO</string>
+    <string name="lb_c3_cap100_p109a">a. Abuso del poder econ\u00f3mico</string>
+    <string name="lb_c3_cap100_p109b">b. Acaparamiento, especulaci\u00f3n, adulteraci\u00f3n</string>
+    <string name="lb_c3_cap100_p109c">c. Venta il\u00edcita de mercaderías</string>
+    <string name="lb_c3_cap100_p109d">d. Otros delitos econ\u00f3micos (informaciones falsas sobre calidad de productos, fraude en remates, licitaciones y concursos p\u00fablicos)</string>
+    <string name="lb_c3_cap100_p109e">e. Desempe\u00f1o de actividades no autorizadas (funcionamiento ilegal de juegos de casino y máquinas tragamonedas)</string>
+    <string name="lb_c3_cap100_p110">110. DELITOS CONTRA EL ORDEN FINANCIERO Y MONETARIO</string>
+    <string name="lb_c3_cap100_p110a">a. Delitos financieros (concentraci\u00f3n crediticia, ocultamiento, omisi\u00f3n o falsedad de informaci\u00f3n, instituciones financieras ilegales)</string>
+    <string name="lb_c3_cap100_p110b">b. Delitos monetarios (fabricaci\u00f3n y falsificaci\u00f3n de moneda de curso legal, fabricaci\u00f3n o inducci\u00f3n de instrumentos para falsificaci\u00f3n de billetes)</string>
+    <string name="lb_c3_cap100_p110c">c. Otros</string>
+    <string name="lb_c3_cap100_p111">111. DELITOS TRIBUTARIOS</string>
+    <string name="lb_c3_cap100_p111a">a. Contrabando</string>
+    <string name="lb_c3_cap100_p111b">b. Defraudaci\u00f3n Fiscal (defraudaci\u00f3n de rentas de aduanas, defraudaci\u00f3n tributaria)</string>
+    <string name="lb_c3_cap100_p111c">c. Elaboraci\u00f3n y comercio clandestino de producto</string>
+    <string name="lb_c3_cap100_p111d">d. Otros</string>
+    <string name="lb_c3_cap100_p112">112. DELITOS CONTRA LA SEGURIDAD P\u00daBLICA</string>
+    <string name="lb_c3_cap100_p112a">a. Delitos de peligro com\u00fan (peligro por medio de incendio o explosi\u00f3n, conducci\u00f3n en estado de ebriedad o drogadicci\u00f3n, fabricaci\u00f3n, suministro o tenencia de materiales peligrosos, sustracci\u00f3n o arrebato de armas de fuego, tr\u00e1fico de productos pirot\u00e9cnicos)</string>
+    <string name="lb_c3_cap100_p112b">b. Delitos contra los medios de transporte, comunicaci\u00f3n y otros servicios, p\u00fablicos</string>
+    <string name="lb_c3_cap100_p112c">c. Delitos contra la salud p\u00fablica (contaminaci\u00f3n y propagaci\u00f3n de enfermedades peligrosas o contagiosas, tr\u00e1fico Il\u00edcito de drogas, etc.)</string>
+    <string name="lb_c3_cap100_p112d">d. Delitos contra el orden migratorio(tr\u00e1fico il\u00edcito de personas)</string>
+    <string name="lb_c3_cap100_p112e">e. Otros</string>
+    <string name="lb_c3_cap100_p113">113. DELITOS AMBIENTALES</string>
+    <string name="lb_c3_cap100_p113a">a. Delitos de contaminaci\u00f3n (contaminacion del ambiente, tr\u00e1fico ilegal de res\u00edduos s\u00f3lidos, mineria ilegal, etc)</string>
+    <string name="lb_c3_cap100_p113b">b. Delitos contra los recursos naturales (tr\u00e1fico ilegal, depredaci\u00f3n de especies flora y fauna, utilizaci\u00f3n indebida de tierras agr\u00edcolas)</string>
+    <string name="lb_c3_cap100_p113c">c. Responsabilidad funcional e informaci\u00f3n falsa</string>
+    <string name="lb_c3_cap100_p113d">d. Medidas cautelares y exclusi\u00f3n o reducci\u00f3n de pena</string>
+    <string name="lb_c3_cap100_p113e">e. Otros</string>
+    <string name="lb_c3_cap100_p114">114. DELITOS CONTRA LA TRANQUILIDAD P\u00daBLICA</string>
+    <string name="lb_c3_cap100_p114a">a. Delitos contra la paz p\u00fablica (disturbios, apología al delito, asociaci\u00f3n il\u00edcita, marcaje o reglaje, ofensas a la memoria a los muertos, etc.)</string>
+    <string name="lb_c3_cap100_p114b">b. Terrorismo</string>
+    <string name="lb_c3_cap100_p114c">c. Otros</string>
+    <string name="lb_c3_cap100_p115">115. DELITOS CONTRA LA HUMANIDAD</string>
+    <string name="lb_c3_cap100_p115a">a. Genoc\u00eddio</string>
+    <string name="lb_c3_cap100_p115b">b. Desaparici\u00f3n forzada</string>
+    <string name="lb_c3_cap100_p115c">c. Tortura</string>
+    <string name="lb_c3_cap100_p115d">d. Discriminaci\u00f3n (discriminaci\u00f3n de personas, incitaci\u00f3n a la discriminaci\u00f3n)</string>
+    <string name="lb_c3_cap100_p115e">e. Manipulaci\u00f3n gen\u00e9tica y clonaci\u00f3n</string>
+    <string name="lb_c3_cap100_p115f">f. Otros</string>
+    <string name="lb_c3_cap100_p116">116. DELITOS CONTRA EL ESTADO Y LA DEFENSA NACIONAL</string>
+    <string name="lb_c3_cap100_p116a">a. Atentados contra la seguridad nacional y traici\u00f3n a la patria(traici\u00f3n a la patria, participaci\u00f3n en grupo armado, entre otros)</string>
+    <string name="lb_c3_cap100_p116b">b. Delitos que comprometen las relaciones exteriores del estado (violaci\u00f3n de inmunidad del jefe de estado, atentado contra la persona que goza de protecci\u00f3n internacional, etc.)</string>
+    <string name="lb_c3_cap100_p116c">c. Delitos contra los s\u00edmbolos y valores de la patria (ultraje a los s\u00edmbolos, próceres o héroes de la patria, etc.)</string>
+    <string name="lb_c3_cap100_p116d">d. Otros</string>
+    <string name="lb_c3_cap100_p117">117. DELITOS CONTRA LOS PODERES DEL ESTADO Y EL ORDEN CONSTITUCIONAL</string>
+    <string name="lb_c3_cap100_p117a">a. Rebeli\u00f3n, sedici\u00f3n y mot\u00edn</string>
+    <string name="lb_c3_cap100_p117b">b. Otros</string>
+    <string name="lb_c3_cap100_p118">118. DELITOS CONTRA LA VOLUNTAD POPULAR</string>
+    <string name="lb_c3_cap100_p118a">a. Delitos contra el derecho de sufragio (perturbaci\u00f3n o impedimento de proceso electoral, inducci\u00f3n a no votar, etc.)</string>
+    <string name="lb_c3_cap100_p118b">b. Otros</string>
+    <string name="lb_c3_cap100_p119">119. DELITOS CONTRA LA ADMINISTRACI\u00d3N PÚBLICA</string>
+    <string name="lb_c3_cap100_p119a">a. Delitos cometidos por particulares (usurpaci\u00f3n de autoridad, t\u00edtulos y honores, violencia a la autoridad y desacato)</string>
+    <string name="lb_c3_cap100_p119b">b. Delitos cometidos por funcionarios p\u00fablicos (abuso de autoridad, concusi\u00f3n y peculado)</string>
+    <string name="lb_c3_cap100_p119c">c. Delitos contra la administraci\u00f3n de justicia (contra la acci\u00f3n jurisdiccional, prevaricato, denegaci\u00f3n, retardo de justicia.)</string>
+    <string name="lb_c3_cap100_p120">120. DELITOS CONTRA LA FE P\u00daBLICA</string>
+    <string name="lb_c3_cap100_p120a">a. Falsificaci\u00f3n de documentos en general (falsificaci\u00f3n de documentos en general, falsedad ideol\u00f3gica, omisi\u00f3n de declaraciones en documento, expedici\u00f3n de certificado m\u00e9dico falso, simulaci\u00f3n de accidente de tr\u00e1nsito)</string>
+    <string name="lb_c3_cap100_p120b">b. Falsificaci\u00f3n de sellos, timbres y marcas oficiales (fabricaci\u00f3n o falsificaci\u00f3n de timbres, sellos y marcas oficiales, fabricaci\u00f3n fraudulenta de marcas o contraseñas oficiales)</string>
+    <string name="lb_c3_cap100_p120c">c. Otros</string>
+    <string name="lb_c3_cap100_p121">121. FALTAS</string>
+    <string name="lb_c3_cap100_p121a">a. Faltas contra la persona (lesi\u00f3n dolosa, lesi\u00f3n culposa, maltrato, agresi\u00f3n sin da\u00f1o)</string>
+    <string name="lb_c3_cap100_p121b">b. Faltas contra el patrimonio (hurto simple y da\u00f1o, hurto famélico, usurpaci\u00f3n breve, ingreso de animales en inmueble ajeno, organizaci\u00f3n o participaci\u00f3n en juegos prohibidos)</string>
+    <string name="lb_c3_cap100_p121c">c. Faltas contra las buenas costumbres (perturbaci\u00f3n de la tranquilidad, suministro de bebidas alcohólicas o tabaco a menor de edad, maltrato cruel a animales)</string>
+    <string name="lb_c3_cap100_p121d">d. Faltas contra la seguridad p\u00fablica</string>
+    <string name="lb_c3_cap100_p121e">e. Faltas contra la tranquilidad p\u00fablica</string>
+    <string name="lb_c3_cap100_p121f">f. Otras faltas</string>
+    <string name="lb_c3_cap100_p122">122. TOTAL DE DENUNCIAS POR OTRAS MUERTES (muerte natural, muerte por enfermedad, muerte por suicidio, muerte fortuita, muerte accidental, no precisa y otros)</string>
+    <string name="lb_c3_cap100_p123">123. TOTAL DE DENUNCIAS POR FALTAS</string>
+    <string name="lb_c3_cap100_p124">124. TOTAL DE DENUNCIAS POR DELITOS</string>
+   
+    <string name="lb_c3_cap100_pObs">OBSERVACIONES:</string>
+    
+    <string name="lb_c3_cap100_p121ac">A. Faltas contra la persona</string>
+    <string name="lb_c3_cap100_p121ac_1">a. Lesi\u00f3n dolosa, lesi\u00f3n culposa</string>
+    <string name="lb_c3_cap100_p121ac_2">b. Maltrato</string>
+    <string name="lb_c3_cap100_p121ac_3">c. Agresi\u00f3n sin da\u00f1o</string>
+    <string name="lb_c3_cap100_p121bc">B. Faltas contra el patrimonio</string>
+    <string name="lb_c3_cap100_p121bc_1">a. Hurto simple y da\u00f1o</string>
+    <string name="lb_c3_cap100_p121bc_2">b. Protecci\u00f3n de se\u00f1ales satelitales encriptadas</string>
+    <string name="lb_c3_cap100_p121bc_3">c. Hurto famélico</string>
+    <string name="lb_c3_cap100_p121bc_4">d. Usurpaci\u00f3n breve</string>
+    <string name="lb_c3_cap100_p121bc_5">e. Ingreso de animales en inmueble ajeno</string>
+    <string name="lb_c3_cap100_p121bc_6">f. Organizaci\u00f3n o participaci\u00f3n en juegos prohibidos</string>
+    <string name="lb_c3_cap100_p121cc">C. Faltas contra las buenas costumbres</string>
+    <string name="lb_c3_cap100_p121cc_1">a. Perturbaci\u00f3n de la tranquilidad</string>
+    <string name="lb_c3_cap100_p121cc_2">b. Otras faltas</string>
+    <string name="lb_c3_cap100_p121dc">D. Faltas contra la seguridad p\u00fablica</string>
+    <string name="lb_c3_cap100_p121dc_1">a. Faltas contra la seguridad p\u00fablica</string>
+    <string name="lb_c3_cap100_p121ec">E. Faltas contra la tranquilidad p\u00fablica</string>
+    <string name="lb_c3_cap100_p121ec_1">a. Faltas contra la tranquilidad p\u00fablica</string>
+    
+    <!-- descripcion -->
+    <string name="lb_c3_cap100_p102_desc">- Injuria, calumnia y difamaci\u00f3n.</string>
+    <string name="lb_c3_cap100_p103_desc">- Matrimonios ilegales.\n- Delitos contra el estado civil.\n- Atentados contra la patria potestad (Sustracci\u00f3n de menor, inducci\u00f3n a la fuga).\n- Omisi\u00f3n de asistencia familiar (omisi\u00f3n de alimentos, abandono mujer gestante y adulto mayor).\n- Otros.</string>
+    <string name="lb_c3_cap100_p104_desc">- Violaci\u00f3n de la libertad personal (Secuestro, COACCI\u00d3N).\n- Violaci\u00f3n a la intimidad (uso de archivos).\n- Violaci\u00f3n de domicilio.\n- Violaci\u00f3n del secreto de las comunicaciones.\n- Violaci\u00f3n del secreto profesional.\n- Violaci\u00f3n de la libertad de reuni\u00f3n.\n- Violaci\u00f3n de la libertad de trabajo.\n- Violaci\u00f3n de la libertad de expresi\u00f3n.\n- Violaci\u00f3n de la libertad sexual (Violaci\u00f3n de menor, mayor, seducci\u00f3n, actos contra el pudor, etc.).\n- Proxenetismo (favorecer la prostituci\u00f3n, trata de personas).\n- Ofensas al pudor p\u00fablico.\n- Disposici\u00f3n com\u00fan.\n- Otros (acoso por internet).</string>
+    <string name="lb_c3_cap100_p105_desc">- Hurto en general.\n- Robo en general.\n- Abigeato.\n- Apropiaci\u00f3n ilícita.\n- Receptaci\u00f3n.\n- Estafa y otras defraudaciones.\n- Fraude en la administraci\u00f3n de personas jurídicas.\n- Extorsi\u00f3n.\n- Asociac\u00f3n ilícita para dilinquir (si el objetivo es el robo).\n- Usurpaci\u00f3n.\n- Da\u00f1os (a un vehículo, contra una propiedad p\u00fablica y privada, etc.).\n- Delitos inform\u00e1ticos (Clonacion de Tarjetas, etc.).\n- Disposici\u00f3n Com\u00fan.\n- Otros.</string>
+    <string name="lb_c3_cap100_p106_desc">- Atentados contra el sistema crediticio.\n- Usura.\n- Libramiento y cobro indebidos.</string>
+    <string name="lb_c3_cap100_p107_desc">- Derechos del autor y conexos.\n- Contra la propiedad industrial.</string>
+    <string name="lb_c3_cap100_p108_desc">- Abuso del poder econ\u00f3mico.\n- Acaparamiento, especulación, adulteraci\u00f3n.\n- Venta il\u00edcita de mercader\u00eda.\n- De otros delitos econ\u00f3micos</string>
+    <string name="lb_c3_cap100_p109_desc">- Delito financiero (p\u00e1nico financiero, etc.).\n- Delito Monetario (falsificaci\u00f3n, tráfico de billetes).\n- Obtenci\u00f3n fraudulenta de cr\u00e9dito</string>
+    <string name="lb_c3_cap100_p110_desc">- Contrabando.\n- Defraudaci\u00f3n fiscal.\n- Elaboraci\u00f3n y comercio clandestino de productos.</string>
+    <string name="lb_c3_cap100_p111_desc">- Delitos de peligro común (conducir drogados, en estado de ebriedad, tenencia ilegal de armas).\n- TID (Tr\u00e1fico ilícito de Drogas, micro comercializaci\u00f3n de drogas).\n- Delitos contra los medios de transporte, comunicaci\u00f3n y otros servicios p\u00fablicos.\n- Delitos contra la salud p\u00fablica (contaminaci\u00f3n de aguas, propagar enfermedades, negligencia m\u00e9dica).\n- Delitos contra el orden migratorio (tr\u00e1fico ilícito de personas).</string>
+    <string name="lb_c3_cap100_p112_desc">- Delitos contra los recursos naturales y el medio ambiente.\n- Comercio ilegal de especies en peligro de extinci\u00f3n.\n- Pesca ilegal, tala indiscriminada de bosques, puesta en peligro de especies en peligro de extinci\u00f3n.\n- Comercio ilegal de minerales preciosos.\n- Comercio de materiales nocivos a la capa de ozono.\n- Contaminaci\u00f3n por desechos t\u00f3xicos, radioactivos, etc.\n- Contaminaci\u00f3n de agua, aire, suelos</string>
+    <string name="lb_c3_cap100_p113_desc">- Delitos contra la paz p\u00fablica.\n- Terrorismo.</string>
+    <string name="lb_c3_cap100_p114_desc">- Desaparici\u00f3n forzosa.\n- Tortura.\n- Discriminaci\u00f3n.\n- Manipulaci\u00f3n gen\u00e9tica</string>
+    <string name="lb_c3_cap100_p115_desc">- Atentados contra la seguridad nacional y traici\u00f3n a la patria.\n- Delitos que comprometen las relaciones exteriores del estado.\n- Delitos contra los s\u00edmbolos y valores de la patria</string>
+    <string name="lb_c3_cap100_p116_desc">- Rebeli\u00f3n, sedici\u00f3n y mot\u00edn.\n- Disposiciones comunes.</string>
+    <string name="lb_c3_cap100_p117_desc">- Delitos contra el derecho de sufragio: perturbaci\u00f3n o impedimento de proceso electoral, Impedimento del ejercicio de derecho de sufragio, Inducci\u00f3n a no votar o hacerlo en sentido determinado, suplantaci\u00f3n de votante, publicidad ilegal del sentido del voto, atentados contra el derecho de sufragio, inhabilitaci\u00f3n.</string>
+    <string name="lb_c3_cap100_p118_desc">- Delitos cometidos por particulares (usurpaci\u00f3n de la funci\u00f3n p\u00fablica, resistencia a la autoridad, desacato, ejercicio ilegal de profesi\u00f3n, violencia contra la autoridad para obligarle a algo, etc.).\n- Delitos cometidos por funcionarios p\u00fablicos (abuso de autoridad, abandono de cargo, concusi\u00f3n, requerimiento indebido de la fuerza p\u00fablica).\n- Delitos contra la administraci\u00f3n de justicia (denuncia calumniosa, prevaricato, retardo de justicia, etc.).\n- Disposiciones comunes: Inhabilitación a funcionarios.</string>
+    <string name="lb_c3_cap100_p119_desc">- Falsificaci\u00f3n de documentos en general.\n- Falsificaci\u00f3n de sellos, timbres y marcas oficiales.\n- Falsedad Gen\u00e9rica.\n- Falsedad Ideol\u00f3gica.\n- Falsa declaraci\u00f3n, contra uso de documentos en agravio de personas, etc.</string>
+    
+    <!-- tabla resumen -->
+    <string name="lb_c3_cap200_p201_tr">201. N\u00B0 DE DOC. DE LA FUENTE PRINCIPAL</string>
+    <string name="lb_c3_cap200_p202_tr">202. FUENTE PRINCIPAL</string>
+    <string name="lb_c3_cap200_p203_tr">203. FECHA DEL DELITO</string>
+    <string name="lb_c3_cap200_p204_tr">204. HORA DEL DELITO</string>
+    <string name="lb_c3_cap200_p205_tr">205. DPTO. PROV. Y DIST.</string>
+    <string name="lb_c3_cap200_p206_tr">206. V\u00cdA DONDE OCURRI\u00d3 EL DELITO</string>
+    <string name="lb_c3_cap200_p207_tr">207. CUADRA Y NOMBRE DE V\u00cdA</string>
+    <string name="lb_c3_cap200_p208_tr">208. TIPO DE DELITO</string>
+    <string name="lb_c3_cap200_p209_tr">209. LUGAR DE OCURRENCIA</string>
+    <string name="lb_c3_cap200_p210_tr">210. MEDIO UTILIZADO</string>
+    <string name="lb_c3_cap200_p211_tr">211. PRESUNTAS CAUSAS</string>
+    <string name="lb_c3_cap200_p212_tr">212. FUE DERIVADO?</string>
+    <string name="lb_c3_cap200_p213_tr">213. FISCALÍA Y N\u00B0 DE OFICIO</string>
+    <string name="lb_c3_cap200_p214_tr">214. N\u00B0 DE V\u00cdCTIMAS</string>
+    <string name="lb_c3_cap200_p215_tr">215. N\u00B0 DE VICTIMARIOS</string>
+    
+    <string name="lb_c3_cap200_title">CAP\u00cdTULO 200. CARACTER\u00cdSTICAS DE L A DENUNCIA POR DELITO REGISTRADOS EN EL A\u00d1O 2016</string>
+    <string name="lb_c3_cap200_p200">N\u00B0</string>
+    <string name="lb_c3_cap200_p201">201. N\u00B0 DE DOCUMENTO DE LA FUENTE PRINCIPAL</string>
+    <string name="lb_c3_cap200_p201_1">1. CPNP</string>
+    <string name="lb_c3_cap200_p201_2">2. DIRINCRI</string>
+    <string name="lb_c3_cap200_p201_3">3. DIVINCRI/DEPINCRI/DIVICAJ</string>
+    <string name="lb_c3_cap200_p201_4">4. OTRO</string>
+    <string name="lb_c3_cap200_p202">202. FUENTE PRINCIPAL DE DONDE SE OBTUVO LA INFORMACI\u00d3N (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap200_p203">203. FECHA DE OCURRENCIA DEL DELITO</string>
+    <string name="lb_c3_cap200_p203_1">1. Sistema de denuncias policiales SIDPOL</string>
+    <string name="lb_c3_cap200_p203_2">1. Atestados Policiales</string>
+    <string name="lb_c3_cap200_p203_3">2. Informes Policiales</string>
+    <string name="lb_c3_cap200_p203_4">3. Carpetas Fiscales</string>
+    <string name="lb_c3_cap200_p203_5">4. Notas Informativas</string>
+    <string name="lb_c3_cap200_p203_6">5. Oficios</string>
+    <string name="lb_c3_cap200_p203_7">6. Actas</string>
+    <string name="lb_c3_cap200_p203_8">7. Partes Policiales</string>
+    <string name="lb_c3_cap200_p203_9">9. Cuaderno/libro de denuncias de calle</string>
+    <string name="lb_c3_cap200_p203_10">10. Cuaderno/libro de denuncias verbales</string>
+    <string name="lb_c3_cap200_p203_11">11. Cuaderno/libro de intervenciones policiales</string>
+    <string name="lb_c3_cap200_p203_12">12. Transcripciones</string>
+    <string name="lb_c3_cap200_p203_13">8. Otro</string>
+    <string name="lb_c3_cap200_p203_Ndoc">N\u00B0 DE DOCUMENTO:</string>
+    <string name="lb_c3_cap200_p204">204. HORA DE OCURRENCIA DEL DELITO</string>
+    <string name="lb_c3_cap200_p205_dep">Departamento</string>
+    <string name="lb_c3_cap200_p205_pro">Provincia</string>
+    <string name="lb_c3_cap200_p205_dis">Distrito</string>
+    <string name="lb_c3_cap200_p208">208. TIPO DE DELITO (Código Seleccionado)</string>
+    <string name="lb_c3_cap200_p208_1t">208. TIPO DE DELITO (Nueva Tabla de Modalidades)</string>
+    <string name="lb_c3_cap200_p208_101_dvs">101. DELITOs CONTRA EL CUERPO LA VIDA Y LA SALUD</string>
+    <string name="lb_c3_cap200_p208_A">A. Homicidios Dolosos:</string>
+    <string name="lb_c3_cap200_p208_B">B. Homicidios Culposos:</string>
+    <string name="lb_c3_cap200_p208_C">C. Instigaci\u00f3n o ayuda al suicidio:</string>
+    <string name="lb_c3_cap200_p208_D">D. Otros Homicidios:</string>
+    <string name="lb_c3_cap200_p208_E">E. Hechos seguido de Muerte:</string>
+    <string name="lb_c3_cap200_p208_F">F. Otras Muertes:</string>
+    <string name="lb_c3_cap200_p208_G">G. Tentativa de Homicidio:</string>
+    <string name="lb_c3_cap200_p208_H">H. Aborto:</string>
+    <string name="lb_c3_cap200_p208_I">I. Lesiones:</string>
+    <string name="lb_c3_cap200_p208_J">J. Exposicion al peligro o abandono de personas en peligro:</string>
+    <string name="lb_c3_cap200_p208_t_2">102. DELITO CONTRA EL HONOR</string>
+    <string name="lb_c3_cap200_p208_t_3">103. DELITO CONTRA LA FAMILIA</string>
+    <string name="lb_c3_cap200_p208_t_4">104. DELITO CONTRA LA LIBERTAD</string>
+    <string name="lb_c3_cap200_p208_t_5">105. DELITO CONTRA EL PATRIMONIO</string>
+    <string name="lb_c3_cap200_p208_t_6">106. DELITO CONTRA LA CONFIANZA Y LA BUENA FE EN LOS NEGOCIOS</string>
+    <string name="lb_c3_cap200_p208_t_7">107. DELITO CONTRA LOS DERECHOS INTELECTUALES</string>
+    <string name="lb_c3_cap200_p208_t_8">108. DELITO CONTRA EL PATRIMONIO CULTURAL</string>
+    <string name="lb_c3_cap200_p208_t_9">109. DELITO CONTRA EL ORDEN ECON\u00d3MICO</string>
+    <string name="lb_c3_cap200_p208_t_10">110. DELITO CONTRA EL ORDEN FINANCIERO Y MONETARIO</string>
+    <string name="lb_c3_cap200_p208_t_11">111. DELITOS TRIBUTARIOS</string>
+    <string name="lb_c3_cap200_p208_t_12">112. DELITOS CONTRA LA SEGURIDAD P\u00daBLICA</string>
+    <string name="lb_c3_cap200_p208_t_13">113. DELITOS AMBIENTALES</string>
+    <string name="lb_c3_cap200_p208_t_14">114. DELITOS CONTRA LA TRANQUILIDAD P\u00daBLICA</string>
+    <string name="lb_c3_cap200_p208_t_15">115. DELITOS CONTRA LA HUMANIDAD</string>
+    <string name="lb_c3_cap200_p208_t_16">116. DELITOS CONTRA EL ESTADO Y LA DEFENSA NACIONAL</string>
+    <string name="lb_c3_cap200_p208_t_17">117. DELITOS CONTRA LOS PODERES DEL ESTADO Y EL ORDEN COSNTITUCIONAL</string>
+    <string name="lb_c3_cap200_p208_t_18">118. DELITOS CONTRA LA VOLUNTAD POPULAR</string>
+    <string name="lb_c3_cap200_p208_t_19">119. DELITOS CONTRA LA ADMINISTRACI\u00d3N P\u00daBLICA</string>
+    <string name="lb_c3_cap200_p208_t_20">120. DELITOS CONTRA LA FE P\u00daBLICA</string>
+    <string name="lb_c3_cap200_p208_1">1. Homicidio Simple</string>
+    <string name="lb_c3_cap200_p208_2">2. Parricidio</string>
+    <string name="lb_c3_cap200_p208_3">3. Homicidio calificado (Asesinato)</string>
+    <string name="lb_c3_cap200_p208_4">4. Homicidio por emoci\u00f3n violenta</string>
+    <string name="lb_c3_cap200_p208_5">5. Infanticidio</string>
+    <string name="lb_c3_cap200_p208_6">6. Homicido piadoso</string>
+    <string name="lb_c3_cap200_p208_7">7. Feminicidio</string>
+    <string name="lb_c3_cap200_p208_8">8. Sicariato</string>
+    <string name="lb_c3_cap200_p208_9">9. Muerte por accidente de tr\u00e1nsito.</string>
+    <string name="lb_c3_cap200_p208_10">10. Muerte por accidente de trabajo, muerte por negligencia o imper\u00edcia m\u00e9dica.</string>
+    <string name="lb_c3_cap200_p208_11">11. Otro</string>
+    <string name="lb_c3_cap200_p208_12">12. Instigaci\u00f3n o ayuda al suicidio</string>
+    <string name="lb_c3_cap200_p208_13">13. Otro</string>
+    <string name="lb_c3_cap200_p208_14">14. Lesiones graves seguida de muerte</string>
+    <string name="lb_c3_cap200_p208_15">15. Aborto provocado con subsecuente muerte de la madre</string>
+    <string name="lb_c3_cap200_p208_16">16. Robo agravado con subsecuente muerte</string>
+    <string name="lb_c3_cap200_p208_17">17. Otro</string>
+    <string name="lb_c3_cap200_p208_18">18. Muerte natural</string>
+    <string name="lb_c3_cap200_p208_19">19. Muerte por suicidio</string>
+    <string name="lb_c3_cap200_p208_20">20. Muerte fortuita</string>
+    <string name="lb_c3_cap200_p208_21">21. Muerte accidental (caida, asfixia/ahogo, etc.)</string>
+    <string name="lb_c3_cap200_p208_22">22. No precisa</string>
+    <string name="lb_c3_cap200_p208_23">23. Otro</string>
+    <string name="lb_c3_cap200_p208_24">24. Tentativa de Homicidio</string>
+    <string name="lb_c3_cap200_p208_25">25. Aborto (autoaborto, aborto consentido, etc.)</string>
+    <string name="lb_c3_cap200_p208_26">26. Lesiones graves (desfiguraci\u00f3n del rostro, mutilaci\u00f3n o extracci\u00f3n de \u00f3rgano, fractura de brazo)</string>
+    <string name="lb_c3_cap200_p208_27">27. Lesiones leves (golpe o traumatismo, heridas, quemaduras de 1er grado)</string>
+    <string name="lb_c3_cap200_p208_28">28. Lesiones con resultado fortuito</string>
+    <string name="lb_c3_cap200_p208_29">29. Lesiones culposas</string>
+    <string name="lb_c3_cap200_p208_30">30. Otro</string>
+    <string name="lb_c3_cap200_p208_31">31. Exposici\u00f3n o abandono a personas incapaces (abandono a un menor de edad, abandono de persona incapaz de valerse por s\u00ed misma)</string>
+    <string name="lb_c3_cap200_p208_32">32. Omisi\u00f3n de socorro y exposici\u00f3n al peligro</string>
+    <string name="lb_c3_cap200_p208_33">33. Omisi\u00f3n de auxilio a persona en peligro o aviso a la autoridad</string>
+    <string name="lb_c3_cap200_p208_34">34. Exposici\u00f3n a peligro de persona dependiente (privaci\u00f3n de alimentos o cuidados indispensables, abuso de medios de correcci\u00f3n o disciplina, trabajos excesivos inadecuados)</string>
+    <string name="lb_c3_cap200_p208_35">35. Otro</string>
+    <string name="lb_c3_cap200_p208_36">36. Injuria, Calumnia y Difamaci\u00f3n</string>
+    <string name="lb_c3_cap200_p208_37">37. Matrimonios ilegales (bigamia, matrimonio con persona casada, autorizaci\u00f3n ilegal de matrimonio, etc.)</string>
+    <string name="lb_c3_cap200_p208_38">38. Delitos contra el estado civil (alteraci\u00f3n o supresi\u00f3n del estado civil, fingimiento de embarazo o parto, etc.)</string>
+    <string name="lb_c3_cap200_p208_39">39. Atentados contra la patria potestad (sustracci\u00f3n de menor, inducci\u00f3n a la fuga de menor, instigaci\u00f3n o participaci\u00f3n en pandillaje pernicioso)</string>
+    <string name="lb_c3_cap200_p208_40">40. Omisi\u00f3n de asistencia familiar (omisi\u00f3n de prestaci\u00f3n de alimentos, abandono de mujer gestante en situaci\u00f3n cr\u00edtica)</string>
+    <string name="lb_c3_cap200_p208_41">41. Otro</string>
+    <string name="lb_c3_cap200_p208_42">42. Violaci\u00f3n de la libertad personal (coacción, secuestro, etc.)</string>
+    <string name="lb_c3_cap200_p208_43">43. Violaci\u00f3n de la intimidad (escuchar observar o registrar palabras, escritos o im\u00e1genes sin consentimiento del interesado).</string>
+    <string name="lb_c3_cap200_p208_44">44. Violaci\u00f3n de domicilio</string>
+    <string name="lb_c3_cap200_p208_45">45. Violaci\u00f3n del Secreto de las comunicaciones (violaci\u00f3n de correspondencia, interferencia telef\u00f3nica, entre otros).</string>
+    <string name="lb_c3_cap200_p208_46">46. Violaci\u00f3n del secreto profesional</string>
+    <string name="lb_c3_cap200_p208_47">47. Violaci\u00f3n de la libertad de reuni\u00f3n (perturbaci\u00f3n de reuni\u00f3n p\u00fablica, prohibici\u00f3n de reuni\u00f3n p\u00fablica)</string>
+    <string name="lb_c3_cap200_p208_48">48. Violaci\u00f3n de la libertad de trabajo (atentado contra la libertad de trabajo y asociaci\u00f3n, atentado contra las condiciones de seguridad, salud e higiene industriales, etc.)</string>
+    <string name="lb_c3_cap200_p208_49">49. Violaci\u00f3n de la libertad de expresi\u00f3n</string>
+    <string name="lb_c3_cap200_p208_50">50. Violaci\u00f3n de la libertad sexual (violaci\u00f3n sexual, violaci\u00f3n de menor de edad, seducci\u00f3n, actos contra el pudor)</string>
+    <string name="lb_c3_cap200_p208_51">51. Proxenetismo (favorecimiento a la prostituci\u00f3n, turismo sexual infantil, rufianismo)</string>
+    <string name="lb_c3_cap200_p208_52">52. Ofensas al pudor p\u00fablico (exhibiciones y publicaciones obscenas, pornografía infantil)</string>
+    <string name="lb_c3_cap200_p208_53">53. Otro</string>
+    <string name="lb_c3_cap200_p208_54">54. Hurto (hurto simple, hurto agravado, hurto de uso)</string>
+    <string name="lb_c3_cap200_p208_55">55. Robo (robo agravado)</string>
+    <string name="lb_c3_cap200_p208_56">56. Abigeato (hurto de ganado, hurto de uso de ganado)</string>
+    <string name="lb_c3_cap200_p208_57">57. Apropiaci\u00f3n il\u00edcita (sustracci\u00f3n de bien propio, apropiaci\u00f3n irregular, apropiaci\u00f3n de prenda)</string>
+    <string name="lb_c3_cap200_p208_58">58. Receptaci\u00f3n</string>
+    <string name="lb_c3_cap200_p208_59">59. Estafa y otras defraudaciones (estafa agravada).</string>
+    <string name="lb_c3_cap200_p208_60">60. Fraude en la administraci\u00f3n de personas jur\u00eddicas (Administraci\u00f3n fraudulenta)</string>
+    <string name="lb_c3_cap200_p208_61">61. Extorsi\u00f3n (chantaje)</string>
+    <string name="lb_c3_cap200_p208_62">62. Usurpaci\u00f3n</string>
+    <string name="lb_c3_cap200_p208_63">63. Da\u00f1os (da\u00f1o simple, daño agravado)</string>
+    <string name="lb_c3_cap200_p208_64">64. Delitos inform\u00e1ticos, alteraci\u00f3n, daño y destrucci\u00f3n de base de datos, sistema, red o programa de computadoras, etc.)</string>
+    <string name="lb_c3_cap200_p208_65">65. Otro</string>
+    <string name="lb_c3_cap200_p208_66">66. Atentados contra el sistema crediticio</string>
+    <string name="lb_c3_cap200_p208_67">67. Usura</string>
+    <string name="lb_c3_cap200_p208_68">68. Libramientos y cobros indebidos</string>
+    <string name="lb_c3_cap200_p208_69">69. Otro</string>
+    <string name="lb_c3_cap200_p208_70">70. Delitos contra los derechos de autor y conexos (copia o reproducci\u00f3n no autorizada, reproducci\u00f3n difusi\u00f3n, distribuci\u00f3n y circulaci\u00f3n de una obra sin autorizaci\u00f3n de autor, etc.)</string>
+    <string name="lb_c3_cap200_p208_71">71. Delitos contra la propiedad industrial (fabricaci\u00f3n o uso no autorizado de patente, uso indebido de marca)</string>
+    <string name="lb_c3_cap200_p208_72">72. Otro</string>
+    <string name="lb_c3_cap200_p208_73">73. Delitos contra los bienes culturales (atentados contra yacimientos arqueol\u00f3gicos, extracci\u00f3n ilegal de bienes culturales)</string>
+    <string name="lb_c3_cap200_p208_74">74. Abuso del poder econ\u00f3mico</string>
+    <string name="lb_c3_cap200_p208_75">75. Acaparamiento, especulaci\u00f3n, adulteraci\u00f3n</string>
+    <string name="lb_c3_cap200_p208_76">76. Venta il\u00edcita de mercader\u00edas</string>
+    <string name="lb_c3_cap200_p208_77">77. Otros delitos econ\u00f3micos (informaciones falsas sobre calidad de productos, fraude en remates, licitaciones y concursos p\u00fablicos)</string>
+    <string name="lb_c3_cap200_p208_78">78. Desempe\u00f1o de actividades no autorizadas (funcionamiento ilegal de juegos de casino y máquinas tragamonedas)</string>
+    <string name="lb_c3_cap200_p208_79">79. Delitos financieros (concentraci\u00f3n crediticia, ocultamiento, omisión o falsedad de informaci\u00f3n, etc.)</string>
+    <string name="lb_c3_cap200_p208_80">80. Delitos monetarios (fabricaci\u00f3n y falsificaci\u00f3n de moneda de curso legal, fabricaci\u00f3n o inducci\u00f3n de instrumentos para falsificación de billetes)</string>
+    <string name="lb_c3_cap200_p208_81">81. Otro</string>
+    <string name="lb_c3_cap200_p208_82">82. Contrabando</string>
+    <string name="lb_c3_cap200_p208_83">83. Defraudaci\u00f3n Fiscal (defraudaci\u00f3n de rentas de aduanas, defraudaci\u00f3n tributaria)</string>
+    <string name="lb_c3_cap200_p208_84">84. Elaboraci\u00f3n y comercio clandestino de producto</string>
+    <string name="lb_c3_cap200_p208_85">85. Otro</string>
+    <string name="lb_c3_cap200_p208_86">86. Delitos de peligro com\u00fan (peligro por medio de incendio o explosi\u00f3n, conducci\u00f3n en estado de ebriedad o drogadicci\u00f3n, fabricaci\u00f3n, suministro o tenencia de materiales peligrosos, etc.)</string>
+    <string name="lb_c3_cap200_p208_87">87. Delitos contra los medios de transporte, comunicaci\u00f3n y otros servicios, p\u00fablicos</string>
+    <string name="lb_c3_cap200_p208_88">88. Delitos contra la salud p\u00fablica (contaminaci\u00f3n y propagaci\u00f3n de enfermedades peligrosas o contagiosas, tráfico Il\u00edcito de drogas, etc.)</string>
+    <string name="lb_c3_cap200_p208_89">89. Delitos contra el orden migratorio(tr\u00e1fico il\u00edcito de personas)</string>
+    <string name="lb_c3_cap200_p208_90">90. Otro</string>
+    <string name="lb_c3_cap200_p208_91">91. Delitos de contaminaci\u00f3n (contaminacion del ambiente, tr\u00e1fico ilegal de res\u00edduos s\u00f3lidos, mineria ilegal, etc)</string>
+    <string name="lb_c3_cap200_p208_92">92. Delitos contra los recursos naturales (tr\u00e1fico ilegal, depredaci\u00f3n de especies flora y fauna, utilizaci\u00f3n indebida de tierras agr\u00edcolas)</string>
+    <string name="lb_c3_cap200_p208_93">93. Responsabilidad funcional e informaci\u00f3n falsa</string>
+    <string name="lb_c3_cap200_p208_94">94. Medidas cautelares y exclusi\u00f3n o reducci\u00f3n de pena</string>
+    <string name="lb_c3_cap200_p208_95">95. Otro</string>
+    <string name="lb_c3_cap200_p208_96">96. Delitos contra la paz p\u00fablica (disturbios, apolog\u00eda al delito, asociaci\u00f3n il\u00edcita, marcaje o reglaje, ofensas a la memoria a los muertos, etc.)</string>
+    <string name="lb_c3_cap200_p208_97">97. Terrorismo.</string>
+    <string name="lb_c3_cap200_p208_98">98. Otro</string>
+    <string name="lb_c3_cap200_p208_99">99. Genosidio</string>
+    <string name="lb_c3_cap200_p208_100">100. Desaparici\u00f3n forzada</string>
+    <string name="lb_c3_cap200_p208_101">101. Tortura</string>
+    <string name="lb_c3_cap200_p208_102">102. Discriminaci\u00f3n (discriminaci\u00f3n de personas, incitaci\u00f3n a la discriminaci\u00f3n)</string>
+    <string name="lb_c3_cap200_p208_103">103. Manipulaci\u00f3n gen\u00e9tica y clonaci\u00f3n</string>
+    <string name="lb_c3_cap200_p208_104">104. Otro</string>
+    <string name="lb_c3_cap200_p208_105">105. Atentados contra la seguridad nacional y traici\u00f3n a la patria(traici\u00f3n a la patria)</string>
+    <string name="lb_c3_cap200_p208_106">106. Delitos que comprometen las relaciones exteriores del estado (violaci\u00f3n de inmunidad del jefe de estado, atentado contra la persona que goza de protecci\u00f3n internacional, etc.)</string>
+    <string name="lb_c3_cap200_p208_107">107. Delitos contra los s\u00edmbolos y valores de la patria (ultraje a los s\u00edmbolos, próceres o héroes de la patria, etc.)</string>
+    <string name="lb_c3_cap200_p208_108">108. Otro</string>
+    <string name="lb_c3_cap200_p208_109">109. Rebeli\u00f3n, sedici\u00f3n y mot\u00edn</string>
+    <string name="lb_c3_cap200_p208_110">110. Otro</string>
+    <string name="lb_c3_cap200_p208_111">111. Delitos contra el derecho de sufragio (perturbaci\u00f3n o impedimento de proceso electoral, inducci\u00f3n a no votar, etc.)</string>
+    <string name="lb_c3_cap200_p208_112">112. Otro</string>
+    <string name="lb_c3_cap200_p208_113">113. Delitos cometidos por particulares (usurpaci\u00f3n de autoridad, t\u00edtulos y honores, violencia a la autoridad y desacato)</string>
+    <string name="lb_c3_cap200_p208_114">114. Delitos cometidos por funcionarios p\u00fablicos (abuso de autoridad, concusi\u00f3n y peculado)</string>
+    <string name="lb_c3_cap200_p208_115">115. Delitos contra la administraci\u00f3n de justicia (contra la acci\u00f3n jurisdiccional, prevaricato, denegaci\u00f3n, retardo de justicia.)</string>
+    <string name="lb_c3_cap200_p208_116">116. Falsificaci\u00f3n de documentos en general (falsificaci\u00f3n de documentos en general, falsedad ideol\u00f3gica, omisi\u00f3n de declaraciones en documento, expedici\u00f3n de certificado m\u00e9dico falso, simulaci\u00f3n de accidente de tr\u00e1nsito)</string>
+    <string name="lb_c3_cap200_p208_117">117. Falsificaci\u00f3n de sellos, timbres y marcas oficiales (fabricaci\u00f3n o falsificaci\u00f3n de timbres, sellos y marcas oficiales, fabricaci\u00f3n fraudulenta de marcas o contrase\u00f1as oficiales)</string>
+    <string name="lb_c3_cap200_p208_118">118. Otro</string>
+    
+    <string name="lb_c3_cap200_p208_tr_1">CODIGO</string>
+    <string name="lb_c3_cap200_p208_tr_2">ESPECIFICACION</string>
+    <string name="lb_c3_cap200_p208_tr_3">MODALIDAD</string>
+    <string name="lb_c3_cap200_p208_tr_4"></string>
+    <string name="lb_c3_cap200_p208_tr_5">CODIGO</string>
+    <string name="lb_c3_cap200_p208_tr_6">NOMBRE</string>
+    
+    <string name="lb_c3_cap200_p205">205. DPTO. PROVINCIA Y DISTRITO DONDE OCURRI\u00d3 EL DELITO</string>
+    <string name="lb_c3_cap200_p206">206. TIPO DE VIA DONDE OCURRIO EL DELITO</string>
+    <string name="lb_c3_cap200_p206_1">1. Avenida</string>
+    <string name="lb_c3_cap200_p206_2">2. Jir\u00f3n</string>
+    <string name="lb_c3_cap200_p206_3">3. Calle</string>
+    <string name="lb_c3_cap200_p206_4">4. Pasaje</string>
+    <string name="lb_c3_cap200_p206_5">5. Carretera</string>
+    <string name="lb_c3_cap200_p206_6">6. Prolong.</string>
+    <string name="lb_c3_cap200_p206_7">7. Otro</string>
+    <string name="lb_c3_cap200_p207">207. N\u00B0 DE CUADRA Y NOMBRE DE LA V\u00cdA DONDE OCURRI\u00d3 EL DELITO</string>
+   
+    <string name="lb_c3_cap200_p207_a">N\u00B0 de Cuadra</string>
+    <string name="lb_c3_cap200_p207_b">Nombre de V\u00eda</string>
+    <string name="lb_c3_cap200_p209">209. LUGAR DE LA OCURRENCIA (Seleccione un solo c\u00f3digo)</string>
+    <string name="lb_c3_cap200_p209_1">1. Campo abierto / lugar desolado / casa abandonada</string>
+    <string name="lb_c3_cap200_p209_2">2. Centro de salud / Instituci\u00f3n educativa</string>
+    <string name="lb_c3_cap200_p209_3">3. Centro de trabajo</string>
+    <string name="lb_c3_cap200_p209_4">4. Dependencia policial / cuartel</string>
+    <string name="lb_c3_cap200_p209_5">5. En el rio, mar, acantilado, acequia, canal, etc.</string>
+    <string name="lb_c3_cap200_p209_6">6. Establecimiento penitenciario</string>
+    <string name="lb_c3_cap200_p209_7">7. Instituci\u00f3n residencial (albergue)</string>
+    <string name="lb_c3_cap200_p209_8">8. Local comercial bancario o esparcimiento (Discotecas, bar, restaurant, etc.)</string>
+    <string name="lb_c3_cap200_p209_9">9. Veh\u00edculo privado</string>
+    <string name="lb_c3_cap200_p209_10">10. Veh\u00edculo p\u00fablico</string>
+    <string name="lb_c3_cap200_p209_11">11. V\u00eda p\u00fablica (Avenida, calle, carretera, trocha, parque, puente, etc.)</string>
+    <string name="lb_c3_cap200_p209_12">12. Vivienda de la v\u00edctima</string>
+    <string name="lb_c3_cap200_p209_13">13. No precisa</string>
+    <string name="lb_c3_cap200_p209_14">14. Otro</string>
+    
+    <string name="lb_c3_cap200_p209_9c">9. Veh\u00edculo</string>
+    <string name="lb_c3_cap200_p209_10c">10. Vivienda del victimario</string>
+    <string name="lb_c3_cap200_p209_13c">13. Iglesia</string>
+    <string name="lb_c3_cap200_p209_14c">14. Losa deportiva</string>
+    <string name="lb_c3_cap200_p209_15c">15. Condominio</string>
+    <string name="lb_c3_cap200_p209_16c">16. Centro minero</string>
+    <string name="lb_c3_cap200_p209_17c">17. Hotel, hostal</string>
+    <string name="lb_c3_cap200_p209_18c">18. Cementerio</string>
+    <string name="lb_c3_cap200_p209_19c">19. Vivienda de un familiar</string>
+    <string name="lb_c3_cap200_p209_20c">20. No precisa</string>
+    <string name="lb_c3_cap200_p209_21c">21. Otro</string>
+    
+    <string name="lb_c3_cap200_p210">210. MEDIO/MODALIDAD/INSTRUMENTO UTILIZADO \n(Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap200_p210_1">1. Abuso de confianza</string>
+    <string name="lb_c3_cap200_p210_2">2. Accidente de tr\u00e1nsito</string>
+    <string name="lb_c3_cap200_p210_3">3. Acci\u00f3n de fuego directo</string>
+    <string name="lb_c3_cap200_p210_4">4. Agresi\u00f3n f\u00edsica</string>
+    <string name="lb_c3_cap200_p210_5">5. Agresi\u00f3n verbal</string>
+    <string name="lb_c3_cap200_p210_6">6. Amordazamiento</string>
+    <string name="lb_c3_cap200_p210_7">7. Arma blanca</string>
+    <string name="lb_c3_cap200_p210_8">8. Arma de fuego</string>
+    <string name="lb_c3_cap200_p210_9">9. Chantaje</string>
+    <string name="lb_c3_cap200_p210_10">10. Circulaci\u00f3n de billetes o moneda falsa</string>
+    <string name="lb_c3_cap200_p210_11">11. Cobro de coima</string>
+    <string name="lb_c3_cap200_p210_12">12. Cogoteo</string>
+    <string name="lb_c3_cap200_p210_13">13. En banda o pandilla</string>
+    <string name="lb_c3_cap200_p210_14">14. Estrangulamiento/asfixia/ahogamiento</string>
+    <string name="lb_c3_cap200_p210_15">15. Falsificaci\u00f3n de documentos</string>
+    <string name="lb_c3_cap200_p210_16">16. Negligencia/m\u00e9dica</string>
+    <string name="lb_c3_cap200_p210_17">17. Objeto contundente</string>
+    <string name="lb_c3_cap200_p210_18">18. Precipitaci\u00f3n/ca\u00edda</string>
+    <string name="lb_c3_cap200_p210_19">19. Secuestro</string>
+    <string name="lb_c3_cap200_p210_20">20. Suministro de sustancias alucin\u00f3genas</string>
+    <string name="lb_c3_cap200_p210_21">21. Suministro de sustancias t\u00f3xicas o envenenamiento</string>
+    <string name="lb_c3_cap200_p210_22">22. Suplantaci\u00f3n de identidad</string>
+    <string name="lb_c3_cap200_p210_23">23. Tima, enga\u00f1o</string>
+    <string name="lb_c3_cap200_p210_24">24. Uso de tecnología inform\u00e1tica</string>
+    <string name="lb_c3_cap200_p210_25">25. Venta al menudeo de droga</string>
+    <string name="lb_c3_cap200_p210_26">26. No precisa</string>
+    <string name="lb_c3_cap200_p210_27">27. Otro</string>
+    
+    <string name="lb_c3_cap200_p210_26c">26. Pirateo</string>
+    <string name="lb_c3_cap200_p210_27c">27. Cambiazo</string>
+    <string name="lb_c3_cap200_p210_28c">28. Arrebato</string>
+    <string name="lb_c3_cap200_p210_29c">29. Tráfico de armas</string>
+    <string name="lb_c3_cap200_p210_30c">30. Desfalco</string>
+    <string name="lb_c3_cap200_p210_31c">31. Usurpación</string>
+    <string name="lb_c3_cap200_p210_32c">32. Vertidos indiscriminados</string>
+    <string name="lb_c3_cap200_p210_33c">33. No precisa</string>
+    <string name="lb_c3_cap200_p210_34c">34. Otro</string>
+    
+    <string name="lb_c3_cap200_p211">211. PRESUNTAS CAUSAS (Seleccione uno \u00f3 m\u00e1s c\u00f3digos) </string>
+    <string name="lb_c3_cap200_p211_1">1. Asfixia</string>
+    <string name="lb_c3_cap200_p211_2">2. Celos</string>
+    <string name="lb_c3_cap200_p211_3">3. Defensa propia</string>
+    <string name="lb_c3_cap200_p211_4">4. Delincuencia com\u00fan</string>
+    <string name="lb_c3_cap200_p211_5">5. Delincuencia organizada</string>
+    <string name="lb_c3_cap200_p211_6">6. Desacato a las reglas de tr\u00e1nsito</string>
+    <string name="lb_c3_cap200_p211_7">7. En estado de ebriedad u otro</string>
+    <string name="lb_c3_cap200_p211_8">8. Facilitar otro delito</string>
+    <string name="lb_c3_cap200_p211_9">9. Golpes traum\u00e1ticos, picaduras, etc.</string>
+    <string name="lb_c3_cap200_p211_10">10. Incidente fortuito</string>
+    <string name="lb_c3_cap200_p211_11">11. Negligencia de la v\u00edctima</string>
+    <string name="lb_c3_cap200_p211_12">12. Por enfermedad</string>
+    <string name="lb_c3_cap200_p211_13">13. Por problemas econ\u00f3micos</string>
+    <string name="lb_c3_cap200_p211_14">14. Sicariato</string>
+    <string name="lb_c3_cap200_p211_15">15. Supuesta infidelidad de la pareja</string>
+    <string name="lb_c3_cap200_p211_16">16. Supuesta negligencia m\u00e9dica</string>
+    <string name="lb_c3_cap200_p211_17">17. Venganza</string>
+    <string name="lb_c3_cap200_p211_18">18. Abuso sexual</string>
+    <string name="lb_c3_cap200_p211_19">19. Violencia doméstica (no familiar)</string>
+    <string name="lb_c3_cap200_p211_20">20. Violencia familiar</string>
+    <string name="lb_c3_cap200_p211_21">21. No precisa</string>
+    <string name="lb_c3_cap200_p211_22">22. Otro</string>
+    
+    <string name="lb_c3_cap200_p211_21c">21. Accidente doméstico</string>
+    <string name="lb_c3_cap200_p211_22c">22. Incendio</string>
+    <string name="lb_c3_cap200_p211_23c">23. Desastre natural</string>
+    <string name="lb_c3_cap200_p211_24c">24. Cobro de coima</string>
+    <string name="lb_c3_cap200_p211_25c">25. No precisa</string>
+    <string name="lb_c3_cap200_p211_26c">26. Otro</string>
+    
+    <string name="lb_c3_cap200_p212">212. LA DENUNCIA FUE DERIVADO A LA FISCAL\u00cdA DE LA NACI\u00d3N? </string>
+    <string name="lb_c3_cap200_p212_1">1. Si</string>
+    <string name="lb_c3_cap200_p212_2">2. No</string>
+    <string name="lb_c3_cap200_p213">213. INDIQUE LA FISCAL\u00cdA A LA QUE FUE DERIVADO EL CASO E INDIQUE EL N\u00B0 DE OFICIO </string>
+    <string name="lb_c3_cap200_p213_F">Fiscal\u00eda</string>
+    <string name="lb_c3_cap200_p213_N">N\u00B0 de Oficio</string>
+    <string name="lb_c3_cap200_p214">214. N\u00daMERO DE V\u00cdCTIMAS/FALLECIDOS </string>
+    <string name="lb_c3_cap200_p215">215. N\u00daMERO DE PRESUNTOS V\u00cdCTIMARIOS </string>
+    
+    <!-- tabla resumen -->
+    <string name="lb_c3_cap300_p301_tr">301. APELLIDOS Y NOMBRES DE LAS V\u00cdCTIMAS / FALLECIDOS</string>
+    <string name="lb_c3_cap300_p302_tr">302. DOCUMENTO DE IDENTIDAD</string>
+    <string name="lb_c3_cap300_p303_tr">303. SEXO</string>
+    <string name="lb_c3_cap300_p304_tr">304. CARACT. DE LA EDAD</string>
+    <string name="lb_c3_cap300_p305_tr">305. EDAD</string>
+    <string name="lb_c3_cap300_p306_tr">306. FECHA DE NACIMIENTO</string>
+    <string name="lb_c3_cap300_p307_tr">307. NIVEL EDUCATIVO</string>
+    <string name="lb_c3_cap300_p308_tr">308. OCUPACI\u00d3N</string>
+    <string name="lb_c3_cap300_p309_tr">309. ESTADO CIVIL</string>
+    <string name="lb_c3_cap300_p310_tr">310. PARENTESCO CON EL VICTIMARIO</string>
+    
+    <string name="lb_c3_cap300_title">CAP\u00cdTULO 300. CARACTER\u00cdSTICAS DE LAS V\u00cdCTIMAS / FALLECIDOS REGISTRADOS EN EL A\u00d1O 2016</string>
+    <string name="lb_c3_cap300_p300">N\u00B0</string>
+    <string name="lb_c3_cap300_p301">301. APELLIDOS Y NOMBRES DE LAS V\u00cdCTIMAS / FALLECIDOS</string>
+    <string name="lb_c3_cap300_p301A">Apellido Paterno</string>
+    <string name="lb_c3_cap300_p301B">Apellido Materno</string>
+    <string name="lb_c3_cap300_p301C">Nombres</string>
+    <string name="lb_c3_cap300_p302">302. TIPO DE DOCUMENTO DE IDENTIDAD (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap300_p302_1">1. DNI</string>
+    <string name="lb_c3_cap200_p302_Ndoc">N\u00B0 DE DOCUMENTO:</string>
+    <string name="lb_c3_cap300_p302_2">2. Carnet de Extranjer\u00eda</string>
+    <string name="lb_c3_cap300_p302_3">3. Pasaporte</string>
+    <string name="lb_c3_cap300_p302_4">4. Licencia de conducir</string>
+    <string name="lb_c3_cap300_p302_5">5. RUC</string>
+    <string name="lb_c3_cap300_p302_6">6. No precisa</string>
+    <string name="lb_c3_cap300_p302_7">7. No tiene(Nunca lo tramit\u00f3)</string>
+    <string name="lb_c3_cap300_p303">303. SEXO (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap300_p303_1">1 .Hombre</string>
+    <string name="lb_c3_cap300_p303_2">2. Mujer</string>
+    <string name="lb_c3_cap300_p303_3">3. No Precisa</string>
+    <string name="lb_c3_cap300_p304">304. CARACTER\u00cdSTICAS DE LA EDAD (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap300_p304_1">305. EDAD</string>
+    <string name="lb_c3_cap300_p304A_1">1. Menor de tres a\u00f1os</string>
+    <string name="lb_c3_cap300_p304A_2">2. Menor de doce a\u00f1os</string>
+    <string name="lb_c3_cap300_p304A_3">3. De doce a m\u00e1s a\u00f1os</string>
+    <string name="lb_c3_cap300_p304A_4">4. No precisa</string>
+    <string name="lb_c3_cap300_p305">305. EDAD</string>
+    <string name="lb_c3_cap300_p305_d">D\u00eda</string>
+    <string name="lb_c3_cap300_p305_m">Mes</string>
+    <string name="lb_c3_cap300_p305_a">A\u00f1o</string>
+    <string name="lb_c3_cap300_p306">306. FECHA DE NACIMIENTO</string>
+    <string name="lb_c3_cap300_p306_1">1. Sin nivel</string>
+    <string name="lb_c3_cap300_p306_2">2. Educaci\u00f3n inicial</string>
+    <string name="lb_c3_cap300_p306_3">3. Primaria</string>
+    <string name="lb_c3_cap300_p306_4">4. Secundaria</string>
+    <string name="lb_c3_cap300_p306_5">5. Superior no universitario</string>
+    <string name="lb_c3_cap300_p306_6">6. Superior universitario</string>
+    <string name="lb_c3_cap300_p306_7">7. Postgrado</string>
+    <string name="lb_c3_cap300_p306_8">8. No precisa</string>
+    <string name="lb_c3_cap300_p307">307. NIVEL EDUCATIVO ALCANZADO (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap300_p307_1">1. Agricultor/a</string>
+    <string name="lb_c3_cap300_p307_2">2. Ama de casa</string>
+    <string name="lb_c3_cap300_p307_3">3. Cambista</string>
+    <string name="lb_c3_cap300_p307_4">4. Agente de seguridad</string>
+    <string name="lb_c3_cap300_p307_5">5. Taxista</string>
+    <string name="lb_c3_cap300_p307_6">6. Conductor/a de bus/ combi/ motocicleta, etc. (no taxista)</string>
+    <string name="lb_c3_cap300_p307_7">7. Comerciante informal (Ambulante y similares)</string>
+    <string name="lb_c3_cap300_p307_8">8. Comerciante formal</string>
+    <string name="lb_c3_cap300_p307_9">9. Empleado/a en oficina</string>
+    <string name="lb_c3_cap300_p307_10">10. Empresario/a negocio independiente</string>
+    <string name="lb_c3_cap300_p307_11">11. Estudiante</string>
+    <string name="lb_c3_cap300_p307_12">12. Empleado/a del hogar</string>
+    <string name="lb_c3_cap300_p307_13">13. Miembro de las FF.AA/PNP</string>
+    <string name="lb_c3_cap300_p307_14">14. Obrero/a(en general)</string>
+    <string name="lb_c3_cap300_p307_15">15. Sin empleo</string>
+    <string name="lb_c3_cap300_p307_16">16. Jubilado/ pensionista</string>
+    <string name="lb_c3_cap300_p307_17">17. No precisa</string>
+    <string name="lb_c3_cap300_p307_18">18. Otro</string>
+    <string name="lb_c3_cap300_p308">308. OCUPACI\u00d3N (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap300_p308_1">1. Conviviente</string>
+    <string name="lb_c3_cap300_p308_2">2. Casado/a</string>
+    <string name="lb_c3_cap300_p308_3">3. Viudo/a</string>
+    <string name="lb_c3_cap300_p308_4">4. Divorciado/a</string>
+    <string name="lb_c3_cap300_p308_5">5. Separado/a</string>
+    <string name="lb_c3_cap300_p308_6">6. Soltero/a</string>
+    <string name="lb_c3_cap300_p308_7">7. No precisa</string>
+    <string name="lb_c3_cap300_p309">309. ESTADO CIVIL (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap300_p309_1">1. Esposo/a</string>
+    <string name="lb_c3_cap300_p309_2">2. Ex-esposo/a</string>
+    <string name="lb_c3_cap300_p309_3">3. Pareja/conviviente</string>
+    <string name="lb_c3_cap300_p309_4">4. Ex-pareja/Ex-conviviente</string>
+    <string name="lb_c3_cap300_p309_5">5. Padre/Madre Suegro/a</string>
+    <string name="lb_c3_cap300_p309_6">6. Hijo/a</string>
+    <string name="lb_c3_cap300_p309_7">7. Otros parientes</string>
+    <string name="lb_c3_cap300_p309_8">8. Conocido/a</string>
+    <string name="lb_c3_cap300_p309_9">9. Desconocido/a</string>
+    <string name="lb_c3_cap300_p309_10">10. No precisa</string>
+    <string name="lb_c3_cap300_p309_11">11. Otro</string>
+    <string name="lb_c3_cap300_p310">310. RELACI\u00d3N DE PARENTESCO CON EL PRESUNTO VICTIMARIO (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap300_p1">V\u00edctimas</string>
+    
+    <!-- tabla resumen -->
+    <string name="lb_c3_cap400_p401_tr">401. APELLIDOS Y NOMBRES DEL PRESUNTO VICTIMARIO</string>
+    <string name="lb_c3_cap400_p402_tr">402. DOCUMENTO DE IDENTIDAD</string>
+    <string name="lb_c3_cap400_p403_tr">403. SEXO</string>
+    <string name="lb_c3_cap400_p404_tr">404. EDAD</string>
+    <string name="lb_c3_cap400_p405_tr">405. FECHA DE NACIMIENTO</string>
+    <string name="lb_c3_cap400_p406_tr">406. NIVEL EDUCATIVO</string>
+    <string name="lb_c3_cap400_p407_tr">407. OCUPACI\u00d3N</string>
+    <string name="lb_c3_cap400_p408_tr">408. ESTADO CIVIL</string>
+    
+    <string name="lb_c3_cap400_title">CAP\u00cdTULO 400. CARACTER\u00cdSTICAS DE PRESUNTO(S) VICTIMARIO(ES) REGISTRADOS EN EL A\u00d1O 2016</string>
+    <string name="lb_c3_cap400_p400">N\u00B0</string>
+    <string name="lb_c3_cap400_p401">401. APELLIDOS Y NOMBRES DEL PRESUNTO VICTIMARIO</string>
+    <string name="lb_c3_cap400_p402">402. TIPO DE DOCUMENTO DE IDENTIDAD (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap400_p402_1">DNI</string>
+    <string name="lb_c3_cap400_p402_2">Carnet de Extranjer\u00eda</string>
+    <string name="lb_c3_cap400_p402_3">Pasaporte</string>
+    <string name="lb_c3_cap400_p402_4">Licencia de conducir</string>
+    <string name="lb_c3_cap400_p402_5">RUC</string>
+    <string name="lb_c3_cap400_p402_6">No precisa</string>
+    <string name="lb_c3_cap400_p402_7">No tiene</string>
+    <string name="lb_c3_cap400_p403">403. SEXO (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap400_p403_1">1. Hombre</string>
+    <string name="lb_c3_cap400_p403_2">2. Mujer</string>
+    <string name="lb_c3_cap400_p403_3">3. No Precisa</string>
+    <string name="lb_c3_cap400_p404">404. EDAD</string>
+    <string name="lb_c3_cap400_p405">405. FECHA DE NACIMIENTO</string>
+    <string name="lb_c3_cap400_p406">406. NIVEL EDUCATIVO ALCANZADO (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap400_p406_1">1. Sin nivel</string>
+    <string name="lb_c3_cap400_p406_2">2. Educaci\u00f3n inicial</string>
+    <string name="lb_c3_cap400_p406_3">3. Primaria</string>
+    <string name="lb_c3_cap400_p406_4">4. Secundaria</string>
+    <string name="lb_c3_cap400_p406_5">5. Superior no universitario</string>
+    <string name="lb_c3_cap400_p406_6">6. Superior universitario</string>
+    <string name="lb_c3_cap400_p406_7">7. Postgrado</string>
+    <string name="lb_c3_cap400_p406_8">8. No precisa</string>
+    <string name="lb_c3_cap400_p407">407. OCUPACI\u00d3N (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap400_p407_1">1. Agricultor/a</string>
+    <string name="lb_c3_cap400_p407_2">2. Ama de casa</string>
+    <string name="lb_c3_cap400_p407_3">3. Cambista</string>
+    <string name="lb_c3_cap400_p407_4">4. Agente de seguridad</string>
+    <string name="lb_c3_cap400_p407_5">5. Taxista</string>
+    <string name="lb_c3_cap400_p407_6">6. Conductor/a de bus/combi/motocicleta, etc. (no taxista)</string>
+    <string name="lb_c3_cap400_p407_7">7. Comerciante informal (Ambulante y similares)</string>
+    <string name="lb_c3_cap400_p407_8">8. Comerciante formal.</string>
+    <string name="lb_c3_cap400_p407_9">9. Empleado/a en oficina</string>
+    <string name="lb_c3_cap400_p407_10">10. Empresario/a negocio independiente</string>
+    <string name="lb_c3_cap400_p407_11">11. Estudiante</string>
+    <string name="lb_c3_cap400_p407_12">12. Empleado/a del hogar</string>
+    <string name="lb_c3_cap400_p407_13">13. Miembro de las FF.AA/PNP</string>
+    <string name="lb_c3_cap400_p407_14">14. Obrero/a(en general)</string>
+    <string name="lb_c3_cap400_p407_15">15. Sin empleo</string>
+    <string name="lb_c3_cap400_p407_16">16. Jubilado/pensionista</string>
+    <string name="lb_c3_cap400_p407_17">17. No precisa</string>
+    <string name="lb_c3_cap400_p407_18">18. Otro</string>
+    <string name="lb_c3_cap400_p408">408. ESTADO CIVIL (Seleccione solo un c\u00f3digo)</string>
+    <string name="lb_c3_cap400_p408_1">1. Conviviente</string>
+    <string name="lb_c3_cap400_p408_2">2. Casado/a</string>
+    <string name="lb_c3_cap400_p408_3">3. Viudo/a</string>
+    <string name="lb_c3_cap400_p408_4">4. Divorciado/a</string>
+    <string name="lb_c3_cap400_p408_5">5. Separado/a</string>
+    <string name="lb_c3_cap400_p408_6">6. Soltero/a</string>
+    <string name="lb_c3_cap400_p408_7">7. No precisa</string>
+    <string name="lb_c3_cap400_p1">Victimarios</string>
+    
+    <!-- Etiquetas Cobertura -->
+    <string name="c1p3_cob_id">COBERTURA COMISARIA N\u00B0: $; A\u00d1O 2015</string>
+    <string name="c1p3_cap">CAP\u00cdTULO</string>
+    <string name="c1p3_estado">ESTADO</string>
+    
+    <!--     Reportes -->
+	<string name="r_tc_reptit">RESUMEN POR DENUNCIA DE REGISTROS DELITOS Y FALTAS 2016</string>
+	<string name="r_tc_id">ID</string>
+	<string name="r_tc_ncom">NOMBRE DEPENDENCIA POLICIAL</string>
+	<string name="r_tc_gps">GPS</string>
+	<string name="r_tc_resfin">RESFIN</string>
+	<string name="r_tc_total">TOTAL</string>
+	<string name="r_tc_totdel">TOT. DELITOS</string>
+	<string name="r_tc_p121">P121</string>
+	<string name="r_tc_totfall">TOT. FALLECIDOS</string>
+	<string name="r_tc_tot200">TOT. CAP200</string>
+	<string name="r_tc_orden">REG.</string>
+	<string name="r_tc_ptipmod">TIPO / MODALIDAD</string>
+	<string name="r_tc_p214">P214</string>
+	<string name="r_tc_p215">P215</string>
+	<string name="r_tc_tot300">TOT. CAP300</string>
+	<string name="r_tc_tot400">TOT. CAP400</string>
+	<string name="r_tc_nombre_vf">V\u00cdCTIMA/FALLECIDO</string>
+	<string name="r_tc_nombre_pv">VICTIMARIO</string>
+    
+    <!--     Exportacion -->
+    <string name="c1_selall">Seleccionar Todo</string>
+	<string name="m_seleccionado">SELEC.</string>
+	<string name="m_tc_exp_cod">C\u00d3DIGO</string>
+	<string name="m_tc_exp_nom">NOMBRE</string>
+
+    <string-array name="c_100_anexo_array">
+        <item>1. AUTOS</item>
+        <item>2. CAMIONETAS</item>
+        <item>3. MOTOS</item>
+        <item>4. VARAS</item>
+        <item>5. GRILLETES</item>
+        <item>6. RADIOS</item>
+        <item>7. GPS</item>
+        <item>8. PISTOLAS (CONDOS CACERINAS)</item>
+        <item>9. FUSILES (EN CASO APLIQUE)</item>
+        <item>10. CHALECOS ANTIBALAS</item>
+        <item>11. LINTERNAS</item>
+        <item>12. LIBRETAS DE CONTROL Y TABLILLAS DE FORMATO DE OCURRENCIAS Y ACTAS</item>
+        <item>13. UNIFORMES DE REGLAMENTO (CORRECTAMENTE IMPLEMENTADO DE ACUERDO A LA ZONA GEOGR\u00c1FICA)</item>
+        <item>14. RANCHO (DONDE APLIQUE SEG\u00daN LOS HORARIOS)</item>
+     </string-array>
+    
+    <string name="lb_C_200">CAP\u00cdTULO 200: RECURSOS HUMANOS POR SECTOR POLICIAL Y SERENAZGO</string>
+    <string name="lb_C_200_200"><b>200. TIENE INFORMACI\u00d3N EN RECURSOS HUMANOS:</b></string>
+    <string name="lb_C_200_201_t"><b>PATRULLAJE EN:</b></string>
+    <string name="lb_C_200_201_t1"><b>RECURSOS HUMANOS DE LA COMISAR\u00cdA</b></string>
+    <string name="lb_C_200_201_t2"><b>RECURSOS HUMANOS DE LA MUNICIPALIDAD</b></string>
+    <string name="lb_C_200_201"><b>201.\u00bfCu\u00e1l es el n\u00famero ACTUAL de efectivos policiales asignados POR D\u00cdA en este sector, para realizar patrullaje en &#8230;</b></string>
+    <string name="lb_C_200_202"><b>202.\u00bfCu\u00e1l es el n\u00famero ADICIONAL de efectivos policiales REQUERIDO POR D\u00cdA en este sector, para realizar patrullaje en &#8230;</b></string>
+    <string name="lb_C_200_203"><b>203.\u00bfCu\u00e1l es el n\u00famero de efectivos policiales REQUERIDO POR D\u00cdA en este sector, para realizar PATRULLAJE INTEGRADO</b></string>
+    <string name="lb_C_200_204"><b>204.\u00bfCU\u00c1L ES EL N\u00B0 DE EFECTIVOS POLICIALES REQUERIDO EN EL MES EN ESTE SECTOR, PARA REALIZAR PATRULLAJE EN &#8230;</b></string>
+    <string name="lb_C_200_205"><b>205.\u00bfCu\u00e1l es el n\u00famero ACTUAL de serenos asignados POR D\u00cdA en este sector, para realizar patrullaje en &#8230;</b></string>
+    <string name="lb_C_200_206"><b>206.\u00bfCu\u00e1l es el n\u00famero ADICIONAL de serenos REQUERIDO POR D\u00cdA en este sector, para realizar patrullaje en &#8230;</b></string>
+    <string name="lb_C_200_207"><b>207.\u00bfCu\u00e1l es el n\u00famero de serenos REQUERIDOS POR MES en este sector, para realizar patrullaje en &#8230;</b></string>
+    <string name="lb_C_200_208"><b>208.TOTAL DE RECURSO HUMANO REQUERIDO EN EL MES PARA ESTE SECTOR</b></string>
+    <string name="lb_C_100_200_1"><b>1. AUTOS</b></string>
+    <string name="lb_C_100_200_2"><b>2. CAMIONETAS</b></string>
+    <string name="lb_C_100_200_3"><b>3. MOTOS</b></string>
+    <string name="lb_C_100_200_4"><b>4. A PIE</b></string>
+    <string name="lb_C_100_200_tot"><b>TOTAL</b></string>
+    <string name="lb_C_200_OBS">OBSERVACIONES</string>
+    
+    <string name="lb_C_300">CAP\u00cdTULO 300: C\u00c1MARA DE VIDEO VIGILANCIA</string>
+    <string name="lb_C_300_t">N\u00B0 DE C\u00c1MARAS DE VIDEO VIGILANCIA</string>
+    <string name="lb_C_300_1">N</string>
+    <string name="lb_C_300_2">UBICACI\u00d3N DE LAS C\u00c1MARAS DE VIDEO VIGILANCIA</string>
+    <string name="lb_C_301">301. TIPO DE V\u00cdA</string>
+    <string name="lb_C_302">302. NOMBRE DE LA V\u00cdA</string>
+    <string name="lb_C_303">303. DEPARTAMENTO</string>
+    <string name="lb_C_304">304. PROVINCIA</string>
+    <string name="lb_C_305">305. DISTRITO</string>
+    <string name="lb_C_306">306. JURISDICCI\u00d3N DE LA COMISAR\u00cdA</string>
+    <string name="lb_C_307">307. N DE SECTOR DE LA COMISAR\u00cdA</string>
+    <string name="lb_C_308">308. COORDENADAS X (ALTITUD)</string>
+    <string name="lb_C_309">309. COORDENADAS X (LONGITUD)</string>
+    <string name="lb_C_310">310. ESTADO</string>
+    <string name="lb_C_310_1">1. Operativo</string>
+    <string name="lb_C_310_2">2. Inoperativo</string>
+    
+    <string-array name="c_200_anexo_array">
+        <item>1. AUTOS</item>
+        <item>2. CAMIONETAS</item>
+        <item>3. MOTOS</item>
+        <item>4. A PIE</item>
+        <item>TOTALES</item>
+     </string-array>
+    
+    <!-- OTIN -->
+    <string name="title_activity_gps">GpsActivity</string>
+    <string name="title_activity_web">Comisarias 2014</string>
+    <string name="title_task_unzip">Configurando la aplicación</string>
+    <string name="title_task_wait">Espere por favor</string>
+    
+    <!-- COBERTURA -->
+    <string name="columna_cobertura_titulo_1_cuest">CUESTIONARIO DE INFRAESTRUCTURA Y EQUIPAMIENTO</string>
+    <string name="columna_cobertura_titulo_1_cuest_empty">NO EXISTE INFORMACI\u00d3N PARA EL CUESTIONARIO DE INFRAESTRUCTURA Y EQUIPAMIENTO</string>
+    <string name="columna_cobertura_titulo_2_cuest">CUESTIONARIO DE ACCIDENTES DE TRANSITO</string>
+    <string name="columna_cobertura_titulo_2_cuest_empty">NO EXISTE INFORMACI\u00d3N PARA EL CUESTIONARIO DE ACCIDENTES DE TRANSITO</string>
+    <string name="columna_cobertura_titulo_3_cuest">CUESTIONARIO DE DELITOS</string>
+    <string name="columna_cobertura_titulo_3_cuest_empty">NO EXISTE INFORMACI\u00d3N PARA EL CUESTIONARIO DE DELITOS</string>
+    <string name="columna_cobertura_titulo_1">NOMBRE</string>
+    <string name="columna_cobertura_titulo_2">ESTADO</string>
+    <string name="columna_cobertura_1">CARATULA</string>
+    <string name="columna_cobertura_2">CAP\u00cdTULO 100</string>
+    <string name="columna_cobertura_3">CAP\u00cdTULO 200</string>
+    <string name="columna_cobertura_4">CAP\u00cdTULO 300</string>
+    <string name="columna_cobertura_5">CAP\u00cdTULO 400</string>
+    <string name="columna_cobertura_6">CAP\u00cdTULO 500</string>
+    <string name="columna_cobertura_1_1">$</string>
+    
+    <!-- Cobertura -->
+    <string name="title_cobertura_form_marco">Marco</string>
+    <string name="title_cobertura_form_caratula">Car\u00e1tula</string>
+    <string name="title_cobertura_form_visita">Visitas</string>
+    
+    <!-- Delitos -->
+     <string name="title_delitos_cap100">Cap\u00edtulo. 100</string>
+     <string name="title_delitos_cap200">Cap\u00edtulo. 200</string>
+    
+    <string-array name="cobertura_array">
+        <item>CARATULA</item>
+        <item>CAP\u00cdTULO 100</item>
+        <item>CAP\u00cdTULO 200 - SEC. I. CARACTERISTICAS DEL HOGAR</item>
+        <item>CAP\u00cdTULO 200 - SEC. III. SERVICIOS BASICOS</item>
+        <item>CAP\u00cdTULO 200 - SEC. III. SERVICIOS DE DESAGUE</item>
+        <item>CAP\u00cdTULO 200 - SEC. IV. CARACTERISTICAS DEL FRONTIS</item>
+        <item>CAP\u00cdTULO 200 - SEC. IV. MAMPARAS</item>
+        <item>CAP\u00cdTULO 200 - SEC. IV. VENTANAS</item>
+        <item>CAP\u00cdTULO 200 - SEC. V. HABITACIONES DE LA COMISARIA</item>
+        <item>CAP\u00cdTULO 300 - SEC. I. EQUIV. Y SERV. DE COMUNICACION</item>
+        <item>CAP\u00cdTULO 300 - SEC. III. CARACT DE EQUIP.DE COMPUTO</item>
+        <item>CAP\u00cdTULO 300 - SEC. IV. ACCESO A INFORMACION CLASIFICADA</item>
+        <item>CAP\u00cdTULO 300 - SEC. VII. VEHICULOS POLICIALES</item>
+        <item>CAP\u00cdTULO 400 - SEC. I. CUMPLIMIENTO DE DIRECTIVAS</item>
+        <item>CAP\u00cdTULO 400 - SEC. II. SEGURIDAD CIUDADANA</item>
+        <item>CAP\u00cdTULO 400 - SEC. IV. INSTRUMENTOS DE PLANIFICACION</item>
+        <item>CAP\u00cdTULO 500 - SEC. I. INFORMACION Y PROCEDIMIENTOS</item>
+        <item>CAP\u00cdTULO 600 - EFECTIVOS POLICIALES Y PROGRAMAS DE PREVENCI\u00d3N</item>
+     </string-array>
+     
+    <string-array name="cobertura_array_AT">
+        <item>CARATULA</item>
+        <item>CAP\u00cdTULO 100 - TOTALES INFORMACION SOBRE EL ACCIDENTE DE TRANSITO - PARTE 1</item>
+        <item>CAP\u00cdTULO 100 - TOTALES INFORMACION SOBRE EL ACCIDENTE DE TRANSITO - PARTE 2</item>
+        <item>CAP\u00cdTULO 200 - POR ACCIDENTE DE TRANSITO</item>
+     </string-array>
+     
+    <string-array name="cobertura_array_DEL">
+        <item>CARATULA - RESULTADO Y DATOS DEL FACILITADOR</item>
+        <item>CAP\u00cdTULO 100 - N\u00daMERO DE DENUNCIAS DE DELITOS</item>
+        <item>CAP\u00cdTULO 200 - TOTAL DE DENUNCIAS POR MUERTE REGISTRADAS</item>
+        <item>CAP\u00cdTULO 200 - VERIFICACI\u00d3N ENTRE CAP\u00cdTULOS 100 Y 200</item>
+        <item>CAP\u00cdTULO 200 - N\u00daMERO DE VICTIMARIOS POR DENUNCIA</item>
+        <item>CAP\u00cdTULO 200 - N\u00daMERO DE VICTIMAS POR DENUNCIA</item>
+        <item>CAP\u00cdTULO 300 - TOTAL DE V\u00cdCTIMAS EN LA COMISARIA</item>
+        <item>CAP\u00cdTULO 300 - TOTAL DE V\u00cdCTIMAS POR DENUNCIA</item>
+        <item>CAP\u00cdTULO 300 - CARACTER\u00cdSTICAS DE LAS VICTIMAS</item>
+        <item>CAP\u00cdTULO 400 - TOTAL DE VICTIMARIOS EN LA COMISARIA</item>
+        <item>CAP\u00cdTULO 400 - TOTAL DE VICTIMARIOS POR DENUNCIA</item>
+        <item>CAP\u00cdTULO 400 - INFORMACI\u00d3N DE PRESUNTOS VICTIMARIOS</item>
+     </string-array>
+ 	
+</resources>
+

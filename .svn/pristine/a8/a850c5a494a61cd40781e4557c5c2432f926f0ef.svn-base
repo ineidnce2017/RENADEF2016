@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowEdit"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical" >
+ 
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvQuestionEdit"
+                    style="@style/cabecera110Edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/txtinf_o"
+                    style="@style/cuerpo110"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/border_cajaweb"
+                    android:ems="10"
+                    android:hint="@string/hintEspecifique"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="60"
+                    android:singleLine="true"
+                    android:textSize="16sp" >
+
+                    <requestFocus />
+                </EditText>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            style="@style/cabecera110Edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@drawable/border_cabecera110"
+                            android:text="GRADO POLICIAL"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/textView01"
+                                    style="@style/cabecera110Edit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/border_cabecera110"
+                                    android:text="TOTAL 1 (a+b+c)" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" >
+
+                                    <TextView
+                                        android:id="@+id/textView02"
+                                        style="@style/cabecera110Edit"
+                                        android:layout_width="150dp"
+                                        android:layout_height="80dp"
+                                        android:background="@drawable/border_cabecera110"
+                                        android:text="OFICIALES (a)" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical" >
+
+                                        <TextView
+                                            android:id="@+id/textView2"
+                                            style="@style/cabecera110Edit"
+                                            android:layout_width="50dp"
+                                            android:layout_height="40dp"
+                                            android:background="@drawable/border_cabecera110"
+                                            android:text="H" />
+
+                                        <TextView
+                                            android:id="@+id/textView3"
+                                            style="@style/cabecera110Edit"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:background="@drawable/border_cabecera110"
+                                            android:text="M" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        android:id="@+id/textView03"
+                                        style="@style/cabecera110Edit"
+                                        android:layout_width="150dp"
+                                        android:layout_height="80dp"
+                                        android:background="@drawable/border_cabecera110"
+                                        android:text="SUBOFICIALES (b)" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical" >
+
+                                        <TextView
+                                            android:id="@+id/textView4"
+                                            style="@style/cabecera110Edit"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:background="@drawable/border_cabecera110"
+                                            android:text="H" />
+
+                                        <TextView
+                                            android:id="@+id/textView5"
+                                            style="@style/cabecera110Edit"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:background="@drawable/border_cabecera110"
+                                            android:text="M" />
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/border_cabecera110" >
+
+                                    <TextView
+                                        android:id="@+id/textView6"
+                                        style="@style/cabecera110Edit"
+                                        android:layout_width="150dp"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/border_cabecera110"
+                                        android:text="ESPECIALISTAS (c)" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical" >
+
+                                        <TextView
+                                            android:id="@+id/textView7"
+                                            style="@style/cabecera110Edit"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:background="@drawable/border_cabecera110"
+                                            android:text="H" />
+
+                                        <TextView
+                                            android:id="@+id/textView8"
+                                            style="@style/cabecera110Edit"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:background="@drawable/border_cabecera110"
+                                            android:text="M" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <EditText
+                                    android:id="@+id/txtinf_tot1"
+                                    style="@style/cuerpo110"
+                                    android:layout_width="70dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/border_cajaweb"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:maxLength="3"
+                                    android:singleLine="true"
+                                    android:textSize="20sp" />
+
+                                <EditText
+                                    android:id="@+id/txtinf_ofi_h"
+                                    style="@style/cuerpo110"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border_cajaweb"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:maxLength="3"
+                                    android:singleLine="true"
+                                    android:textSize="20sp" />
+
+                                <EditText
+                                    android:id="@+id/txtinf_ofi_m"
+                                    style="@style/cuerpo110"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border_cajaweb"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:maxLength="3"
+                                    android:singleLine="true"
+                                    android:textSize="20sp" />
+
+                                <EditText
+                                    android:id="@+id/txtinf_sof_h"
+                                    style="@style/cuerpo110"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border_cajaweb"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:maxLength="3"
+                                    android:singleLine="true"
+                                    android:textSize="20sp" />
+
+                                <EditText
+                                    android:id="@+id/txtinf_sof_m"
+                                    style="@style/cuerpo110"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border_cajaweb"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:maxLength="3"
+                                    android:singleLine="true"
+                                    android:textSize="20sp" />
+
+                                <EditText
+                                    android:id="@+id/txtinf_esp_h"
+                                    style="@style/cuerpo110"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border_cajaweb"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:maxLength="3"
+                                    android:singleLine="true"
+                                    android:textSize="20sp" />
+
+                                <EditText
+                                    android:id="@+id/txtinf_esp_m"
+                                    style="@style/cuerpo110"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/border_cajaweb"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:maxLength="3"
+                                    android:nextFocusDown="@+id/txtinf_tot2"
+                                    android:singleLine="true"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/TextView01"
+                            style="@style/cabecera110Edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@drawable/border_cabecera110"
+                            android:text="ACTIVIDAD"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/TextView02"
+                                    style="@style/cabecera110Edit"
+                                    android:layout_width="200dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/border_cabecera110"
+                                    android:text="TOTAL 2 (d+e)" />
+
+                                <TextView
+                                    android:id="@+id/TextView03"
+                                    style="@style/cabecera110Edit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/border_cabecera110"
+                                    android:text="DE SERVICIO (d)" />
+
+                                <TextView
+                                    android:id="@+id/TextView04"
+                                    style="@style/cabecera110Edit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/border_cabecera110"
+                                    android:text="DE FRANCO (e)" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+
+                                <EditText
+                                    android:id="@+id/txtinf_tot2"
+                                    style="@style/cuerpo110"
+                                    android:layout_width="70dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/border_cajaweb"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:maxLength="3"
+                                    android:singleLine="true"
+                                    android:textSize="20sp" />
+
+                                <EditText
+                                    android:id="@+id/txtinf_ser"
+                                    style="@style/cuerpo110"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/border_cajaweb"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:maxLength="3"
+                                    android:singleLine="true"
+                                    android:textSize="20sp" />
+
+                                <EditText
+                                    android:id="@+id/txtinf_fra"
+                                    style="@style/cuerpo110"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/border_cajaweb"
+                                    android:ems="10"
+                                    android:inputType="number"
+                                    android:maxLength="3"
+                                    android:nextFocusDown="@+id/btnGuardar110"
+                                    android:singleLine="true"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <Button
+                                    android:id="@+id/btnGuardar110"
+                                    style="?android:attr/buttonStyleSmall"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:focusable="true"
+                                    android:text="@string/btnAceptar" />
+
+                                <Button
+                                    android:id="@+id/btnCancelar110"
+                                    style="?android:attr/buttonStyleSmall"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:focusable="true"
+                                    android:text="@string/btnCerrar" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <ImageButton
+                            android:id="@+id/btnUp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/btn_up" />
+
+                        <ImageButton
+                            android:id="@+id/btnDown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/btn_down" />
+
+                        <TextView
+                            android:id="@+id/lblRestante1"
+                            style="@style/cabecera110Edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:textSize="25sp" />
+                        
+                        <TextView
+                            android:id="@+id/lblRestante2"
+                            style="@style/cabecera110Edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="215dp"
+                            android:textSize="25sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

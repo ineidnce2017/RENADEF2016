@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:id="@+id/layout_root2"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" 
+    android:padding="10dp">
+    
+  <HorizontalScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="738dp" >
+
+	<AbsoluteLayout
+	    android:layout_width="478dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:background="@drawable/my_border"
+	    android:orientation="vertical" >
+
+	    <!-- android:background="@color/verde" > -->
+	    <!-- android:background="@drawable/decap100p101"> -->
+
+	    <EditText
+	        android:id="@+id/EditText01"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="93dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="368dp"
+	        android:layout_y="61dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="none"
+	        android:visibility="invisible" />
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="45dp"
+	        android:layout_x="100dp"
+	        android:layout_y="8dp"
+	        android:text="PERSONA NRO : "
+	        android:textSize="28sp"
+	        android:textStyle="bold" />
+
+	    <TextView
+	        android:id="@+id/txtIvhNroPersona"
+	        android:layout_width="78dp"
+	        android:layout_height="45dp"
+	        android:layout_x="325dp"
+	        android:layout_y="8dp"
+	        android:text="NRO"
+	        android:textSize="28sp"
+	        android:textStyle="bold" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIVH302"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="205dp"
+	        android:layout_height="35dp"
+	        android:layout_marginTop="34dp"
+	        android:layout_x="151dp"
+	        android:layout_y="115dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayIVHCap300P302"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:prompt="@string/IVHCap300columna_titulo_2"
+	        android:spinnerMode="dialog" >
+
+	        <requestFocus />
+	    </gob.inei.renadef2016.objects.CenacomSpinner>
+
+	    <TextView
+	        android:id="@+id/TextView02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="3dp"
+	        android:layout_y="120dp"
+	        android:text="302. SEXO" />
+
+	    <TextView
+	        android:id="@+id/TextView03"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="53dp"
+	        android:layout_x="3dp"
+	        android:layout_y="174dp"
+	        android:text="303. EDAD" />
+
+	    <EditText
+	        android:id="@+id/txtIVH303"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="fill_parent"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="148dp"
+	        android:layout_y="169dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="number"
+	        android:maxLength="2" />
+
+	    <Button
+	        android:id="@+id/button1"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="37dp"
+	        android:layout_height="37dp"
+	        android:layout_x="322dp"
+	        android:layout_y="169dp"
+	        android:background="@drawable/ni"
+	        android:onClick="inputarEdad" /> 
+
+	    <TextView
+	        android:id="@+id/TextView04"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="55dp"
+	        android:layout_x="3dp"
+	        android:layout_y="224dp"
+	        android:text="304. NIVEL EDUCATIVO ALCANZADO" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIVH304"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="35dp"
+	        android:layout_x="28dp"
+	        android:layout_y="256dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayIVHCap300P304"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:prompt="@string/IVHCap300columna_titulo_4"
+	        android:spinnerMode="dialog" />
+
+	    <EditText
+	        android:id="@+id/txtIVH304_O"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="28dp"
+	        android:layout_y="296dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="textCapCharacters" />
+
+	    <TextView
+	        android:id="@+id/TextView05"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="51dp"
+	        android:layout_x="6dp"
+	        android:layout_y="357dp"
+	        android:text="305. OCUPACION" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIVH305"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="35dp"
+	        android:layout_x="28dp"
+	        android:layout_y="385dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayIVHCap300P305"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:prompt="@string/IVHCap300columna_titulo_5"
+	        android:spinnerMode="dialog" />
+
+	    <EditText
+	        android:id="@+id/txtIVH305_O"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="28dp"
+	        android:layout_y="425dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="textCapCharacters" />
+
+	    <TextView
+	        android:id="@+id/TextView06"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="4dp"
+	        android:layout_y="481dp"
+	        android:text="306. ESTADO CIVIL" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIVH306"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_x="28dp"
+	        android:layout_y="505dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayIVHCap300P306"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:prompt="@string/IVHCap300columna_titulo_6"
+	        android:spinnerMode="dialog" />
+
+	    <TextView
+	        android:id="@+id/TextView07"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="127dp"
+	        android:layout_x="3dp"
+	        android:layout_y="563dp"
+	        android:text="307. RELACIÓN DE PARENTESCO CON LA VICTIMA / HOMICIDA" />
+
+	    <gob.inei.renadef2016.objects.CenacomSpinner
+	        android:id="@+id/spnIVH307"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="43dp"
+	        android:layout_x="28dp"
+	        android:layout_y="590dp"
+	        android:background="@color/cajaweb"
+	        android:drawSelectorOnTop="true"
+	        android:entries="@array/arrayIVHCap300P307"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:prompt="@string/IVHCap300columna_titulo_7"
+	        android:spinnerMode="dialog" />
+
+	    <EditText
+	        android:id="@+id/txtIVH307_O"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="405dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="28dp"
+	        android:layout_y="630dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="textCapCharacters" />
+
+	    <Button
+	        android:id="@+id/btnIVHCap300AceptarRegistro"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="125dp"
+	        android:layout_y="691dp"
+	        android:onClick="next"
+	        android:text="Aceptar" />
+
+	    <Button
+	        android:id="@+id/btnIVHCap300CancelarRegistro"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="246dp"
+	        android:layout_y="691dp"
+	        android:onClick="next"
+	        android:text="Cancelar" />
+
+	    <TextView
+	        android:id="@+id/TextView01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_x="3dp"
+	        android:layout_y="69dp"
+	        android:text="301. DNI" />
+
+	    <EditText
+	        android:id="@+id/txtIVH301"
+	        style="@style/chiquitoCenter"
+	        android:layout_width="fill_parent"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="25dp"
+	        android:layout_x="154dp"
+	        android:layout_y="64dp"
+	        android:background="@color/cajaweb"
+	        android:ems="10"
+	        android:inputType="number"
+	        android:maxLength="8" />
+
+	    <Button
+	        android:id="@+id/Button01"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="37dp"
+	        android:layout_height="37dp"
+	        android:layout_x="322dp"
+	        android:layout_y="62dp"
+	        android:background="@drawable/ni"
+	        android:onClick="inputarDni" />
+
+	</AbsoluteLayout>
+
+  </HorizontalScrollView>
+
+</ScrollView>

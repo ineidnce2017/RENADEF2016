@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        
+    <!-- INFRAESTRUCTURA Y EQUIPAMIENTO -->
+    <!-- CAP100 -->
+    <string-array name="INF109">
+        <item>Seleccione</item>
+        <item>1: Menos de 5000 Hab.</item>
+		<item>2: De 5000 \u002d 10000 Hab.</item>
+		<item>3: De 10001 \u002d 20000 Hab.</item>
+		<item>4: De 20001 \u002d 40000 Hab.</item>
+		<item>5: De 40001 \u002d 80000 Hab.</item>
+		<item>6: De 80001 a m\u00e1s Hab.</item>
+    </string-array>
+	<string-array name="INF103">
+        <item>Seleccione</item>
+	    <item>1: Coronel (CRNEL)</item>
+	    <item>2: Comandante (CMDTE)</item>
+	    <item>3: Mayor (MY)</item>
+	    <item>4: Capit\u00e1n (CAP)</item>
+	    <item>5: Teniente (TNTE)</item>
+	    <item>6: Alf\u00e9rez (ALFZ)</item>
+	    <item>7: Sub Oficial Superior (SO SUP)</item>
+	    <item>8: Sub Oficial Brigadier (SO BRIG)</item>
+	    <item>9: Sub Oficial T\u00e9cnico 1ra. (SO TCO. 1RA)</item>
+	    <item>10: Sub Oficial T\u00e9cnico 2da. (SO TCO. 2DA)</item>
+	    <item>11: Sub Oficial T\u00e9cnico 3da. (SO TCO. 3RA)</item>
+	    <item>12: Sub Oficial de primera (SO 1RA)</item>
+	    <item>13: Sub Oficial de segunda (SO 2DA)</item>
+	    <item>14: Sub Oficial de tercera (SO 3RA)</item>
+	</string-array>
+	<string-array name="INF_HABIT_ALF">
+	    <item>A</item>
+	    <item>B</item>
+	</string-array>
+	<string-array name="INF254">
+        <item>Seleccione</item>
+	    <item>1 : Sala de espera o hall p\u00fablico</item>
+		<item>2 : Atenci\u00f3n ciudadana</item>
+		<item>3 : Dep\u00f3sito de aseo</item>
+		<item>4 : Secretar\u00eda, mesa de partes y administraci\u00f3n</item>
+		<item>5 : Despacho de Jefatura</item>
+		<item>6 : Armer\u00eda</item>
+		<item>7 : Radio y comunicaciones</item>
+		<item>8 : T\u00f3pico</item>
+		<item>9 : Jefatura secci\u00f3n INPOL</item>
+		<item>10 : Jefatura secci\u00f3n PREPOL</item>
+		<item>11 : Secci\u00f3n patrullaje</item>
+		<item>12 : Secci\u00f3n participaci\u00f3n ciudadana y proyecci\u00f3n social (incluye O.P.C.) </item>
+		<item>13 : Secci\u00f3n turismo y ecolog\u00eda</item>
+		<item>14 : Secci\u00f3n tr\u00e1nsito PREPOL</item>
+		<item>15 : Secci\u00f3n de la familia</item>
+		<item>16 : Sala comando y estrategias</item>
+		<item>17 : Secci\u00f3n delitos, faltas, diligencias judiciales y contravenciones</item>
+		<item>18 : Oficinas optables</item>
+		<item>19 : Secci\u00f3n log\u00edstica</item>
+		<item>20 : Almac\u00e9n general</item>
+		<item>21 : Comedor</item>
+		<item>22 : Operaciones estad\u00edsticas</item>
+		<item>23 : Grupo electr\u00f3geno</item>
+		<item>24 : Cocina</item>
+		<item>25 : Dormitorio de oficiales superiores</item>
+		<item>26 : Dormitorio de oficiales subalternos</item>
+		<item>27 : Dormitorios de oficiales alternos</item>
+		<item>28 : Dormitorio de Jefatura INPOL</item>
+		<item>29 : Dormitorio de guardia</item>
+		<item>30 : Dormitorio de personal femenino</item>
+		<item>31 : Dormitorio de suboficiales</item>
+		<item>32 : Ba\u00f1o de Jefatura INPOL</item>
+		<item>33 : Ba\u00f1o de dormitorio de guardia</item>
+		<item>34 : Ba\u00f1o p\u00fablico s\u00f3lo mujeres</item>
+		<item>35 : Ba\u00f1o p\u00fablico s\u00f3lo hombres</item>
+		<item>36 : Ba\u00f1o p\u00fablico compartido</item>
+		<item>37 : Ba\u00f1o de sala de comando</item>
+		<item>38 : Ba\u00f1o de oficiales superiores</item>
+		<item>39 : Ba\u00f1o de oficiales subalternos</item>
+		<item>40 : Ba\u00f1o personal femenino</item>
+		<item>41 : Ba\u00f1o de suboficiales</item>
+		<item>42 : Retrete s\u00f3lo de hombres</item>
+		<item>43 : Retrete s\u00f3lo de mujeres</item>
+		<item>44 : Jefe log\u00edstico</item>
+		<item>45 : Retrete general</item>
+		<item>46 : Calabozo s\u00f3lo de hombres</item>
+		<item>47 : Calabozo s\u00f3lo de mujeres</item>
+		<item>48 : Calabozo general</item>
+		<item>49 : Otro</item>
+	</string-array>
+	
+	<string-array name="INF311">
+	    <item>Seleccione</item>
+	    <item>1 : PC</item>
+		<item>2 : Laptop-Notebook</item>
+	</string-array>
+	
+	<string-array name="INF312">
+	    <item>Seleccione</item>
+	    <item>1 : Propia de la comisar\u00eda</item>
+		<item>2 : De otra Procedencia</item>
+	</string-array>
+	
+	<string-array name="INF313">
+	    <item>Seleccione</item>
+	    <item>1 : Si</item>
+		<item>2 : No</item>
+	</string-array>
+	
+	<string-array name="INF315">
+	    <item>Seleccione</item>
+	    <item>1 : Pendiente de repuesto</item>
+		<item>2 : Baja total</item>
+		<item>3 : Otro</item>
+	</string-array>
+	
+	<string-array name="INF316">
+	    <item>Seleccione</item>
+	    <item>1 : Menos de cuatro a\u00f1os</item>
+		<item>2 : De cuatro a\u00f1os a m\u00e1s a\u00f1os</item>
+	</string-array>
+	
+	<string-array name="INF317">
+	    <item>Seleccione</item>
+	    <item>1 : No recibe</item>
+		<item>2 : Una vez al a\u00f1o</item>
+		<item>3 : Dos veces al a\u00f1o</item>
+		<item>4 : Mas de dos veces al a\u00f1o</item>
+	</string-array>
+	
+	<string-array name="INF319">
+	    <item>Seleccione</item>
+	    <item>1 : Solo el comisario</item>
+		<item>2 : Personal designado</item>
+		<item>3 : Todo el Personal</item>
+	</string-array>
+	
+	<string-array name="INF321">
+	    <item>Seleccione</item>
+	    <item>1 : I7, I5, I3</item>
+		<item>2 : Core2 Quad, Core2 Duo, Dual Core</item>
+		<item>3 : Pentium D</item>
+		<item>4 : Pentium IV, Pentium IV Celeron</item>
+		<item>5 : Pentium III, Pentium III Celeron, Pentium II</item>
+		<item>6 : AMD X4, AMD X2</item>
+		<item>7 : AMD ATHLON</item>
+		<item>8 : AMD Sempron</item>
+		<item>9 : Otro</item>
+	</string-array>
+	
+	<string-array name="INF322">
+	    <item>Seleccione</item>
+	    <item>1 : Hasta 128 MB</item>
+		<item>2 : 256MB</item>
+		<item>3 : 512 MB</item>
+		<item>4 : De 1 Gb</item>
+		<item>5 : De 2 Gb a m\u00e1s</item>		
+	</string-array>
+	
+	<string-array name="INF323">
+	    <item>Seleccione</item>
+	    <item>1 : Menos de 50 Gb</item>
+		<item>2 : De 51 a 100 Gb</item>
+		<item>3 : De 101 a 150 Gb</item>
+		<item>4 : De 151 a 200 Gb</item>
+		<item>5 : M\u00e1s de 200 Gb</item>		
+	</string-array>
+	
+	<string-array name="INF324">
+	    <item>Seleccione</item>
+	    <item>1 : Lectora de CD / DVD</item>
+		<item>2 : Puerto USB?</item>
+		<item>3 : Disquetera</item>
+		<item>4 : Otro</item>		
+	</string-array>
+	
+	<string-array name="INF325">
+	    <item>Seleccione</item>
+	    <item>1 : Si</item>
+		<item>2 : No</item>	
+	</string-array>
+	
+	<string-array name="INF326">
+	    <item>Seleccione</item>
+	    <item>1 : Inal\u00e1mbrico (USB)?</item>
+		<item>2 : L\u00edneas dedicadas?</item>
+		<item>3 : ADSL (Router)?</item>
+		<item>4 : Otro</item>
+		<item>5 : No sabe</item>		
+	</string-array>
+	
+	<string-array name="INF327">
+	    <item>Seleccione</item>
+	    <item>1 : Si</item>
+		<item>2 : No</item>	
+	</string-array>
+	
+	<string-array name="INF328">
+	    <item>Seleccione</item>
+	    <item>1 : Pagada por la Comisar\u00eda o el MININTER?</item>
+		<item>2 : Pagada por el personal?</item>
+		<item>3 : Cedida?</item>
+		<item>4 : Otro</item>			
+	</string-array>
+	
+	
+	
+	<!-- Cyntia -->
+	<string-array name="arrayTiposCuestionario">
+        <item>(Seleccione)</item>
+        <item>02.01. Infraestructura</item>
+        <item>02.02. Accidentes</item>
+    </string-array>
+    
+    <string-array name="arrayAreas">
+        <item>(Seleccione)</item>
+        <item>1. Urbana</item>
+        <item>2. Rural</item>
+    </string-array>
+    
+    <string-array name="arrayTiposVia">
+        <item>(Seleccione)</item>
+        <item>1. Avenida</item>
+        <item>2. Jir\u00f3n</item>
+        <item>3. Calle</item>
+        <item>4. Pasaje</item>
+        <item>5. Carretera</item>
+        <item>6. Prolongaci\u00f3n</item>
+        <item>7. Otro</item>
+    </string-array>
+    
+    <string-array name="arrayClasesComisaria">
+        <item>(Seleccione)</item>
+        <item>1. Básica</item>
+        <item>2. Especializada</item>
+    </string-array>
+    
+    <string-array name="arrayTiposComisaria">
+        <item>(Seleccione)</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+    
+    <string-array name="arrayCategoriasComisaria">
+        <item>(Seleccione)</item>
+        <item>1. Sectorial</item>
+        <item>2. No sectorial</item>
+    </string-array>
+    
+    <string-array name="arrayEspecialidadComisaria">
+        <item>(Seleccione)</item>
+        <item>1. De la familia</item>
+        <item>2. Turismo</item>
+        <item>3. Aeropuertos y terminales terrestres</item>
+        <item>4. Protección de carreteras</item>
+    </string-array>
+    
+    <string-array name="arrayResultados">
+        <item>(Seleccione)</item>
+        <item>1. Completa</item>
+        <item>2. Incompleta</item>
+        <item>3. Ausente</item>
+        <item>4. Rechazo</item>
+        <item>5. No ubicada</item>
+        <item>6. Pendiente de cita</item>
+        <item>7. Comisaría desactivada</item>
+        <item>8. No existe AT. en la comisaría</item>
+        <item>9. Otro</item>
+    </string-array>
+    
+    
+    <string-array name="arrayHICap200P201">
+        <item>(Seleccione)</item>
+		<item>1. CPNP</item>
+		<item>2. DIRINCRI</item>
+		<item>3. DIVINCRI</item>
+		<item>4. SEINCRI</item>
+		<item>5. Otro</item>
+    </string-array>
+    
+    <string-array name="arrayHICap200P202">
+        <item>(Seleccione)</item>
+		<item>1. CPNP</item>
+		<item>2. DIRINCRI</item>
+		<item>3. DIVINCRI</item>
+		<item>4. SEINCRI</item>
+		<item>5. Otro</item>
+    </string-array>
+    
+    <string-array name="arrayHICap200P203">
+        <item>(Seleccione)</item>
+		<item>1. Libro de denuncias directas</item>
+		<item>2. Libro de transcripciones</item>
+		<item>3. Libro de denuncias reservadas</item>
+		<item>4. Sistema de denuncias policiales SIDPOL</item>
+		<item>5. Otro</item>
+    </string-array>
+    
+    <string-array name="arrayHICap200P204">
+        <item>(Seleccione)</item>
+		<item>1. Homicidio simple</item>
+		<item>2. Parricidio</item>
+		<item>3. Homicidio calificado(Asesinato)</item>
+		<item>4. Homicidio por emoción violenta</item>
+		<item>5. Infanticidio</item>
+		<item>6. Homicidio piadoso</item>
+		<item>7. Instigación o ayuda al suicidio</item>
+		<item>8. No identifica</item>
+		<item>9. Otro</item>
+    </string-array>
+    
+    <string-array name="arrayHICap200P207">
+        <item>(Seleccione)</item>
+		<item>1. Via pública</item>
+		<item>2. Vivienda</item>
+		<item>3. Local comercial bancario o esparcimiento, etc</item>
+		<item>4. Centro de trabajo</item>
+		<item>5. Vehículo público</item>
+		<item>6. Vehículo privado</item>
+		<item>7. No identifica</item>
+		<item>8. Otro</item>
+    </string-array>
+    
+    <string-array name="arrayHICap200P208">
+        <item>(Seleccione)</item>
+		<item>1. Arma de fuego</item>
+		<item>2. Arma blanca</item>
+		<item>3. Objeto contundente</item>
+		<item>4. Estrangulamiento</item>
+		<item>5. Asfixia</item>
+		<item>6. Agresión</item>
+		<item>7. Acción de fuego directo</item>
+		<item>8. Precipitación</item>
+		<item>9. Suministro de sustancias toxica o envenenamiento</item>
+		<item>10. Negligencia médica</item>
+		<item>11. No identifica</item>
+		<item>12. Otro</item>
+    </string-array>
+
+    
+    <string-array name="arrayHICap200P209">
+        <item>(Seleccione)</item>
+		<item>1. Celos</item>
+		<item>2. Facilitar otro delito</item>
+		<item>3. Violación sexual</item>
+		<item>4. Venganza</item>
+		<item>5. Supuesta infidelidad de la pareja</item>
+		<item>6. Violencia Familiar</item>
+		<item>7. Violencia doméstica(no familiar)</item>
+		<item>8. Supuesta negligencia médica</item>
+		<item>9. Defensa propia</item>
+		<item>10. No identifica</item>
+		<item>11. Otro</item>		
+    </string-array>
+    
+    <string-array name="arrayHICap200P210">
+        <item>(Seleccione)</item>
+		<item>1. Resuelto</item>
+		<item>2. Derivado</item>	
+		<item>3. En investigacion</item>		
+    </string-array>
+    
+    <string-array name="arrayIVHCap300P301">
+        <item>(Seleccione)</item>
+		<item>1. Victima</item>
+		<item>2. Homicida</item>		
+    </string-array>
+    
+    <string-array name="arrayIVHCap300P302">
+        <item>(Seleccione)</item>
+		<item>1. Hombre</item>
+		<item>2. Mujer</item>
+		<item>3. No identifica</item>		
+    </string-array>
+    <string-array name="arrayIVHCap300P304">
+        <item>(Seleccione)</item>
+		<item>1. Sin nivel</item>
+		<item>2. Educacion inicial</item>
+		<item>3. Primaria</item>
+		<item>4. Secundaria</item>
+		<item>5. Superior no universitario</item>
+		<item>6. Superior universitario</item>
+		<item>7. Postgrado</item>
+		<item>8. No identifica</item>
+		<item>9. Otro</item>						
+    </string-array>
+    
+    <string-array name="arrayIVHCap300P305">
+        <item>(Seleccione)</item>
+		<item>1. Agricultor</item>
+		<item>2. Ama de casa</item>
+		<item>3. Cambista</item>
+		<item>4. Agente de seguridad</item>
+		<item>5. Taxista</item>
+		<item>6. Conductor de bus/ combi/ etc. (no taxista)</item>
+		<item>7. Comerciante informal(Ambulante y similares)</item>
+		<item>8. Comerciante formal</item>
+		<item>9. Empleado en oficina</item>
+		<item>10. Empresario</item>
+		<item>11. Estudiante</item>
+		<item>12. Empleado /a dek hogar</item>
+		<item>13. Miembro de las FF.AA/PNP</item>
+		<item>14. Obrero(en general)</item>
+		<item>15. Sin empleo</item>
+		<item>16. No identifica</item>
+		<item>17. Otro</item>						
+    </string-array>
+    
+    <string-array name="arrayIVHCap300P306">
+        <item>(Seleccione)</item>
+		<item>1. Conviviente</item>
+		<item>2. Casado(a)</item>
+		<item>3. Viudo(a)</item>
+		<item>4. Divorciado(a)</item>
+		<item>5. Separado(a)</item>
+		<item>6. Soltero(a)</item>
+		<item>7. No identifica</item>					
+    </string-array>
+    
+    <string-array name="arrayIVHCap300P307">
+        <item>(Seleccione)</item>
+		<item>1. Esposo(a)</item>
+		<item>2. Ex-esposo(a)</item>
+		<item>3. Pareja/ conviviente</item>
+		<item>4. Ex-pareja/ex-conviviente</item>
+		<item>5. Padres/suegros</item>
+		<item>6. Hijo(a)</item>
+		<item>7. Otros parientes</item>
+		<item>8. Otros no parientes</item>
+		<item>9. Conocido</item>
+		<item>10. Desconocido</item>
+		<item>11. No identifica</item>
+		<item>12. Otro</item>					
+    </string-array>
+    
+    
+    <string-array name="arrayResultadosDE">
+        <item>(Seleccione)</item>
+        <item>1. Completa</item>
+        <item>2. Incompleta</item>
+        <item>3. Desactivada</item>
+        <item>4. Pendiente de cita</item>
+        <item>5. No existe delitos ni faltas</item>
+        <item>6. Otro</item>
+    </string-array>
+    
+    <string-array name="arrayUnidadesComisaria">
+        <item>(Seleccione)</item>
+        <item>1. DIRINCRI</item>
+        <item>2. DIVINCRI</item>
+        <item>3. SEINCRI</item>
+        <item>4. OTRO</item>
+    </string-array>
+    
+    
+    <string-array name="arrayResultadosINF">
+        <item>(Seleccione)</item>
+        <item>1. Completa</item>
+        <item>2. Incompleta</item>
+        <item>3. Ausente</item>
+        <item>4. Rechazo</item>
+        <item>5. No ubicada</item>
+        <item>6. Pendiente de cita</item>
+        <item>7. Comisar\u00eda desactivada</item>
+        <item>8. Otro</item>
+    </string-array>
+    
+    <string-array name="arrayResultadosAT">
+        <item>(Seleccione)</item>
+        <item>1. Completa</item>
+        <item>2. Incompleta</item>
+        <item>3. Ausente</item>
+        <item>4. Rechazo</item>
+        <item>5. No ubicada</item>
+        <item>6. Pendiente de cita</item>
+        <item>7. Comisar\u00eda desactivada</item>
+        <item>8. No existe A.T. en la Comisar\u00eda</item>
+        <item>9. Otro</item>
+    </string-array>
+    
+    <string-array name="arraySeleccionePeriodo">
+        <item>Periodo</item>
+    </string-array>
+    
+    <string-array name="arraySeleccioneCap300_0204">
+        <item>----Seleccione----</item>
+    </string-array>
+
+</resources>

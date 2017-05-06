@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/addButtonMarco"
+          android:icon="@drawable/ic_action_new"
+          android:showAsAction="always"
+          android:title="@string/btnNuevo" />
+    
+    <!--  <item android:id="@+id/importMarco"
+          android:icon="@drawable/ic_action_pan_down"
+          android:showAsAction="collapseActionView"
+          android:title="@string/btnCargarMarco" />-->
+
+</menu>

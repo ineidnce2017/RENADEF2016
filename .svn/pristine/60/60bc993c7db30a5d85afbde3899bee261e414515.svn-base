@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_gravity="center" 
+	android:background="@drawable/my_border"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:background="@color/verde">
+        
+	    <TextView
+		    android:id="@+id/atlblIDN"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Buscar cuestionario"  
+		    style="@style/titulo" />
+	    
+	</LinearLayout>
+	
+	<TableLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center">
+	    
+	    <TableRow
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	
+	        <TextView
+	            android:id="@+id/lblIDN"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="ID_N"
+	            style="@style/subtituloLeft" />
+	
+	        <EditText
+	            android:id="@+id/txtIDN"            
+	            android:layout_height="wrap_content"
+	            android:layout_width="50dp"
+	            android:inputType="number"
+	            android:maxLength="4" />	
+	        
+	    </TableRow>
+	    
+	    
+	    <TableRow
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <TextView
+	            android:id="@+id/lblTipoCuestionario"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Tipo de Cuestionario"
+	            style="@style/subtituloCenter" />    
+	        
+	        <Spinner
+	            android:id="@+id/spnTipoCuestionario"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:drawSelectorOnTop="true"
+	            android:prompt="@string/promptTiposCustionario"
+	            android:entries="@array/arrayTiposCuestionario"
+	            android:spinnerMode="dialog" />
+	        
+	    </TableRow>
+	
+	</TableLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+		    <Button
+	            android:id="@+id/btnBuscar"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="Buscar" 
+	            android:background="@color/verde"
+	            android:onClick="buscar" 
+            	android:layout_marginRight="5dp" />
+	
+	        <Button
+	            android:id="@+id/btnLimpiar"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="Limpiar"
+	            android:background="@color/plomo"
+	            android:onClick="limpiar"
+	            android:layout_marginLeft="5dp" />
+	    
+	</LinearLayout>
+	
+</LinearLayout>

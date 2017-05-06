@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="drawer_array">
+        <item>Marco</item>
+        <item>Cobertura</item>
+        <item>Exportar</item>
+        <item>Importar</item>
+        <item>Cargar configuración</item>
+        <!-- <item>Evaluaciones</item> -->
+    </string-array>
+    
+<array name="cobertura_arr">
+    	<item>CAR\u00c1TULA</item>
+        <item>CAP100. N\u00B0 DE DENUNCIAS DE DELITOS Y FALTAS, A\u00d1O 2015</item>
+        <item>CAP200. DENUNCIAS POR DELITOS; (TOT. DE DELITOS vs CONTEO DE REG. CAP200)</item>
+        <item>CAP200. DENUNCIAS POR DELITOS, (TOT. DE DELITOS X ITEM vs CONTEO DE REG. X ITEM CAP200)</item>
+        <item>CAP200. DENUNCIAS POR DELITOS, (TOT. DE DENUNCIAS P208 vs P215)</item>
+        <item>CAP200. DENUNCIAS POR DELITOS, (P208 VACIO \u00f3 P214 = 0 \u00f3 VACIO)</item>
+        <item>CAP300. V\u00cdCTIMAS/FALLECIDOS; (TOT. DE P214 vs CONTEO DE REG. CAP300)</item>
+        <item>CAP300. V\u00cdCTIMAS/FALLECIDOS, (TOT. DE P214 X ITEM vs CONTEO DE REG. CAP300 X ITEM)</item>
+        <item>CAP300. V\u00cdCTIMAS/FALLECIDOS, (TOT. DE P214 vs CONTEO DE REG. CAP300 X P305 NO VACIO)</item>
+        <item>CAP400. PRESUNTOS VICTIMARIOS, (TOT. DE P215 vs CONTEO DE REG. CAP400)</item>
+        <item>CAP400. PRESUNTOS VICTIMARIOS, (TOT. DE P215 X ITEM vs CONTEO DE REG. CAP400 X ITEM)</item>
+        <item>CAP400. PRESUNTOS VICTIMARIOS, (TOT. DE P215 vs CONTEO DE REG. CAP400 X P408 NO VACIO)</item>
+    </array>
+ </resources>

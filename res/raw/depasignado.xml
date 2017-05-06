@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql>
+	<sqlstatement>
+	        CREATE TABLE T_DEP_ASIG (
+	        	CODDEP CHAR(2) NOT NULL,
+	            CODIGO CHAR(2) NOT NULL,
+	            NOMBRE VARCHAR(50) NULL,
+	            PRIMARY KEY (CODDEP,CODIGO)
+	        )
+	 </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('01','01','AMAZONAS') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('02','02','ANCASH - HUARAZ') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('03','03','APURIMAC') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('04','04','AREQUIPA') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('05','05','AYACUCHO') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('06','06','CAJAMARCA') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('08','08','CUSCO') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('09','09','HUANCAVELICA') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('10','10','HUANUCO') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('11','11','ICA') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('12','12','JUNIN') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('13','13','LA LIBERTAD') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('14','14','LAMBAYEQUE') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('15','15','LIMA') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('16','16','LORETO') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('17','17','MADRE DE DIOS') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('18','18','MOQUEGUA') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('19','19','PASCO') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('20','20','PIURA') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('21','21','PUNO') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('22','22','SAN MARTÍN - MOYOBAMBA') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('23','23','TACNA') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('24','24','TUMBES') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('25','25','UCAYALI') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('02','26','ANCASH - CHIMBOTE') </sqlstatement>
+	 <sqlstatement>INSERT INTO T_DEP_ASIG (CODDEP, CODIGO, NOMBRE) VALUES ('22','27','SAN MARTIN - TARAPOTO') </sqlstatement>
+
+
+</sql>

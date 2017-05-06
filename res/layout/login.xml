@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/tono_gris2" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/login_shape"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:baselineAlignBottom="false"
+                    android:contentDescription="@string/app_fullname"
+                    android:gravity="center"
+                    android:src="@drawable/iowa_state_police_1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+              
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/app_fullname"
+                android:textStyle="bold"
+                android:textColor="@color/blanco"
+                android:shadowColor="@color/black"
+                android:shadowDx="1"
+        		android:shadowDy="1"
+        	    android:shadowRadius="0.6"
+                android:textSize="22sp"
+                  
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            android:background="@color/login_color_body"
+            android:orientation="vertical" >      
+            
+            <!--  <EditText
+                android:id="@+id/txtDNI"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/blanco"
+                android:maxLength="8"
+                android:gravity="left|center_vertical"
+                android:hint="@string/h_dni"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:textSize="19sp" /> -->
+
+            <EditText
+                android:id="@+id/txtUSUARIO"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blanco"
+                android:gravity="left|center_vertical"
+                android:hint="@string/h_usuario"
+                android:inputType="textCapCharacters"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/txtCLAVE"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blanco"
+                android:gravity="left|center_vertical"
+                android:hint="@string/h_clave"
+                android:inputType="textCapCharacters|textPassword"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tvVERSION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="@string/app_version"
+                android:textSize="20sp"
+                android:textStyle="bold" /> 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            android:background="@color/blanco"
+            android:clickable="false" 
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnLOGIN"
+                style="@style/btnStyleButtonAzul"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="validarLogin"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/btnAceptar"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/btnCERRAR"
+                style="@style/btnStyleButtonAzul"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="cerrar"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/btnCerrar"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+    </GridLayout>
+
+</ScrollView>

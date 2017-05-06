@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/savebuttonMarco"
+          android:icon="@drawable/ic_action_save"
+          android:showAsAction="always"
+          android:title="@string/btnGuardar" />
+
+</menu>

@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="gob.inei.epe.MainActivity" >
+    
+    <item 
+        android:title="@string/lb_V_Iniciar"
+        android:id="@+id/btnIniciar"
+        android:icon="@drawable/ic_action_accept"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText" />
+    
+    <item 
+        android:title="@string/lb_V_Terminar"
+        android:id="@+id/btnTerminar"
+        android:icon="@drawable/ic_action_cancel"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText" />
+    
+    <item 
+        android:id="@+id/addObservation"
+        android:icon="@drawable/ic_action_chat"
+        android:orderInCategory="100"
+        android:title="@string/lbObservaciones"
+        android:titleCondensed="@string/lbObservaciones"
+        android:showAsAction="always" />
+    
+    <item
+        android:id="@+id/savebutton"
+        android:icon="@drawable/ic_action_save"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/btnGuardar"/>
+</menu>

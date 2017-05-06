@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/color516"
+    tools:context=".controller.ListaExportaServidor" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/toast_frame"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+    <!--HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/txtIDNPbuscarexporta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/buscar_hiden"
+                android:visibility="gone"
+                android:inputType="number" />
+            
+             <Button
+                 android:id="@+id/btnEjecutar"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@color/celeste"
+                 android:drawableLeft="@drawable/internet"
+                 android:drawableRight="@drawable/servidor"
+                 android:visibility="gone"
+                 android:text="Titulo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/verdeagua"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+				
+           <View
+        		android:layout_width="1dp"
+        		android:layout_height="fill_parent"
+       			android:background="#90909090" />
+                
+           <LinearLayout
+               android:id="@+id/column1a_container"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="0.1"
+               android:clickable="true"
+               android:gravity="center_vertical"
+               android:orientation="horizontal" >
+		        
+		    <TextView
+		        android:id="@+id/column1a"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:text="@string/lbSeleccioneCompact"
+		        android:textStyle="bold" />
+            </LinearLayout>
+               
+               <View
+        		android:layout_width="1dp"
+        		android:layout_height="fill_parent"
+       			android:background="#90909090" /> 
+       			
+            <LinearLayout
+                android:id="@+id/column1b_container"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:orientation="horizontal" >
+		        
+			    <TextView
+			        android:id="@+id/column1b"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:text="@string/columnaexpo_titulo_2"
+			        android:textStyle="bold" />
+            </LinearLayout>
+               
+               <View
+        		android:layout_width="1dp"
+        		android:layout_height="fill_parent"
+        		android:visibility="gone"
+       			android:background="#90909090" />
+
+                <LinearLayout
+                    android:id="@+id/column5_exporta_container"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column5_exporta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/columna_marco_titulo_5"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#90909090" />
+
+                <LinearLayout
+                    android:id="@+id/column6_exporta_container"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/colum6_exporta"
+                        android:layout_width="80dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.42"
+                        android:gravity="center"
+                        android:text="@string/columna_marco_titulo_6"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#90909090" />
+               
+             <!--LinearLayout
+                 android:id="@+id/column1c_container"
+                 android:layout_width="50dp"
+                 android:layout_height="match_parent"
+                 android:clickable="true"
+                 android:gravity="center_vertical"
+                 android:orientation="horizontal" >
+		        
+			    <TextView
+			        android:id="@+id/column1c"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:text="@string/columnaexpo_titulo_3"
+			        android:textStyle="bold" />
+            </LinearLayout-->
+               
+               <!--View
+        		android:layout_width="1dp"
+        		android:layout_height="fill_parent"
+       			android:background="#90909090" /-->  
+             
+                <LinearLayout
+                    android:id="@+id/column1_exporta_container"
+                    android:layout_width="80dip"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column1_exporta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/columna_marco_titulo_1"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone"
+                    android:background="#90909090" />
+
+                <LinearLayout
+                    android:id="@+id/column2_exporta_container"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column2_exporta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" 
+                        android:paddingLeft="8dp"
+                        android:text="@string/columna_marco_titulo_2"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sort_column_marco_2"
+                        android:layout_width="20dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:paddingRight="8dp"
+                        android:text="@string/solid_up"
+                        android:visibility="gone"
+                        android:textSize="24dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#90909090" />
+
+                <LinearLayout
+                    android:id="@+id/column3_exporta_container"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column3_marco"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:text="@string/columna_marco_titulo_3"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sort_column_exporta_3"
+                        android:layout_width="20dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:paddingRight="8dp"
+                        android:text=""
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#90909090" />
+
+                <LinearLayout
+                    android:id="@+id/column4_marco_container"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column4_exporta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:text="@string/columna_marco_titulo_4"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sort_column_exporta_4"
+                        android:layout_width="20dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:paddingRight="8dp"
+                        android:text=""
+                        android:textSize="24dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#90909090" />
+
+                <LinearLayout
+                    android:id="@+id/column7_exporta_container"
+                    android:layout_width="80dip"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column7_exporta"
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.42"
+                        android:gravity="center|center_horizontal"
+                        android:text="@string/columna_marco_titulo_6a"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone"
+                    android:background="#90909090" />
+
+                <LinearLayout
+                    android:id="@+id/column8_exporta_container"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column8_exporta"
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.42"
+                        android:gravity="center"
+                        android:text="@string/lbGPS"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone"
+                    android:background="#90909090" />
+
+                <LinearLayout
+                    android:id="@+id/column9_exporta_container"
+                    android:layout_width="80dip"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column9_exporta"
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.42"
+                        android:gravity="center|center_horizontal"
+                        android:text="@string/columna_marco_titulo_7"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone"
+                    android:background="#90909090" />
+
+                <LinearLayout
+                    android:id="@+id/column10_exporta_container"
+                    android:layout_width="80dip"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column10_exporta"
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.42"
+                        android:gravity="center|center_horizontal"
+                        android:text="@string/columna_marco_titulo_8"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                
+              
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone"
+                    android:background="#90909090" />
+
+                <!--LinearLayout
+                    android:id="@+id/column11_exporta_container"
+                    android:layout_width="80dip"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column11_exporta"
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.42"
+                        android:gravity="center|center_horizontal"
+                        android:text="@string/columna_marco_titulo_9"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#90909090" />
+
+                <LinearLayout
+                    android:id="@+id/column12_exporta_container"
+                    android:layout_width="80dip"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/column12_exporta"
+                        android:layout_width="50dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.42"
+                        android:gravity="center|center_horizontal"
+                        android:text="@string/columna_marco_titulo_10"
+                        android:textStyle="bold" />
+                </LinearLayout-->
+              
+                
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#90909090" />
+
+            <ListView
+                android:id="@+id/mylistaexportaGeneral"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blanco" >
+            </ListView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#90909090" />
+        </LinearLayout>
+    <!--/HorizontalScrollView-->
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="cajaweb">#FFFFB0</color>
+	<color name="verdeagua">#33FF00</color>
+	<color name="transparent">#00000000</color>
+	<color name="verdeaguatransparent">#8833FF00</color>
+	<color name="verde110">#92d050</color>
+	<color name="txtDefault">#FFFFB0</color>
+	
+    <color name="fontColor">#2B2B2B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color1">#293E6A</color>
+    <color name="color2">#3B5998</color>
+    <color name="color3">#639BF1</color>
+    <color name="color4">#77BA9B</color>
+    <color name="color5">#B6A754</color>
+    
+    <color name="color6">#B5B5B5</color>
+    <color name="color7">#92DCE0</color>
+    <color name="color8">#0092D7</color>
+    <color name="color9">#3EC303</color>
+    <color name="color10">#EE8D09</color>
+    
+    <color name="color11">#C7D0D5</color>
+    <color name="color12">#93B1C6</color>
+    <color name="color13">#F5F5F5</color>
+    <color name="color14">#FF7148</color>
+    <color name="color15">#EC583A</color>
+    
+    <color name="color51">#C63D0F</color>
+    <color name="color52">#3B3738</color>
+    <color name="color53">#FDF3E7</color>
+    <color name="color54">#7E8F7C</color>
+    
+    
+    <color name="color501">#191919</color>
+    <color name="color502">#DFE2DB</color>
+    <color name="color503">#FFF056</color>
+    <color name="color504">#FFFFFF</color>
+    
+    <color name="color505">#C63D0F</color>
+    <color name="color506">#3B3738</color>
+    <color name="color507">#FDF3E7</color>
+    <color name="color508">#7E8F7C</color>
+    
+    <color name="color509">#005A31</color>
+    <color name="color510">#A8CD1B</color>
+    <color name="color511">#CBE32D</color>
+    <color name="color512">#F3FAB6</color>
+    
+    <color name="color513">#558C89</color>
+    <color name="color514">#74AFAD</color>
+    <color name="color515">#D9853B</color>
+    <color name="color516">#ECECEA</color>
+    
+    <color name="color517">#2B2B2B</color>
+    <color name="color518">#DE1B1B</color>
+    <color name="color519">#F6F6F6</color>
+    <color name="color520">#E9E581</color>
+    
+    <color name="color521">#7D1935</color>
+    <color name="color522">#4A96AD</color>
+    <color name="color523">#F5F3EE</color>
+    <color name="color524">#FFFFFF</color>
+    
+    <color name="color525">#E44424</color>
+    <color name="color526">#67BCDB</color>
+    <color name="color527">#A2AB58</color>
+    <color name="color528">#FFFFFF</color>
+    
+    
+    <color name="dark_color">#474747</color>
+    <color name="light_color">#00BFFF</color>
+    <color name="active_color">#0099CC</color>
+    <color name="neutral_color">#6E6E6E</color>
+	
+	<!-- Cyntia -->
+	<color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="orange">#FF6600</color>
+    <color name="black">#000000</color>
+    <color name="micolor">#3366CC</color>
+    <color name="mitextcolor">#FFFFFF</color>
+    <color name="verde">#A5DF89</color>
+    <color name="plomo">#DBDAD5</color>
+    <color name="blanco">#ffffff</color>
+    <color name="amarillo">#FFFF33</color>
+    <color name="celeste">#0099FF</color>
+</resources>

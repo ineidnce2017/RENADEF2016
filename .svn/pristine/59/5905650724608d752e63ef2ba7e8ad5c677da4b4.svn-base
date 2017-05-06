@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" > 
+
+<HorizontalScrollView android:layout_height="match_parent" 
+    				  android:layout_width="match_parent">
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+     <EditText
+     android:id="@+id/txtIHCap200NroHomicidioBuscar"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:hint="@string/IHCap200columa_busqueda_1"
+     android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="1100dp"
+        android:layout_height="80dip"
+        android:background="#80939393"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+   
+    <LinearLayout
+	    android:id="@+id/column1_container"
+	    android:layout_width="80dip"
+	    android:layout_height="match_parent"
+	    android:layout_weight="0.1"
+	    android:clickable="true"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal" >    
+        
+    <TextView
+        android:id="@+id/column1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/IHCap200columna_titulo_1"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+	<LinearLayout
+	    android:id="@+id/column2_container"
+	    android:layout_width="80dip"
+	    android:layout_height="match_parent"
+	    android:layout_weight="0.1"
+	    android:clickable="true"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal" >
+
+    	<TextView
+    	    android:id="@+id/column2"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="left"
+    	    android:paddingLeft="3dp"   
+    	    android:textStyle="bold" 	    
+    	    android:text="@string/IHCap200columna_titulo_2" />
+	</LinearLayout>
+
+	
+	<View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+	
+    <LinearLayout
+        android:id="@+id/column3_container"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+    	<TextView
+    	    android:id="@+id/column3"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="left"
+    	    android:paddingLeft="4dp"   
+    	    android:textStyle="bold" 	    
+    	    android:text="@string/IHCap200columna_titulo_3" />
+
+	</LinearLayout>
+
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column4_container"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+    	<TextView
+    	    android:id="@+id/column4"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="left"
+    	    android:paddingLeft="4dp" 
+    	    android:textStyle="bold"   	    
+    	    android:text="@string/IHCap200columna_titulo_4" />
+
+	</LinearLayout>
+
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+	    android:id="@+id/column5_container"
+	    android:layout_width="80dip"
+	    android:layout_height="match_parent"
+	    android:layout_weight="0.2"
+	    android:clickable="true"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal" >
+    
+    <TextView
+        android:id="@+id/column5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/IHCap200columna_titulo_5" />
+    
+    </LinearLayout>
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column6_container"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/column6"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/IHCap200columna_titulo_6" />
+    </LinearLayout>
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column7_container"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/column7"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textStyle="bold"
+            android:gravity="center|center_horizontal"
+            android:text="@string/IHCap200columna_titulo_7" />
+    
+    </LinearLayout>
+
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column8_container"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/column8"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textStyle="bold"
+            android:gravity="center|center_horizontal"
+            android:text="@string/IHCap200columna_titulo_8" />
+    
+    </LinearLayout>
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column9_container"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/column9"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textStyle="bold"
+            android:gravity="center|center_horizontal"
+            android:text="@string/IHCap200columna_titulo_9" />
+    
+    </LinearLayout>
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    
+    <LinearLayout
+        android:id="@+id/column10_container"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/column10"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textStyle="bold"
+            android:gravity="center|center_horizontal"
+            android:text="@string/IHCap200columna_titulo_10" />
+    
+    </LinearLayout>
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column11_container"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/column11"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textStyle="bold"
+            android:gravity="center|center_horizontal"
+            android:text="@string/IHCap200columna_titulo_11" />
+    
+    </LinearLayout>
+    
+    
+    <View android:layout_height="fill_parent"
+    android:layout_width="1dp"
+    android:background="#90909090"/>
+    
+    <LinearLayout
+        android:id="@+id/column12_container"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/column12"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textStyle="bold"
+            android:gravity="center|center_horizontal"
+            android:text="@string/IHCap200columna_titulo_12" />
+    
+    </LinearLayout>
+</LinearLayout>
+    <View android:layout_height="1dp"
+    android:layout_width="fill_parent"
+    android:background="#90909090"/>
+
+    <ListView
+        android:id="@+id/miListaCap200"
+        android:layout_width="match_parent"
+	  android:layout_height="match_parent" >
+
+    </ListView>
+    <View android:layout_height="1dp"
+    android:layout_width="fill_parent"
+    android:background="#90909090"/>
+
+</LinearLayout>
+</HorizontalScrollView>
+</LinearLayout>
