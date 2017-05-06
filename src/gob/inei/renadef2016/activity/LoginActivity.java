@@ -43,8 +43,8 @@ public class LoginActivity extends Activity {
 		}
 		tvVERSION.setText(version);
 		// TODO QUITAR
-		txtUSUARIO.setText("REG1");
-		txtCLAVE.setText("8829");
+//		txtUSUARIO.setText("REG1");
+//		txtCLAVE.setText("8829");
 	}
 
 	@Override
